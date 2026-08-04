@@ -27,6 +27,8 @@ Creación exitosa de un sitio web
 
 Agregue las figuras, tablas o capturas de pantalla necesarias para documentar el trabajo.
 
+![Figura 1. Imagen del sitio web personalizado](images/evidencia_p1.png)
+
 ## Reflexión final
 
 Responda brevemente:
