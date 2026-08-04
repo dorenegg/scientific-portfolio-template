@@ -1,12 +1,12 @@
 ---
-title: "Práctica (ejemplo)"
+title: "Práctica 1. Creación de sitio web"
 format: html
 editor: visual
 ---
 
 ## Objetivo
 
-Describa brevemente qué se pretende aprender o realizar en la práctica.
+Creación de un sitio web personalizado.
 
 ## Materiales y herramientas
 
@@ -21,7 +21,7 @@ Explique de forma ordenada los pasos realizados durante la práctica.
 
 ## Resultados
 
-Incluya aquí los principales resultados obtenidos.
+Creación exitosa de un sitio web
 
 ## Figuras y tablas
 

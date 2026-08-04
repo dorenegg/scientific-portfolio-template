@@ -7,29 +7,28 @@ page-layout: full
 
 ::: {.perfil-foto}
 
-![](images/profile.png){fig-alt="Fotografía de perfil"}
+![](images/profile.jpeg){fig-alt="Fotografía de perfil"}
 
 :::
 
 ::: {.perfil-info}
 
-# Nombre Apellido
+# Dorene González
 
-## Estudiante de Bachillerato en Biología
+## Estudiante de Bachillerato en Biología Tropical
 
 Escuela de Ciencias Biológicas  
 Universidad Nacional, Costa Rica
 
 ::: {.enlaces-perfil}
 
-[<i class="bi bi-envelope-fill"></i> Correo](mailto:nombre.apellido@est.una.ac.cr)
+[<i class="bi bi-envelope-fill"></i> Correo](mailto:dorene.gonzalez.gonzalez@est.una.ac.cr)
 
-[<i class="bi bi-github"></i> GitHub](https://github.com/usuario)
+[<i class="bi bi-github"></i> GitHub](https://github.com/dorenegg)
 
-[<i class="bi bi-person-badge-fill"></i> ORCID](https://orcid.org/0000-0000-0000-0000)
+[<i class="bi bi-person-badge-fill"></i> ORCID](https://orcid.org/0000-0002-3665-6541)
 
-[<i class="bi bi-linkedin"></i> LinkedIn](https://linkedin.com/in/usuario)
-
+[<i class="bi bi-linkedin"></i> LinkedIn](https://linkedin.com/in/dorene-gonzález-gonzález-2116a1263)
 :::
 
 :::
@@ -48,16 +47,16 @@ Escriba un breve párrafo (100–150 palabras) donde describa quién es, su form
 
 - Ecología
 - Conservación
-- Biogeografía
-- Herpetología
-- Ciencia de datos
+- Ecotoxicología
+- Microalgas
+- Calidad de aguas
+
 
 ---
 
 ## Habilidades
 
 - R
-- Quarto
 - Git y GitHub
 - QGIS
 - Microsoft Office
@@ -68,6 +67,10 @@ Escriba un breve párrafo (100–150 palabras) donde describa quién es, su form
 
 **Universidad Nacional (UNA)**
 
-Bachillerato en Biología
+Bachillerato en Biología con éfasis en Tropical
 
-*Año de ingreso – Presente*
+*2022 – Presente*
+
+**University of Veterinary Medicine Hannover (TiHo)**
+
+Tropical Wildlife Biology Course - Costa Rica
