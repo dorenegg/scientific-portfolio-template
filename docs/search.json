@@ -25,28 +25,28 @@
     "href": "práctica-ejemplo.html#procedimiento",
     "title": "Práctica 1. Creación de sitio web",
     "section": "Procedimiento",
-    "text": "Procedimiento\nExplique de forma ordenada los pasos realizados durante la práctica."
+    "text": "Procedimiento\nExplique de forma ordenada los pasos realizados durante la práctica.\n\nCreación del repositorio con Template Repository\nIngresar a Scientific Portfolio Template en GitHub\nSeleccionar “Use this template” y seleccionar su cuenta como propietario\nAsignar nombre y crear el repositorio\nClonar repositorio en RStudio\nEn RStudio crear un proyecto tipo Version Control - Git\nPegar URL del repositorio creado en RStudio\nSeleccionar carpeta de destino y crear proyecto\nEstructura del proyecto\nIdentificar los principales componentes del sitio web:\n\n_quarto-yml: formato del texto y composición del la página web\nindex.qmd: información preliminar de los contenidos, introducción a la página y herramientas y afiliación\nabout.qmd: información a cerca del creado de la página web\nportfolio.qdm: sección del protafolio en donde se incorporan las prácticas realizadas\npráctica-ejemplo.qdm: guía sobre el formato a seguir para el reporte de lo realizado durante las prácticas\nstyles.css: estilo de las letras utilizadas\ncarpeta images: imágenes utilizadas en la página\ncarpeta docs: archivos salida de las secciones de la página web\n\nRenderizar\nEn la terminal del RStudio ejecutar “quarto render”\nExplorar el sitio web\nNavegar por las pestañas:\nInicio, Perfil, Portafolio, Práctica de ejemplo\nObservar estructura\nPersonalizar imágenes\nRemplazar imágenes en la respectiva carpeta\nVerificar que el formato del archivo coincida con el establecido en el “.qmd”\nEjecutar “quarto render”\nVerificar las imágenes en el sitio web\nPersonalizar perfil profesional\nEditar archivo about.qmd:\nnombre, correo electrónico, GitHub, ORCID, LinkedIn, biografía, áreas de interés, habilidades y formación académica\nRenderizar y revisar que se haya actualizado en “Perfil”\nPersonalizar portada\nEditar archivo index.qmd:\nnombre, carrera, última actualización\nExplorar portafolio\nIdentificar en el archivo portfolio.qdm:\npráctica ejemplo, prácticas futuras, organización general de portafolio\nAbrir práctica-ejemplo.qdm y observar el formato\nConfigurar GitHub Pages\nLa primera publicación del portafolio se realiza en GitHub\n\nEjecute “quarto render” para actualizar “docs”\nSeleccionar en el repositorio Settings - Code and automation-Pages-Build and deployment-Source-Deploy from branch-main\nEn el menu de carpeta seleccionar “/docs” - Save\n\nGuardar y enviar cambios desde la pestaña Git de RStudio\nEjecutar “quarto render”\nAbrir pestaña Git\nRevisar lista de archivo modificados\nMarcar “Staged” de todos los archivos\nIncluir según los cambios\nClic en Commit, en el mensaje escribir algo representativo del cambio\nNuevamente Commit, cerrar cuando indique que fue creado correctamente\nEn la misma ventana selccionar Push, esperar a ser enviados\nVerificar sitio\nEn el repositorio GitHub\nSettings-Pages-Visit site\nComprobar secciones\n\nCrear y clonar repositorio\nPersonalizar portada y perfil\nSustituir imágenes\nRenderizar sin errores\nConfigurar GitHub Pages\nRealizar Commit y Push\nPublicación del sitio web"
   },
   {
     "objectID": "práctica-ejemplo.html#resultados",
     "href": "práctica-ejemplo.html#resultados",
     "title": "Práctica 1. Creación de sitio web",
     "section": "Resultados",
-    "text": "Resultados\nCreación exitosa de un sitio web"
+    "text": "Resultados\nCreación y perzonalización exitosa de un sitio web"
   },
   {
     "objectID": "práctica-ejemplo.html#figuras-y-tablas",
     "href": "práctica-ejemplo.html#figuras-y-tablas",
     "title": "Práctica 1. Creación de sitio web",
     "section": "Figuras y tablas",
-    "text": "Figuras y tablas\nAgregue las figuras, tablas o capturas de pantalla necesarias para documentar el trabajo.\n\n\n\nFigura 1. Imagen del sitio web personalizado"
+    "text": "Figuras y tablas\n\n\n\nFigura 1. Imagen del sitio web personalizado."
   },
   {
     "objectID": "práctica-ejemplo.html#reflexión-final",
     "href": "práctica-ejemplo.html#reflexión-final",
     "title": "Práctica 1. Creación de sitio web",
     "section": "Reflexión final",
-    "text": "Reflexión final\nResponda brevemente:\n\n¿Qué aprendí?\n¿Qué dificultad encontré?\n¿Cómo podría aplicar esta herramienta o conocimiento en otro contexto?"
+    "text": "Reflexión final\nEn esta práctica aprendía a cómo realizar una perzonalización de una plantilla de un sitio web, y cómo mantenerla actualizada y respaldada tanto en línea como en la memoria del la computadora. En ocasiones editar la página puede ser un poco confuso si no se sabe muy bien qué hacen los código. Esta herramienta resultará muy útil para proyectos los cuales requiere de exposición online, siendo una manera sencilla de divulgar información o darse a conocer."
   },
   {
     "objectID": "index.html",

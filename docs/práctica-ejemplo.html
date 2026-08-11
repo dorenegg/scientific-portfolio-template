@@ -168,29 +168,96 @@ ul.task-list li input[type="checkbox"] {
 <section id="procedimiento" class="level2">
 <h2 class="anchored" data-anchor-id="procedimiento">Procedimiento</h2>
 <p>Explique de forma ordenada los pasos realizados durante la práctica.</p>
+<ol type="1">
+<li><p><em>Creación del repositorio con Template Repository</em></p>
+<p>Ingresar a <strong>Scientific Portfolio Template</strong>&nbsp;en GitHub</p>
+<p>Seleccionar “Use this template” y seleccionar su cuenta como propietario</p>
+<p>Asignar nombre y crear el repositorio</p></li>
+<li><p><em>Clonar repositorio en RStudio</em></p>
+<p>En RStudio crear un proyecto tipo <strong>Version Control - Git</strong></p>
+<p>Pegar URL del repositorio creado en RStudio</p>
+<p>Seleccionar carpeta de destino y crear proyecto</p></li>
+<li><p><em>Estructura del proyecto</em></p>
+<p>Identificar los principales componentes del sitio web:</p>
+<ol type="1">
+<li><p>_quarto-yml: formato del texto y composición del la página web</p></li>
+<li><p>index.qmd: información preliminar de los contenidos, introducción a la página y herramientas y afiliación</p></li>
+<li><p>about.qmd: información a cerca del creado de la página web</p></li>
+<li><p>portfolio.qdm: sección del protafolio en donde se incorporan las prácticas realizadas</p></li>
+<li><p>práctica-ejemplo.qdm: guía sobre el formato a seguir para el reporte de lo realizado durante las prácticas</p></li>
+<li><p>styles.css: estilo de las letras utilizadas</p></li>
+<li><p>carpeta images: imágenes utilizadas en la página</p></li>
+<li><p>carpeta docs: archivos salida de las secciones de la página web</p></li>
+</ol></li>
+<li><p><em>Renderizar</em></p>
+<p>En la terminal del RStudio ejecutar “quarto render”</p></li>
+<li><p><em>Explorar el sitio web</em></p>
+<p>Navegar por las pestañas:</p>
+<p>Inicio, Perfil, Portafolio, Práctica de ejemplo</p>
+<p>Observar estructura</p></li>
+<li><p><em>Personalizar imágenes</em></p>
+<p>Remplazar imágenes en la respectiva carpeta</p>
+<p>Verificar que el formato del archivo coincida con el establecido en el “.qmd”</p>
+<p>Ejecutar “quarto render”</p>
+<p>Verificar las imágenes en el sitio web</p></li>
+<li><p><em>Personalizar perfil profesional</em></p>
+<p>Editar archivo about.qmd:</p>
+<p>nombre, correo electrónico, GitHub, ORCID, LinkedIn, biografía, áreas de interés, habilidades y formación académica</p>
+<p>Renderizar y revisar que se haya actualizado en “Perfil”</p></li>
+<li><p><em>Personalizar portada</em></p>
+<p>Editar archivo index.qmd:</p>
+<p>nombre, carrera, última actualización</p></li>
+<li><p><em>Explorar portafolio</em></p>
+<p>Identificar en el archivo portfolio.qdm:</p>
+<p>práctica ejemplo, prácticas futuras, organización general de portafolio</p>
+<p>Abrir práctica-ejemplo.qdm y observar el formato</p></li>
+<li><p><em>Configurar GitHub Pages</em></p>
+<p>La primera publicación del portafolio se realiza en GitHub</p>
+<ol type="1">
+<li>Ejecute “quarto render” para actualizar “docs”</li>
+<li>Seleccionar en el repositorio <strong>Settings - Code and automation-Pages-Build and deployment-Source-Deploy from branch-main</strong></li>
+<li>En el menu de carpeta seleccionar <strong>“/docs” - Save</strong></li>
+</ol></li>
+<li><p><em>Guardar y enviar cambios desde la pestaña Git de RStudio</em></p>
+<p>Ejecutar “quarto render”</p>
+<p>Abrir pestaña Git</p>
+<p>Revisar lista de archivo modificados</p>
+<p>Marcar “Staged” de todos los archivos</p>
+<p>Incluir según los cambios</p>
+<p>Clic en <strong>Commit,</strong> en el mensaje escribir algo representativo del cambio</p>
+<p>Nuevamente Commit, cerrar cuando indique que fue creado correctamente</p>
+<p>En la misma ventana selccionar <strong>Push,</strong> esperar a ser enviados</p></li>
+<li><p><em>Verificar sitio</em></p>
+<p>En el repositorio GitHub</p>
+<p>Settings-Pages-Visit site</p>
+<p>Comprobar secciones</p>
+<ol type="1">
+<li>Crear y clonar repositorio</li>
+<li>Personalizar portada y perfil</li>
+<li>Sustituir imágenes</li>
+<li>Renderizar sin errores</li>
+<li>Configurar GitHub Pages</li>
+<li>Realizar Commit y Push</li>
+<li>Publicación del sitio web</li>
+</ol></li>
+</ol>
 </section>
 <section id="resultados" class="level2">
 <h2 class="anchored" data-anchor-id="resultados">Resultados</h2>
-<p>Creación exitosa de un sitio web</p>
+<p>Creación y perzonalización exitosa de un sitio web</p>
 </section>
 <section id="figuras-y-tablas" class="level2">
 <h2 class="anchored" data-anchor-id="figuras-y-tablas">Figuras y tablas</h2>
-<p>Agregue las figuras, tablas o capturas de pantalla necesarias para documentar el trabajo.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/evidencia_p1.png" class="img-fluid figure-img"></p>
-<figcaption>Figura 1. Imagen del sitio web personalizado</figcaption>
+<figcaption>Figura 1. Imagen del sitio web personalizado.</figcaption>
 </figure>
 </div>
 </section>
 <section id="reflexión-final" class="level2">
 <h2 class="anchored" data-anchor-id="reflexión-final">Reflexión final</h2>
-<p>Responda brevemente:</p>
-<ul>
-<li>¿Qué aprendí?</li>
-<li>¿Qué dificultad encontré?</li>
-<li>¿Cómo podría aplicar esta herramienta o conocimiento en otro contexto?</li>
-</ul>
+<p>En esta práctica aprendía a cómo realizar una perzonalización de una plantilla de un sitio web, y cómo mantenerla actualizada y respaldada tanto en línea como en la memoria del la computadora. En ocasiones editar la página puede ser un poco confuso si no se sabe muy bien qué hacen los código. Esta herramienta resultará muy útil para proyectos los cuales requiere de exposición online, siendo una manera sencilla de divulgar información o darse a conocer.</p>
 
 
 </section>
