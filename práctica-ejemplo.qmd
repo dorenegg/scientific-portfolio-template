@@ -151,4 +151,4 @@ Creación y perzonalización exitosa de un sitio web
 
 ## Reflexión final
 
-En esta práctica aprendía a cómo realizar una perzonalización de una plantilla de un sitio web, y cómo mantenerla actualizada y respaldada tanto en línea como en la memoria del la computadora. En ocasiones editar la página puede ser un poco confuso si no se sabe muy bien qué hacen los código. Esta herramienta resultará muy útil para proyectos los cuales requiere de exposición online, siendo una manera sencilla de divulgar información o darse a conocer.
+En esta práctica se aprendió a cómo realizar una personalización de una plantilla de un sitio web, además de cómo mantenerla actualizada y respaldada tanto en línea como en la memoria del la computadora. En ocasiones editar la página puede ser un poco confuso si no se sabe muy bien donde se ubican los códigos o si se olvidad de realizar las actualizaciones periódicamente mientras se trabaja. Esta herramienta resultará muy útil para proyectos los cuales se requiere de exposición en línea, siendo una manera sencilla de divulgar información o darse a conocer.
