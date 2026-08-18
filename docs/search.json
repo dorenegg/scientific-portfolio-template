@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "zotero.html",
+    "href": "zotero.html",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "",
+    "text": "En esta práctica se llevó a cabo la descarga de referencias y su gestión a través de Zotero."
+  },
+  {
+    "objectID": "zotero.html#introducción",
+    "href": "zotero.html#introducción",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "",
+    "text": "En esta práctica se llevó a cabo la descarga de referencias y su gestión a través de Zotero."
+  },
+  {
+    "objectID": "zotero.html#objetivo",
+    "href": "zotero.html#objetivo",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "Objetivo",
+    "text": "Objetivo\n\nCrear y organizar una biblioteca bibliográfica en Zotero.\nIncorporar referencias mediante DOI, archivos RIS y Zotero Connector.\nRevisar y corregir los metadatos de una referencia.\nInstalar y utilizar un estilo bibliográfico.\nInsertar citas y bibliografías automáticamente en Microsoft Word.\nIncorporar referencias que no corresponden a artículos científicos, como reportes, páginas web y software.\nCitar R, RStudio y paquetes de R."
+  },
+  {
+    "objectID": "zotero.html#metodología",
+    "href": "zotero.html#metodología",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "Metodología",
+    "text": "Metodología\nSe utilizó Zotero para la creación de referencias bibliográfica.\nSe utilizó la extensión del navegador para extraer directamente de la páginas web las referencias y la extensión de Word para organizar de forma eficiente las citas y referencias en un documento."
+  },
+  {
+    "objectID": "zotero.html#resultados",
+    "href": "zotero.html#resultados",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "Resultados",
+    "text": "Resultados\nSe aprendió sobre los aspectos básicos para el manejo de la aplicación Zotero, llas organización de las referencias bibliográficas y citas tanto parentéticas como de párrafo en un documento Word con un formato de revista determinado. Además, se llevó a cabo la corrección y actualización de la información de la referencias.\n\n\n\nFigura 1. Captura de pantalla de la biblioteca creada en esta práctica.\n\n\nEjemplo de citas creadas:\n\nMil personas reportadas(Villarejos et al. 1972)\nNussear y colaboradores modelaron el hábitat de la tortuga del desierto (Nussear et al. 2009)\nSe utilizó el paque “sf” v 1.1-2 (Pebesma 2018; Pebesma y Bivand 2023)\n\nCuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.\n\n\n\n\n\n\n\nMétodo\n¿Cuándo utilizarlo?\n\n\n\n\nDIO\nCuando la publicación tiene un DOI conocido\n\n\nArchivo RIS\nCuando la revista o base de datos permite exportar la referencia\n\n\nZotero Connector\nPara capturar referencias directamente desde el navegador\n\n\nEntrada manual\nCuando la información no puede importarse automáticamente"
+  },
+  {
+    "objectID": "zotero.html#conclusiones",
+    "href": "zotero.html#conclusiones",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "Conclusiones",
+    "text": "Conclusiones\nLa plataforma Zotero es una manera eficiente para obtener y crear referencias bibliográficas de diferentes documento bibliográficos, además, facilita de manera eficiente su organización y transformación a diferentes tipos de formatos. Siempre se debe de corroborar que la información esté correctamente redactada y con el orden correcto para evitar errores de formato."
+  },
+  {
     "objectID": "práctica-ejemplo.html",
     "href": "práctica-ejemplo.html",
     "title": "Práctica 1. Creación de sitio web",
@@ -145,48 +187,6 @@
     "title": "Portafolio académico",
     "section": "Objetivo del portafolio",
     "text": "Objetivo del portafolio\nMás que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.\nAl finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica."
-  },
-  {
-    "objectID": "zotero.html",
-    "href": "zotero.html",
-    "title": "Gestión de referencias bibliográficas con Zotero",
-    "section": "",
-    "text": "En esta práctica se llevó a cabo la descarga de referencias y su gestión a través de Zotero."
-  },
-  {
-    "objectID": "zotero.html#introducción",
-    "href": "zotero.html#introducción",
-    "title": "Gestión de referencias bibliográficas con Zotero",
-    "section": "",
-    "text": "En esta práctica se llevó a cabo la descarga de referencias y su gestión a través de Zotero."
-  },
-  {
-    "objectID": "zotero.html#objetivo",
-    "href": "zotero.html#objetivo",
-    "title": "Gestión de referencias bibliográficas con Zotero",
-    "section": "Objetivo",
-    "text": "Objetivo\n\nCrear y organizar una biblioteca bibliográfica en Zotero.\nIncorporar referencias mediante DOI, archivos RIS y Zotero Connector.\nRevisar y corregir los metadatos de una referencia.\nInstalar y utilizar un estilo bibliográfico.\nInsertar citas y bibliografías automáticamente en Microsoft Word.\nIncorporar referencias que no corresponden a artículos científicos, como reportes, páginas web y software.\nCitar R, RStudio y paquetes de R."
-  },
-  {
-    "objectID": "zotero.html#metodología",
-    "href": "zotero.html#metodología",
-    "title": "Gestión de referencias bibliográficas con Zotero",
-    "section": "Metodología",
-    "text": "Metodología\nSe utilizó Zotero para la creación de referencias bibliográfica.\nSe utilizó la extensión del navegador para extraer directamente de la páginas web las referencias y la extensión de Word para organizar de forma eficiente las citas y referencias en un documento."
-  },
-  {
-    "objectID": "zotero.html#resultados",
-    "href": "zotero.html#resultados",
-    "title": "Gestión de referencias bibliográficas con Zotero",
-    "section": "Resultados",
-    "text": "Resultados\nSe aprendió sobre los aspectos básicos para el manejo de la aplicación Zotero, llas organización de las referencias bibliográficas y citas tanto parentéticas como de párrafo en un documento Word con un formato de revista determinado. Además, se llevó a cabo la corrección y actualización de la información de la referencias.\n\n\n\nFigura 1. Captura de pantalla de la biblioteca creada en esta práctica.\n\n\nMil personas reportadas(Villarejos et al. 1972)\nSe utilizó el paque “sf” v 1.1-2 (Pebesma 2018; Pebesma y Bivand 2023)\nCuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.\n\n\n\n\n\n\n\nMétodo\n¿Cuándo utilizarlo?\n\n\n\n\nDIO\nCuando la publicación tiene un DOI conocido\n\n\nArchivo RIS\nCuando la revista o base de datos permite exportar la referencia\n\n\nZotero Connector\nPara capturar referencias directamente desde el navegador\n\n\nEntrada manual\nCuando la información no puede importarse automáticamente"
-  },
-  {
-    "objectID": "zotero.html#conclusiones",
-    "href": "zotero.html#conclusiones",
-    "title": "Gestión de referencias bibliográficas con Zotero",
-    "section": "Conclusiones",
-    "text": "Conclusiones\nLa plataforma Zotero es una manera eficiente para obtener y crear referencias bibliográficas de diferentes documento bibliográficos, además, facilita de manera eficiente su organización y transformación a diferentes tipos de formatos. Siempre se debe de corroborar que la información esté correctamente redactada y con el orden correcto para evitar errores de formato."
   },
   {
     "objectID": "template.html#objetivo",
