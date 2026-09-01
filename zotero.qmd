@@ -22,20 +22,19 @@ En esta práctica se llevó a cabo la descarga de referencias y su gestión a tr
 
 - Insertar citas y bibliografías automáticamente en Microsoft Word.
 
-- Incorporar referencias que no corresponden a artículos científicos, como
-  reportes, páginas web y software.
+- Incorporar referencias que no corresponden a artículos científicos, como reportes, páginas web y software.
 
 - Citar R, RStudio y paquetes de R.
 
 ## Metodología
 
-Se utilizó Zotero para la creación de referencias bibliográfica.
+Mediante la plataforma Zotero se organizaron y crearon referencias bibliográficas.
 
-Se utilizó la extensión del navegador para extraer directamente de la páginas web las referencias y la extensión de Word para organizar de forma eficiente las citas y referencias en un documento.
+Además, a través de la extensión del navegador de Zotero se extrajeron directamente de las páginas web las referencias y la extensión de Word permitió manejar y actualizar de forma eficiente las citas y referencias en un documento.
 
-## Resultados 
+## Resultados
 
-Se aprendió sobre los aspectos básicos para el manejo de la aplicación Zotero, llas organización de las referencias bibliográficas y citas tanto parentéticas como de párrafo en un documento Word con un formato de revista determinado. Además, se llevó a cabo la corrección y actualización de la información de la referencias.
+Se obtuvo conocimiento sobre los aspectos básicos para el manejo de la aplicación Zotero; la organización de las referencias bibliográficas y citas tanto parentéticas como de párrafo en un documento Word y cómo establecer un formato de revista determinado. Por último,, se aprendió a identificar errores en la referencias y como realizar su debida corrección y/o actualización de la información.
 
 ![Figura 1. Captura de pantalla de la biblioteca creada en esta práctica.](images/zotero_ref.png)
 
@@ -45,12 +44,12 @@ Ejemplo de citas creadas:
 
 - Nussear y colaboradores modelaron el hábitat de la tortuga del desierto [@nussear_modeling_2009]
 
-- Se utilizó el paque “sf” v 1.1-2 [@pebesma_simple_2018 ; @pebesma_spatial_2023]
+- Se utilizó el paque “sf” v 1.1-2 [@pebesma_simple_2018; @pebesma_spatial_2023]
 
 Cuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.
 
 | Método | ¿Cuándo utilizarlo? |
-|----|----|
+|------------------------------------|------------------------------------|
 | DIO | Cuando la publicación tiene un DOI conocido |
 | Archivo RIS | Cuando la revista o base de datos permite exportar la referencia |
 | Zotero Connector | Para capturar referencias directamente desde el navegador |
