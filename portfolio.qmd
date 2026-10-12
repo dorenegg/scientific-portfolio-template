@@ -28,6 +28,14 @@ En esta práctica se documentará la creación de una biblioteca bibliográfica 
 [Ver práctica →](zotero.qmd)
 :::
 
+::: portfolio-item
+### 🗂️ Organización de bases de datos
+
+Organización y optimización de bases de datos que presenten errores.
+
+[Ver práctica →](tidydata.qmd)
+:::
+
 ------------------------------------------------------------------------
 
 ## Objetivo del portafolio
