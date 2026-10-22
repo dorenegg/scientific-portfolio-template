@@ -13,13 +13,13 @@ En esta práctica se llevó a cabo la organización de una base de datos la cual
 
 Organizar bases de datos que tengan defectos, a través de la librería "tidydata" en R.
 
-## Metodología
+Metodología
 
 **Procesamiento, Limpieza y Estructuración de Datos (*Tidy Data*)**
 
 El procesamiento y depuración de los datos se realizó en el entorno R utilizando el metapaquete tidyverse (particularmente dplyr, tidyr, readr, lubridate y ggplot2) y el paquete gt para la elaboración de tablas. El procedimiento metodológico consistió en las siguientes etapas:
 
-1.   **Reestructuración y Estandarización de Variables:** Se transformaron tablas anchas (*wide format*) a formato largo (*long format*) mediante pivot_longer() para unificar variables temporales (días) en una sola columna. Posteriormente, con pivot_wider(), se reestructuraron las variables climáticas en columnas independientes. Se corrigieron los nombres de los campos de ubicación y estación, y se separaron variables compuestas (por ejemplo, rangos de temperatura divididos en temperature_min y temperature_max, e información taxonómica en class, order y family) utilizando la función separate(). Asimismo, se unificaron el género y la especie (unite()) para conformar el nombre científico binomial.
+1.  **Reestructuración y Estandarización de Variables:** Se transformaron tablas anchas (*wide format*) a formato largo (*long format*) mediante pivot_longer() para unificar variables temporales (días) en una sola columna. Posteriormente, con pivot_wider(), se reestructuraron las variables climáticas en columnas independientes. Se corrigieron los nombres de los campos de ubicación y estación, y se separaron variables compuestas (por ejemplo, rangos de temperatura divididos en temperature_min y temperature_max, e información taxonómica en class, order y family) utilizando la función separate(). Asimismo, se unificaron el género y la especie (unite()) para conformar el nombre científico binomial.
 
 2.  **Ajuste de Fechas y Tipos de Datos:** Las columnas correspondientes al año, mes y día se combinaron (unite()) y se transformaron a un formato estandarizado de fecha (YYYY-MM-DD) empleando as_date(). Las variables numéricas (precipitación, nieve y temperaturas) fueron convertidas masivamente desde caracteres a tipo numérico con mutate() y across().
 
@@ -39,10 +39,16 @@ A partir de la unión de las tablas procesadas (inner_join()):
 
 ## Resultados
 
+Se ordeno la lista y se encontreo 25 especies y la más abundate fue ???
+
 ![](images/tidy_data1.png){width="491"}
 
 ## Interpretación
 
 ## Conclusiones
+
+Mayores dificultades
+
+Cómo aplicar esto en otros contextos
 
 ## Referencias

@@ -42,6 +42,188 @@
     "text": "Conclusiones\nLa plataforma Zotero es una manera eficiente para obtener y crear referencias bibliográficas de diferentes documento bibliográficos, además, facilita de manera eficiente su organización y transformación a diferentes tipos de formatos. Siempre se debe de corroborar que la información esté correctamente redactada y con el orden correcto para evitar errores de formato."
   },
   {
+    "objectID": "template.html#objetivo",
+    "href": "template.html#objetivo",
+    "title": "template",
+    "section": "Objetivo",
+    "text": "Objetivo"
+  },
+  {
+    "objectID": "template.html#metodología",
+    "href": "template.html#metodología",
+    "title": "template",
+    "section": "Metodología",
+    "text": "Metodología"
+  },
+  {
+    "objectID": "template.html#resultados",
+    "href": "template.html#resultados",
+    "title": "template",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "template.html#interpretación",
+    "href": "template.html#interpretación",
+    "title": "template",
+    "section": "Interpretación",
+    "text": "Interpretación"
+  },
+  {
+    "objectID": "template.html#conclusiones",
+    "href": "template.html#conclusiones",
+    "title": "template",
+    "section": "Conclusiones",
+    "text": "Conclusiones"
+  },
+  {
+    "objectID": "template.html#referencias",
+    "href": "template.html#referencias",
+    "title": "template",
+    "section": "Referencias",
+    "text": "Referencias"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portafolio académico",
+    "section": "",
+    "text": "En esta sección se documentan las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nCada práctica constituye una evidencia del aprendizaje adquirido durante el semestre y forma parte de mi portafolio profesional."
+  },
+  {
+    "objectID": "portfolio.html#prácticas-de-laboratorio",
+    "href": "portfolio.html#prácticas-de-laboratorio",
+    "title": "Portafolio académico",
+    "section": "Prácticas de laboratorio",
+    "text": "Prácticas de laboratorio\n\n📄 Práctica de ejemplo\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nVer práctica →\n\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️ Organización de bases de datos\nOrganización y optimización de bases de datos que presenten errores.\nVer práctica →\n\n\n\nDescarga de Ocurrenciass\nDescarga de ocurrencias con rgbif y .\nVer práctica →"
+  },
+  {
+    "objectID": "portfolio.html#objetivo-del-portafolio",
+    "href": "portfolio.html#objetivo-del-portafolio",
+    "title": "Portafolio académico",
+    "section": "Objetivo del portafolio",
+    "text": "Objetivo del portafolio\nMás que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.\nAl finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#objetivo",
+    "href": "descarga_ocurrencias.html#objetivo",
+    "title": "template",
+    "section": "Objetivo",
+    "text": "Objetivo"
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#metodología",
+    "href": "descarga_ocurrencias.html#metodología",
+    "title": "template",
+    "section": "Metodología",
+    "text": "Metodología"
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#resultados",
+    "href": "descarga_ocurrencias.html#resultados",
+    "title": "template",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#interpretación",
+    "href": "descarga_ocurrencias.html#interpretación",
+    "title": "template",
+    "section": "Interpretación",
+    "text": "Interpretación"
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#conclusiones",
+    "href": "descarga_ocurrencias.html#conclusiones",
+    "title": "template",
+    "section": "Conclusiones",
+    "text": "Conclusiones"
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#referencias",
+    "href": "descarga_ocurrencias.html#referencias",
+    "title": "template",
+    "section": "Referencias",
+    "text": "Referencias"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Perfil",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
+  },
+  {
+    "objectID": "about.html#estudiante-de-bachillerato-en-biología-tropical",
+    "href": "about.html#estudiante-de-bachillerato-en-biología-tropical",
+    "title": "Perfil",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
+  },
+  {
+    "objectID": "about.html#biografía",
+    "href": "about.html#biografía",
+    "title": "Perfil",
+    "section": "Biografía",
+    "text": "Biografía\nEstudiante avanzada de Biología Tropical con experiencia en trabajo de laboratorio e investigación de campo. Con alta motivación y afinidad por ambientes de aprendizaje prácticos. Tengo especial interés por comprender cómo las actividades antropogénicas impactan la dinámica natural de los ecosistemas, especialmente en entornos urbanos. Mis metas profesionales están vinculadas con la colaboración multidisciplinaria en proyectos que contribuyan al desarrollo de soluciones ambientalmente sostenibles que permitan la restauración de los ecosistemas en entornos altamente urbanizados, especialmente enfocados en la correcta gestión de residuos. Además, presento un gran deseo de trabajar a mano con las comunidades en la educación ambiental y sensibilización al impacto que tienen nuestras actividades cotidianas en el ambiente."
+  },
+  {
+    "objectID": "about.html#áreas-de-interés",
+    "href": "about.html#áreas-de-interés",
+    "title": "Perfil",
+    "section": "Áreas de interés",
+    "text": "Áreas de interés\n\nEcología\nConservación\nEcotoxicología\nMicroalgas\nCalidad de aguas"
+  },
+  {
+    "objectID": "about.html#habilidades",
+    "href": "about.html#habilidades",
+    "title": "Perfil",
+    "section": "Habilidades",
+    "text": "Habilidades\n\nR\nGit y GitHub\nQGIS\nMicrosoft Office"
+  },
+  {
+    "objectID": "about.html#formación-académica",
+    "href": "about.html#formación-académica",
+    "title": "Perfil",
+    "section": "Formación académica",
+    "text": "Formación académica\nUniversidad Nacional (UNA)\nBachillerato en Biología con énfasis en Biología Tropical\n2022 – Presente\nMuseo Nacional de Costa Rica\nEntomología Basica\nJulio 2026\nUniversity of Veterinary Medicine Hannover (TiHo)\nTropical Wildlife Biology Course - Costa Rica\nMarzo-Abril 2026\nUniversidad de Costa Rica\nAspectos Básicos de la Biología y Bioquímica del Cáncer\nEnero-Marzo 2026"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Inicio",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
+  },
+  {
+    "objectID": "index.html#estudiante-de-bachillerato-en-biología-tropical",
+    "href": "index.html#estudiante-de-bachillerato-en-biología-tropical",
+    "title": "Inicio",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
+  },
+  {
+    "objectID": "index.html#bienvenidoa",
+    "href": "index.html#bienvenidoa",
+    "title": "Inicio",
+    "section": "Bienvenido(a)",
+    "text": "Bienvenido(a)\nEste sitio web constituye mi portafolio digital académico, donde documentaré las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nEste portafolio utiliza herramientas de ciencia reproducible como R, Quarto, Git y GitHub, permitiendo organizar y compartir mi trabajo de manera profesional."
+  },
+  {
+    "objectID": "index.html#contenido-del-sitio",
+    "href": "index.html#contenido-del-sitio",
+    "title": "Inicio",
+    "section": "Contenido del sitio",
+    "text": "Contenido del sitio\n\n\nPerfil\nInformación personal, intereses académicos y experiencia.\nIr al perfil →\n\n\nPortafolio\nRegistro de las prácticas, proyectos y productos desarrollados durante el semestre.\nVer el portafolio →\n\n\n\n\nLa ciencia solo adquiere valor cuando puede ser comunicada y reproducida."
+  },
+  {
+    "objectID": "index.html#herramientas-y-afiliación",
+    "href": "index.html#herramientas-y-afiliación",
+    "title": "Inicio",
+    "section": "Herramientas y afiliación",
+    "text": "Herramientas y afiliación\nEste portafolio fue desarrollado con herramientas de ciencia reproducible.\n\n\n\n\n\nÚltima actualización: 4 de Agosto 2026"
+  },
+  {
     "objectID": "práctica-ejemplo.html",
     "href": "práctica-ejemplo.html",
     "title": "Práctica 1. Creación de sitio web",
@@ -91,165 +273,32 @@
     "text": "Reflexión final\nEn esta práctica se aprendió a cómo realizar una personalización de una plantilla de un sitio web, además de cómo mantenerla actualizada y respaldada tanto en línea como en la memoria del la computadora. En ocasiones editar la página puede ser un poco confuso si no se sabe muy bien donde se ubican los códigos o si se olvidad de realizar las actualizaciones periódicamente mientras se trabaja. Esta herramienta resultará muy útil para proyectos los cuales se requiere de exposición en línea, siendo una manera sencilla de divulgar información o darse a conocer."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Inicio",
+    "objectID": "tidydata.html",
+    "href": "tidydata.html",
+    "title": "Organización de bases de datos",
     "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
+    "text": "En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería “tidydata” la cual permite analizar datos y conflictos."
   },
   {
-    "objectID": "index.html#estudiante-de-bachillerato-en-biología-tropical",
-    "href": "index.html#estudiante-de-bachillerato-en-biología-tropical",
-    "title": "Inicio",
+    "objectID": "tidydata.html#introducción",
+    "href": "tidydata.html#introducción",
+    "title": "Organización de bases de datos",
     "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
-  },
-  {
-    "objectID": "index.html#bienvenidoa",
-    "href": "index.html#bienvenidoa",
-    "title": "Inicio",
-    "section": "Bienvenido(a)",
-    "text": "Bienvenido(a)\nEste sitio web constituye mi portafolio digital académico, donde documentaré las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nEste portafolio utiliza herramientas de ciencia reproducible como R, Quarto, Git y GitHub, permitiendo organizar y compartir mi trabajo de manera profesional."
-  },
-  {
-    "objectID": "index.html#contenido-del-sitio",
-    "href": "index.html#contenido-del-sitio",
-    "title": "Inicio",
-    "section": "Contenido del sitio",
-    "text": "Contenido del sitio\n\n\nPerfil\nInformación personal, intereses académicos y experiencia.\nIr al perfil →\n\n\nPortafolio\nRegistro de las prácticas, proyectos y productos desarrollados durante el semestre.\nVer el portafolio →\n\n\n\n\nLa ciencia solo adquiere valor cuando puede ser comunicada y reproducida."
-  },
-  {
-    "objectID": "index.html#herramientas-y-afiliación",
-    "href": "index.html#herramientas-y-afiliación",
-    "title": "Inicio",
-    "section": "Herramientas y afiliación",
-    "text": "Herramientas y afiliación\nEste portafolio fue desarrollado con herramientas de ciencia reproducible.\n\n\n\n\n\nÚltima actualización: 4 de Agosto 2026"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Perfil",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
-  },
-  {
-    "objectID": "about.html#estudiante-de-bachillerato-en-biología-tropical",
-    "href": "about.html#estudiante-de-bachillerato-en-biología-tropical",
-    "title": "Perfil",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
-  },
-  {
-    "objectID": "about.html#biografía",
-    "href": "about.html#biografía",
-    "title": "Perfil",
-    "section": "Biografía",
-    "text": "Biografía\nEstudiante avanzada de Biología Tropical con experiencia en trabajo de laboratorio e investigación de campo. Con alta motivación y afinidad por ambientes de aprendizaje prácticos. Tengo especial interés por comprender cómo las actividades antropogénicas impactan la dinámica natural de los ecosistemas, especialmente en entornos urbanos. Mis metas profesionales están vinculadas con la colaboración multidisciplinaria en proyectos que contribuyan al desarrollo de soluciones ambientalmente sostenibles que permitan la restauración de los ecosistemas en entornos altamente urbanizados, especialmente enfocados en la correcta gestión de residuos. Además, presento un gran deseo de trabajar a mano con las comunidades en la educación ambiental y sensibilización al impacto que tienen nuestras actividades cotidianas en el ambiente."
-  },
-  {
-    "objectID": "about.html#áreas-de-interés",
-    "href": "about.html#áreas-de-interés",
-    "title": "Perfil",
-    "section": "Áreas de interés",
-    "text": "Áreas de interés\n\nEcología\nConservación\nEcotoxicología\nMicroalgas\nCalidad de aguas"
-  },
-  {
-    "objectID": "about.html#habilidades",
-    "href": "about.html#habilidades",
-    "title": "Perfil",
-    "section": "Habilidades",
-    "text": "Habilidades\n\nR\nGit y GitHub\nQGIS\nMicrosoft Office"
-  },
-  {
-    "objectID": "about.html#formación-académica",
-    "href": "about.html#formación-académica",
-    "title": "Perfil",
-    "section": "Formación académica",
-    "text": "Formación académica\nUniversidad Nacional (UNA)\nBachillerato en Biología con énfasis en Biología Tropical\n2022 – Presente\nMuseo Nacional de Costa Rica\nEntomología Basica\nJulio 2026\nUniversity of Veterinary Medicine Hannover (TiHo)\nTropical Wildlife Biology Course - Costa Rica\nMarzo-Abril 2026\nUniversidad de Costa Rica\nAspectos Básicos de la Biología y Bioquímica del Cáncer\nEnero-Marzo 2026"
-  },
-  {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portafolio académico",
-    "section": "",
-    "text": "En esta sección se documentan las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nCada práctica constituye una evidencia del aprendizaje adquirido durante el semestre y forma parte de mi portafolio profesional."
-  },
-  {
-    "objectID": "portfolio.html#prácticas-de-laboratorio",
-    "href": "portfolio.html#prácticas-de-laboratorio",
-    "title": "Portafolio académico",
-    "section": "Prácticas de laboratorio",
-    "text": "Prácticas de laboratorio\n\n📄 Práctica de ejemplo\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nVer práctica →\n\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️ Organización de bases de datos\nOrganización y optimización de bases de datos que presenten errores.\nVer práctica →"
-  },
-  {
-    "objectID": "portfolio.html#objetivo-del-portafolio",
-    "href": "portfolio.html#objetivo-del-portafolio",
-    "title": "Portafolio académico",
-    "section": "Objetivo del portafolio",
-    "text": "Objetivo del portafolio\nMás que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.\nAl finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica."
-  },
-  {
-    "objectID": "template.html#objetivo",
-    "href": "template.html#objetivo",
-    "title": "template",
-    "section": "Objetivo",
-    "text": "Objetivo"
-  },
-  {
-    "objectID": "template.html#metodología",
-    "href": "template.html#metodología",
-    "title": "template",
-    "section": "Metodología",
-    "text": "Metodología"
-  },
-  {
-    "objectID": "template.html#resultados",
-    "href": "template.html#resultados",
-    "title": "template",
-    "section": "Resultados",
-    "text": "Resultados"
-  },
-  {
-    "objectID": "template.html#interpretación",
-    "href": "template.html#interpretación",
-    "title": "template",
-    "section": "Interpretación",
-    "text": "Interpretación"
-  },
-  {
-    "objectID": "template.html#conclusiones",
-    "href": "template.html#conclusiones",
-    "title": "template",
-    "section": "Conclusiones",
-    "text": "Conclusiones"
-  },
-  {
-    "objectID": "template.html#referencias",
-    "href": "template.html#referencias",
-    "title": "template",
-    "section": "Referencias",
-    "text": "Referencias"
+    "text": "En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería “tidydata” la cual permite analizar datos y conflictos."
   },
   {
     "objectID": "tidydata.html#objetivo",
     "href": "tidydata.html#objetivo",
     "title": "Organización de bases de datos",
     "section": "Objetivo",
-    "text": "Objetivo\nOrganizar bases de datos que tengan defectos, a través de la librería “tidydata” en R."
-  },
-  {
-    "objectID": "tidydata.html#metodología",
-    "href": "tidydata.html#metodología",
-    "title": "Organización de bases de datos",
-    "section": "Metodología",
-    "text": "Metodología\nProcesamiento, Limpieza y Estructuración de Datos (Tidy Data)\nEl procesamiento y depuración de los datos se realizó en el entorno R utilizando el metapaquete tidyverse (particularmente dplyr, tidyr, readr, lubridate y ggplot2) y el paquete gt para la elaboración de tablas. El procedimiento metodológico consistió en las siguientes etapas:\n\nReestructuración y Estandarización de Variables: Se transformaron tablas anchas (wide format) a formato largo (long format) mediante pivot_longer() para unificar variables temporales (días) en una sola columna. Posteriormente, con pivot_wider(), se reestructuraron las variables climáticas en columnas independientes. Se corrigieron los nombres de los campos de ubicación y estación, y se separaron variables compuestas (por ejemplo, rangos de temperatura divididos en temperature_min y temperature_max, e información taxonómica en class, order y family) utilizando la función separate(). Asimismo, se unificaron el género y la especie (unite()) para conformar el nombre científico binomial.\nAjuste de Fechas y Tipos de Datos: Las columnas correspondientes al año, mes y día se combinaron (unite()) y se transformaron a un formato estandarizado de fecha (YYYY-MM-DD) empleando as_date(). Las variables numéricas (precipitación, nieve y temperaturas) fueron convertidas masivamente desde caracteres a tipo numérico con mutate() y across().\nPara eliminar la redundancia de datos, la información depurada se dividió en dos entidades o tablas independientes:\n\nTablas de metadatos/atributos fijos (información geográfica de las estaciones climáticas o taxonomía de ungulados).\nTablas de registros u observaciones temporales/de campo.\n\n\nAnálisis Descriptivo y Visualización de Resultados\nA partir de la unión de las tablas procesadas (inner_join()):\n\nGráficos: Se calcularon promedios de temperatura mínima y máxima por estación, generando un gráfico de rangos mediante ggplot2 (geom_linerange() y geom_point()) ordenado jerárquicamente. Para los datos taxonómicos, se contabilizó la frecuencia de observaciones por especie (count()) y se representó en un gráfico de barras horizontales.  \nTablas de Resumen: Se construyeron cuadros descriptivos resumidos por estación climática o clasificación taxonómica mediante la librería gt."
+    "text": "Objetivo\nOrganizar bases de datos que tengan defectos, a través de la librería “tidydata” en R.\nMetodología\nProcesamiento, Limpieza y Estructuración de Datos (Tidy Data)\nEl procesamiento y depuración de los datos se realizó en el entorno R utilizando el metapaquete tidyverse (particularmente dplyr, tidyr, readr, lubridate y ggplot2) y el paquete gt para la elaboración de tablas. El procedimiento metodológico consistió en las siguientes etapas:\n\nReestructuración y Estandarización de Variables: Se transformaron tablas anchas (wide format) a formato largo (long format) mediante pivot_longer() para unificar variables temporales (días) en una sola columna. Posteriormente, con pivot_wider(), se reestructuraron las variables climáticas en columnas independientes. Se corrigieron los nombres de los campos de ubicación y estación, y se separaron variables compuestas (por ejemplo, rangos de temperatura divididos en temperature_min y temperature_max, e información taxonómica en class, order y family) utilizando la función separate(). Asimismo, se unificaron el género y la especie (unite()) para conformar el nombre científico binomial.\nAjuste de Fechas y Tipos de Datos: Las columnas correspondientes al año, mes y día se combinaron (unite()) y se transformaron a un formato estandarizado de fecha (YYYY-MM-DD) empleando as_date(). Las variables numéricas (precipitación, nieve y temperaturas) fueron convertidas masivamente desde caracteres a tipo numérico con mutate() y across().\nPara eliminar la redundancia de datos, la información depurada se dividió en dos entidades o tablas independientes:\n\nTablas de metadatos/atributos fijos (información geográfica de las estaciones climáticas o taxonomía de ungulados).\nTablas de registros u observaciones temporales/de campo.\n\n\nAnálisis Descriptivo y Visualización de Resultados\nA partir de la unión de las tablas procesadas (inner_join()):\n\nGráficos: Se calcularon promedios de temperatura mínima y máxima por estación, generando un gráfico de rangos mediante ggplot2 (geom_linerange() y geom_point()) ordenado jerárquicamente. Para los datos taxonómicos, se contabilizó la frecuencia de observaciones por especie (count()) y se representó en un gráfico de barras horizontales.  \nTablas de Resumen: Se construyeron cuadros descriptivos resumidos por estación climática o clasificación taxonómica mediante la librería gt."
   },
   {
     "objectID": "tidydata.html#resultados",
     "href": "tidydata.html#resultados",
     "title": "Organización de bases de datos",
     "section": "Resultados",
-    "text": "Resultados"
+    "text": "Resultados\nSe ordeno la lista y se encontreo 25 especies y la más abundate fue ???"
   },
   {
     "objectID": "tidydata.html#interpretación",
@@ -263,7 +312,7 @@
     "href": "tidydata.html#conclusiones",
     "title": "Organización de bases de datos",
     "section": "Conclusiones",
-    "text": "Conclusiones"
+    "text": "Conclusiones\nMayores dificultades\nCómo aplicar esto en otros contextos"
   },
   {
     "objectID": "tidydata.html#referencias",
@@ -271,19 +320,5 @@
     "title": "Organización de bases de datos",
     "section": "Referencias",
     "text": "Referencias"
-  },
-  {
-    "objectID": "tidydata.html",
-    "href": "tidydata.html",
-    "title": "Organización de bases de datos",
-    "section": "",
-    "text": "En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería “tidydata” la cual permite analizar datos y conflictos."
-  },
-  {
-    "objectID": "tidydata.html#introducción",
-    "href": "tidydata.html#introducción",
-    "title": "Organización de bases de datos",
-    "section": "",
-    "text": "En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería “tidydata” la cual permite analizar datos y conflictos."
   }
 ]

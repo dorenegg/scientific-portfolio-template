@@ -38,6 +38,16 @@ Organización y optimización de bases de datos que presenten errores.
 
 ------------------------------------------------------------------------
 
+::: portfolio-item
+### Descarga de Ocurrenciass
+
+Descarga de ocurrencias con rgbif y .
+
+[Ver práctica →](descarga_ocurrencias.qmd)
+:::
+
+------------------------------------------------------------------------
+
 ## Objetivo del portafolio
 
 Más que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.
