@@ -1,5 +1,5 @@
 ---
-title: "template"
+title: "Descarga de Ocurrencias"
 author: "Dorene González"
 editor: visual
 ---
@@ -11,6 +11,10 @@ editor: visual
 ## Metodología
 
 ## Resultados
+
+![](images/ungulate_observations.jpg){width="372"}
+
+![](images/temperature.jpg){width="461"}
 
 ## Interpretación
 
