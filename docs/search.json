@@ -95,7 +95,7 @@
     "href": "portfolio.html#prácticas-de-laboratorio",
     "title": "Portafolio académico",
     "section": "Prácticas de laboratorio",
-    "text": "Prácticas de laboratorio\n\n📄 Práctica de ejemplo\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nVer práctica →\n\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️ Organización de bases de datos\nOrganización y optimización de bases de datos que presenten errores.\nVer práctica →\n\n\n\nDescarga de Ocurrencias\nDescarga de ocurrencias con rgbif\nVer práctica →"
+    "text": "Prácticas de laboratorio\n\n📄 Práctica de ejemplo\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nVer práctica →\n\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️ Organización de bases de datos\nOrganización y optimización de bases de datos que presenten errores\nVer práctica →\n\n\n\nDescarga de Ocurrencias\nDescarga de ocurrencias con rgbif\nVer práctica →"
   },
   {
     "objectID": "portfolio.html#objetivo-del-portafolio",
@@ -130,7 +130,7 @@
     "href": "descarga_ocurrencias.html#metodología",
     "title": "Descarga de Ocurrencias",
     "section": "Metodología",
-    "text": "Metodología\nUtilizando los paquetes de R “gbif” v 3.8.5 (Chamberlain et al. 2026) y “rinat” v 0.1.10 (Barve y Hart 2025)se realizó la descarga de todas la ocurrencia disponibles de la especie de interés.\nPosteriormente se procedió a limpiar las bases de datos de cada repositorio. Se eliminaron todas aquellas variables que no se encontraban en el área de estudio y se estandarizaron para poder unificar ambas bases obtenidas. Luego, se eliminaron o corrigieron todos aquellos datos que presentaban errores o ausencia de sus coordenadas geográficas.\nPor último, se procedió a proyectar las ocurrencias filtradas sobre capas geográficas integradas con variables ambientales para observar la distribución de nuestra especies de estudio dentro del área de interés."
+    "text": "Metodología\nUtilizando los paquetes de R “gbif” v 3.8.5 [@rgbif] y “rinat” v 0.1.10 [@rinat]se realizó la descarga de todas la ocurrencia disponibles de la especie de interés.\nPosteriormente se procedió a limpiar las bases de datos de cada repositorio. Se eliminaron todas aquellas variables que no se encontraban en el área de estudio y se estandarizaron para poder unificar ambas bases obtenidas. Luego, se eliminaron o corrigieron todos aquellos datos que presentaban errores o ausencia de sus coordenadas geográficas.\nPor último, se procedió a proyectar las ocurrencias filtradas sobre capas geográficas integradas con variables ambientales para observar la distribución de nuestra especies de estudio dentro del área de interés."
   },
   {
     "objectID": "descarga_ocurrencias.html#resultados",
@@ -152,13 +152,6 @@
     "title": "Descarga de Ocurrencias",
     "section": "Conclusiones",
     "text": "Conclusiones\nLa influencia del sesgo observacional es difícil de remover, por lo que el análisis de distribución debe de realizarse con mucho cuidado, una mayor concentración de observaciones no necesariamente implica una mayor abundancia o ausencia en regiones en donde no las hay. Para reducir este efecto se han diseñado diferentes metodologías, como es la calibración de los puntos. A pesar de esto, estos datos siguen siendo herramientas de gran utilidad que facilitan la realización de estudios científicos sobre una gran variedad de organismos."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#referencias",
-    "href": "descarga_ocurrencias.html#referencias",
-    "title": "Descarga de Ocurrencias",
-    "section": "Referencias",
-    "text": "Referencias\n(Barve y Hart 2025; Chamberlain et al. 2026)"
   },
   {
     "objectID": "about.html",
@@ -291,28 +284,28 @@
     "href": "tidydata.html",
     "title": "Organización de bases de datos",
     "section": "",
-    "text": "En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería “tidydata” la cual permite analizar datos y conflictos y reorganizarlos."
+    "text": "En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería “tidyverse” la cual permite analizar datos y conflictos y reorganizarlos."
   },
   {
     "objectID": "tidydata.html#introducción",
     "href": "tidydata.html#introducción",
     "title": "Organización de bases de datos",
     "section": "",
-    "text": "En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería “tidydata” la cual permite analizar datos y conflictos y reorganizarlos."
+    "text": "En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería “tidyverse” la cual permite analizar datos y conflictos y reorganizarlos."
   },
   {
     "objectID": "tidydata.html#objetivo",
     "href": "tidydata.html#objetivo",
     "title": "Organización de bases de datos",
     "section": "Objetivo",
-    "text": "Objetivo\nOrganizar bases de datos que presenten errores o redundancias que dificulten su análisis a través de la librería “tidydata” en R."
+    "text": "Objetivo\nOrganizar bases de datos que presenten errores o redundancias que dificulten su análisis a través de la librería “tidyverse” en R."
   },
   {
     "objectID": "tidydata.html#metodología",
     "href": "tidydata.html#metodología",
     "title": "Organización de bases de datos",
     "section": "Metodología",
-    "text": "Metodología\nProcesamiento, Limpieza y Estructuración de Datos (Tidy Data)\nEl procesamiento y depuración de los datos se realizó en el entorno R utilizando principalmente el paquete tidyverse (adicionalmente se utilizaron los paquetes dplyr, tidyr, readr, lubridate y ggplot2) y el paquete gt para la elaboración de tablas.\n\nReestructuración y Estandarización de Variables: Se transformaron tablas anchasa formato largo para unificar variables temporales (días) en una sola columna. Posteriormente, se reestructuraron las variables climáticas en columnas independientes. Se corrigieron los nombres de los campos e información taxonómica utilizando la función separate(). Asimismo, se unificaron el género y la especie (unite()) para conformar el nombre científico binomial.\nAjuste de Fechas y Tipos de Datos: Las fechas se unificaron y transformaron a un formato estandarizado de fecha (YYYY-MM-DD) empleando as_date(). Las variables numéricas se tranformaron a caracteres a tipo numérico con mutate() y across().\nPara eliminar la redundancia de datos, la información depurada se dividió en dos entidades o tablas independientes:\n\nTablas de metadatos (información geográfica de las estaciones climáticas o taxonomía de ungulados).\nTablas de registros u observaciones temporales/de campo.\n\n\nAnálisis Descriptivo y Visualización de Resultados\n\nGráficos: Se calcularon promedios de temperatura mínima y máxima por estación, generando un gráfico de rangos mediante ggplot2 ordenado jerárquicamente. Para los datos taxonómicos, se contabilizó la frecuencia de observaciones por especie y se representó en un gráfico de barras horizontales.  \nTablas de Resumen: Se construyeron cuadros descriptivos resumidos por estación climática o clasificación taxonómica mediante la librería gt."
+    "text": "Metodología\nProcesamiento, Limpieza y Estructuración de Datos (Tidy Data)\nEl procesamiento y depuración de los datos se realizó en el entorno R utilizando principalmente el paquete “tidyverse” v 2.0.0 (Wickham et al. 2019)\n\nReestructuración y Estandarización de Variables: Se transformaron tablas anchasa formato largo para unificar variables temporales (días) en una sola columna. Posteriormente, se reestructuraron las variables climáticas en columnas independientes. Se corrigieron los nombres de los campos e información taxonómica utilizando la función separate(). Asimismo, se unificaron el género y la especie (unite()) para conformar el nombre científico binomial.\nAjuste de Fechas y Tipos de Datos: Las fechas se unificaron y transformaron a un formato estandarizado de fecha (YYYY-MM-DD) empleando as_date(). Las variables numéricas se tranformaron a caracteres a tipo numérico con mutate() y across().\nPara eliminar la redundancia de datos, la información depurada se dividió en dos entidades o tablas independientes:\n\nTablas de metadatos (información geográfica de las estaciones climáticas o taxonomía de ungulados).\nTablas de registros u observaciones temporales/de campo.\n\n\nAnálisis Descriptivo y Visualización de Resultados\n\nGráficos: Se calcularon promedios de temperatura mínima y máxima por estación, generando un gráfico de rangos mediante ggplot2 ordenado jerárquicamente. Para los datos taxonómicos, se contabilizó la frecuencia de observaciones por especie y se representó en un gráfico de barras horizontales.  \nTablas de Resumen: Se construyeron cuadros descriptivos resumidos por estación climática o clasificación taxonómica mediante la librería gt."
   },
   {
     "objectID": "tidydata.html#resultados",

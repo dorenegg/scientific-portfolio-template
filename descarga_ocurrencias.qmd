@@ -2,7 +2,6 @@
 title: "Descarga de Ocurrencias"
 author: "Dorene González"
 editor: visual
-bibliography: references.bib
 format: html
 ---
 
@@ -38,6 +37,4 @@ La limpieza de las ocurrencias permite una proyección de las ocurrencias más c
 
 La influencia del sesgo observacional es difícil de remover, por lo que el análisis de distribución debe de realizarse con mucho cuidado, una mayor concentración de observaciones no necesariamente implica una mayor abundancia o ausencia en regiones en donde no las hay. Para reducir este efecto se han diseñado diferentes metodologías, como es la calibración de los puntos. A pesar de esto, estos datos siguen siendo herramientas de gran utilidad que facilitan la realización de estudios científicos sobre una gran variedad de organismos.
 
-## Referencias
-
-[@rinat; @rgbif]
+## 

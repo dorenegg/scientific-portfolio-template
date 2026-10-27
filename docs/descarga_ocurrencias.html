@@ -24,26 +24,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -147,7 +128,7 @@ div.csl-indent {
   <li><a href="#resultados" id="toc-resultados" class="nav-link" data-scroll-target="#resultados">Resultados</a></li>
   <li><a href="#interpretación" id="toc-interpretación" class="nav-link" data-scroll-target="#interpretación">Interpretación</a></li>
   <li><a href="#conclusiones" id="toc-conclusiones" class="nav-link" data-scroll-target="#conclusiones">Conclusiones</a></li>
-  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -189,7 +170,7 @@ div.csl-indent {
 </section>
 <section id="metodología" class="level2">
 <h2 class="anchored" data-anchor-id="metodología">Metodología</h2>
-<p>Utilizando los paquetes de R “gbif” v 3.8.5 <span class="citation" data-cites="rgbif">(<a href="#ref-rgbif" role="doc-biblioref">Chamberlain et&nbsp;al. 2026</a>)</span> y “rinat” v 0.1.10 <span class="citation" data-cites="rinat">(<a href="#ref-rinat" role="doc-biblioref">Barve y Hart 2025</a>)</span>se realizó la descarga de todas la ocurrencia disponibles de la especie de interés.</p>
+<p>Utilizando los paquetes de R “gbif” v 3.8.5 <span class="citation" data-cites="rgbif">[@rgbif]</span> y “rinat” v 0.1.10 <span class="citation" data-cites="rinat">[@rinat]</span>se realizó la descarga de todas la ocurrencia disponibles de la especie de interés.</p>
 <p>Posteriormente se procedió a limpiar las bases de datos de cada repositorio. Se eliminaron todas aquellas variables que no se encontraban en el área de estudio y se estandarizaron para poder unificar ambas bases obtenidas. Luego, se eliminaron o corrigieron todos aquellos datos que presentaban errores o ausencia de sus coordenadas geográficas.</p>
 <p>Por último, se procedió a proyectar las ocurrencias filtradas sobre capas geográficas integradas con variables ambientales para observar la distribución de nuestra especies de estudio dentro del área de interés.</p>
 </section>
@@ -207,22 +188,13 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="conclusiones">Conclusiones</h2>
 <p>La influencia del sesgo observacional es difícil de remover, por lo que el análisis de distribución debe de realizarse con mucho cuidado, una mayor concentración de observaciones no necesariamente implica una mayor abundancia o ausencia en regiones en donde no las hay. Para reducir este efecto se han diseñado diferentes metodologías, como es la calibración de los puntos. A pesar de esto, estos datos siguen siendo herramientas de gran utilidad que facilitan la realización de estudios científicos sobre una gran variedad de organismos.</p>
 </section>
-<section id="referencias" class="level2">
-<h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
-<p><span class="citation" data-cites="rinat rgbif">(<a href="#ref-rinat" role="doc-biblioref">Barve y Hart 2025</a>; <a href="#ref-rgbif" role="doc-biblioref">Chamberlain et&nbsp;al. 2026</a>)</span></p>
-
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-rinat" class="csl-entry" role="listitem">
-Barve, Vijay, y Edmund Hart. 2025. <em>rinat: Access ’iNaturalist’ Data Through APIs</em>. <a href="https://doi.org/10.32614/CRAN.package.rinat">https://doi.org/10.32614/CRAN.package.rinat</a>.
-</div>
-<div id="ref-rgbif" class="csl-entry" role="listitem">
-Chamberlain, Scott, Vijay Barve, Dan Mcglinn, et&nbsp;al. 2026. <em>rgbif: Interface to the Global Biodiversity Information Facility API</em>. <a href="https://CRAN.R-project.org/package=rgbif">https://CRAN.R-project.org/package=rgbif</a>.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

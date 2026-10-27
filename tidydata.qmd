@@ -3,21 +3,22 @@ title: "Organización de bases de datos"
 author: "Dorene González"
 format: html
 editor: visual
+bibliography: references.bib
 ---
 
 ## Introducción
 
-En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería "tidydata" la cual permite analizar datos y conflictos y reorganizarlos.
+En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería "tidyverse" la cual permite analizar datos y conflictos y reorganizarlos.
 
 ## Objetivo
 
-Organizar bases de datos que presenten errores o redundancias que dificulten su análisis a través de la librería "tidydata" en R.
+Organizar bases de datos que presenten errores o redundancias que dificulten su análisis a través de la librería "tidyverse" en R.
 
 ## Metodología
 
 **Procesamiento, Limpieza y Estructuración de Datos (*Tidy Data*)**
 
-El procesamiento y depuración de los datos se realizó en el entorno R utilizando principalmente el paquete tidyverse (adicionalmente se utilizaron los paquetes dplyr, tidyr, readr, lubridate y ggplot2) y el paquete gt para la elaboración de tablas.
+El procesamiento y depuración de los datos se realizó en el entorno R utilizando principalmente el paquete "tidyverse" v 2.0.0 [@tidyverse]
 
 1.  **Reestructuración y Estandarización de Variables:** Se transformaron tablas anchasa formato largo para unificar variables temporales (días) en una sola columna. Posteriormente, se reestructuraron las variables climáticas en columnas independientes. Se corrigieron los nombres de los campos e información taxonómica utilizando la función separate(). Asimismo, se unificaron el género y la especie (unite()) para conformar el nombre científico binomial.
 

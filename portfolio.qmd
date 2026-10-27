@@ -31,7 +31,7 @@ En esta práctica se documentará la creación de una biblioteca bibliográfica 
 ::: portfolio-item
 ### 🗂️ Organización de bases de datos
 
-Organización y optimización de bases de datos que presenten errores.
+Organización y optimización de bases de datos que presenten errores
 
 [Ver práctica →](tidydata.qmd)
 :::
