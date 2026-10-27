@@ -2,6 +2,7 @@
 title: "template"
 author: "Dorene González"
 editor: visual
+format: html
 ---
 
 ## Introducción
@@ -10,10 +11,10 @@ editor: visual
 
 ## Metodología
 
-## Resultados 
+## Resultados
 
 ## Interpretación
 
 ## Conclusiones
 
-## Referencias
+## 

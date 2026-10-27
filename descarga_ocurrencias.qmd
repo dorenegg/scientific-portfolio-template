@@ -17,21 +17,17 @@ Descargar ocurrencias de una especies de interés de bases de datos de acceso p�
 
 Utilizando los paquetes de R “gbif” v 3.8.5 [@rgbif] y “rinat” v 0.1.10 [@rinat]se realizó la descarga de todas la ocurrencia disponibles de la especie de interés.
 
-Posteriormente se procedió a limpiar las bases de datos de cada repositorio. Se eliminaron todas aquellas variables que no se encontraban en el área de estudio y se estandarizaron para poder unificar ambas bases obtenidas. Luego, se eliminaron o corrigieron todos aquellos datos que presentaban errores o ausencia de sus coordenadas geográficas.
-
-Por último, se procedió a proyectar las ocurrencias filtradas sobre capas geográficas integradas con variables ambientales para observar la distribución de nuestra especies de estudio dentro del área de interés.
+Posteriormente se procedió a limpiar las bases de datos de cada repositorio. Se eliminaron todas aquellas variables que no se encontraban en el área de estudio y se estandarizaron para poder unificar ambas bases obtenidas. Luego, se eliminaron todos aquellos datos que presentaron coordenadas inválidas, ceros, latitud-longitud iguales, centroides administrativos y coordenadas oscurecidas.
 
 ## Resultados
 
-Se obtuvo un mapa en donde se evidencia la distribución de la especie de estudio *Craugastor fitzingeri* sobre una capa geográfica de las zonas de vida de Savage. En este se puede evidenciar que la especie tiene una fuerte concentración de observaciones en el Atlántico y el Sureste de Costa Rica, evidenciando una mayor observación de la especie en zonas húmedas y de baja altitud.
+Se obtuvo una base de datos unificada conteniendo la ocurrencias obtenidas de ambos repositorios
 
-![](images/craugastor_fitzingeri_savage.jpg)
-
-Fig 1. Distribución de *Craugastor fitzingeri* en las zonas de vida de Savage.
+![](images/base_datos_unificada_occs_n_narica.jpg)Fig 1. Base de datos unificada y limpiada con las ocurrencias provenientes de GBIF y iNaturalist.
 
 ## Interpretación
 
-La limpieza de las ocurrencias permite una proyección de las ocurrencias más certera de la distribución de las especies, esto nos permite analizar de forma más confiable patrones en su distribución al proyectar estas ocurrencias sobre distintas capas geográficas que nos provean mayor información sobre la especie.
+La limpieza de las ocurrencias nos permite garantizar una mayor confiabilidad de los datos obtenidos, permitiendo la elaboración de análisis estadísticos más confiables.
 
 ## Conclusiones
 

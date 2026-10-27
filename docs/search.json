@@ -77,160 +77,6 @@
     "text": "Conclusiones"
   },
   {
-    "objectID": "template.html#referencias",
-    "href": "template.html#referencias",
-    "title": "template",
-    "section": "Referencias",
-    "text": "Referencias"
-  },
-  {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portafolio académico",
-    "section": "",
-    "text": "En esta sección se documentan las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nCada práctica constituye una evidencia del aprendizaje adquirido durante el semestre y forma parte de mi portafolio profesional."
-  },
-  {
-    "objectID": "portfolio.html#prácticas-de-laboratorio",
-    "href": "portfolio.html#prácticas-de-laboratorio",
-    "title": "Portafolio académico",
-    "section": "Prácticas de laboratorio",
-    "text": "Prácticas de laboratorio\n\n📄 Práctica de ejemplo\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nVer práctica →\n\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️ Organización de bases de datos\nOrganización y optimización de bases de datos que presenten errores\nVer práctica →\n\n\n\nDescarga de Ocurrencias\nDescarga de ocurrencias con rgbif\nVer práctica →"
-  },
-  {
-    "objectID": "portfolio.html#objetivo-del-portafolio",
-    "href": "portfolio.html#objetivo-del-portafolio",
-    "title": "Portafolio académico",
-    "section": "Objetivo del portafolio",
-    "text": "Objetivo del portafolio\nMás que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.\nAl finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html",
-    "href": "descarga_ocurrencias.html",
-    "title": "Descarga de Ocurrencias",
-    "section": "",
-    "text": "La obtención de ocurrencias de alguna especies de interés se puede realizar a través de la descarga de registros en diferentes bases de datos. Las bases de datos públicas son grandes repositorios de acceso libre en donde se almacenan registros de especies a nivel mundial, algunas como GBIF concentran datos de grado académico los cuales pueden ser utilizados en investigación. Existen otras bases de ciencia ciudadana en donde la población en general puede incluir sus observaciones, sin embargo, puede que presenten errores de identificación por lo que se deben filtrar aquellos datos que sean de grado académico para reducir la probabilidad de errores en los datos."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#introducción",
-    "href": "descarga_ocurrencias.html#introducción",
-    "title": "Descarga de Ocurrencias",
-    "section": "",
-    "text": "La obtención de ocurrencias de alguna especies de interés se puede realizar a través de la descarga de registros en diferentes bases de datos. Las bases de datos públicas son grandes repositorios de acceso libre en donde se almacenan registros de especies a nivel mundial, algunas como GBIF concentran datos de grado académico los cuales pueden ser utilizados en investigación. Existen otras bases de ciencia ciudadana en donde la población en general puede incluir sus observaciones, sin embargo, puede que presenten errores de identificación por lo que se deben filtrar aquellos datos que sean de grado académico para reducir la probabilidad de errores en los datos."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#objetivo",
-    "href": "descarga_ocurrencias.html#objetivo",
-    "title": "Descarga de Ocurrencias",
-    "section": "Objetivo",
-    "text": "Objetivo\nDescargar ocurrencias de una especies de interés de bases de datos de acceso público a través de los paquetes de R “gbif” y “rinat” , para lograr la obtención de una base de datos unificada con los registros de la especie."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#metodología",
-    "href": "descarga_ocurrencias.html#metodología",
-    "title": "Descarga de Ocurrencias",
-    "section": "Metodología",
-    "text": "Metodología\nUtilizando los paquetes de R “gbif” v 3.8.5 [@rgbif] y “rinat” v 0.1.10 [@rinat]se realizó la descarga de todas la ocurrencia disponibles de la especie de interés.\nPosteriormente se procedió a limpiar las bases de datos de cada repositorio. Se eliminaron todas aquellas variables que no se encontraban en el área de estudio y se estandarizaron para poder unificar ambas bases obtenidas. Luego, se eliminaron o corrigieron todos aquellos datos que presentaban errores o ausencia de sus coordenadas geográficas.\nPor último, se procedió a proyectar las ocurrencias filtradas sobre capas geográficas integradas con variables ambientales para observar la distribución de nuestra especies de estudio dentro del área de interés."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#resultados",
-    "href": "descarga_ocurrencias.html#resultados",
-    "title": "Descarga de Ocurrencias",
-    "section": "Resultados",
-    "text": "Resultados\nSe obtuvo un mapa en donde se evidencia la distribución de la especie de estudio Craugastor fitzingeri sobre una capa geográfica de las zonas de vida de Savage. En este se puede evidenciar que la especie tiene una fuerte concentración de observaciones en el Atlántico y el Sureste de Costa Rica, evidenciando una mayor observación de la especie en zonas húmedas y de baja altitud.\n\nFig 1. Distribución de Craugastor fitzingeri en las zonas de vida de Savage."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#interpretación",
-    "href": "descarga_ocurrencias.html#interpretación",
-    "title": "Descarga de Ocurrencias",
-    "section": "Interpretación",
-    "text": "Interpretación\nLa limpieza de las ocurrencias permite una proyección de las ocurrencias más certera de la distribución de las especies, esto nos permite analizar de forma más confiable patrones en su distribución al proyectar estas ocurrencias sobre distintas capas geográficas que nos provean mayor información sobre la especie."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#conclusiones",
-    "href": "descarga_ocurrencias.html#conclusiones",
-    "title": "Descarga de Ocurrencias",
-    "section": "Conclusiones",
-    "text": "Conclusiones\nLa influencia del sesgo observacional es difícil de remover, por lo que el análisis de distribución debe de realizarse con mucho cuidado, una mayor concentración de observaciones no necesariamente implica una mayor abundancia o ausencia en regiones en donde no las hay. Para reducir este efecto se han diseñado diferentes metodologías, como es la calibración de los puntos. A pesar de esto, estos datos siguen siendo herramientas de gran utilidad que facilitan la realización de estudios científicos sobre una gran variedad de organismos."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Perfil",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
-  },
-  {
-    "objectID": "about.html#estudiante-de-bachillerato-en-biología-tropical",
-    "href": "about.html#estudiante-de-bachillerato-en-biología-tropical",
-    "title": "Perfil",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
-  },
-  {
-    "objectID": "about.html#biografía",
-    "href": "about.html#biografía",
-    "title": "Perfil",
-    "section": "Biografía",
-    "text": "Biografía\nEstudiante avanzada de Biología Tropical con experiencia en trabajo de laboratorio e investigación de campo. Con alta motivación y afinidad por ambientes de aprendizaje prácticos. Tengo especial interés por comprender cómo las actividades antropogénicas impactan la dinámica natural de los ecosistemas, especialmente en entornos urbanos. Mis metas profesionales están vinculadas con la colaboración multidisciplinaria en proyectos que contribuyan al desarrollo de soluciones ambientalmente sostenibles que permitan la restauración de los ecosistemas en entornos altamente urbanizados, especialmente enfocados en la correcta gestión de residuos. Además, presento un gran deseo de trabajar a mano con las comunidades en la educación ambiental y sensibilización al impacto que tienen nuestras actividades cotidianas en el ambiente."
-  },
-  {
-    "objectID": "about.html#áreas-de-interés",
-    "href": "about.html#áreas-de-interés",
-    "title": "Perfil",
-    "section": "Áreas de interés",
-    "text": "Áreas de interés\n\nEcología\nConservación\nEcotoxicología\nMicroalgas\nCalidad de aguas"
-  },
-  {
-    "objectID": "about.html#habilidades",
-    "href": "about.html#habilidades",
-    "title": "Perfil",
-    "section": "Habilidades",
-    "text": "Habilidades\n\nR\nGit y GitHub\nQGIS\nMicrosoft Office"
-  },
-  {
-    "objectID": "about.html#formación-académica",
-    "href": "about.html#formación-académica",
-    "title": "Perfil",
-    "section": "Formación académica",
-    "text": "Formación académica\nUniversidad Nacional (UNA)\nBachillerato en Biología con énfasis en Biología Tropical\n2022 – Presente\nMuseo Nacional de Costa Rica\nEntomología Basica\nJulio 2026\nUniversity of Veterinary Medicine Hannover (TiHo)\nTropical Wildlife Biology Course - Costa Rica\nMarzo-Abril 2026\nUniversidad de Costa Rica\nAspectos Básicos de la Biología y Bioquímica del Cáncer\nEnero-Marzo 2026"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Inicio",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
-  },
-  {
-    "objectID": "index.html#estudiante-de-bachillerato-en-biología-tropical",
-    "href": "index.html#estudiante-de-bachillerato-en-biología-tropical",
-    "title": "Inicio",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
-  },
-  {
-    "objectID": "index.html#bienvenidoa",
-    "href": "index.html#bienvenidoa",
-    "title": "Inicio",
-    "section": "Bienvenido(a)",
-    "text": "Bienvenido(a)\nEste sitio web constituye mi portafolio digital académico, donde documentaré las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nEste portafolio utiliza herramientas de ciencia reproducible como R, Quarto, Git y GitHub, permitiendo organizar y compartir mi trabajo de manera profesional."
-  },
-  {
-    "objectID": "index.html#contenido-del-sitio",
-    "href": "index.html#contenido-del-sitio",
-    "title": "Inicio",
-    "section": "Contenido del sitio",
-    "text": "Contenido del sitio\n\n\nPerfil\nInformación personal, intereses académicos y experiencia.\nIr al perfil →\n\n\nPortafolio\nRegistro de las prácticas, proyectos y productos desarrollados durante el semestre.\nVer el portafolio →\n\n\n\n\nLa ciencia solo adquiere valor cuando puede ser comunicada y reproducida."
-  },
-  {
-    "objectID": "index.html#herramientas-y-afiliación",
-    "href": "index.html#herramientas-y-afiliación",
-    "title": "Inicio",
-    "section": "Herramientas y afiliación",
-    "text": "Herramientas y afiliación\nEste portafolio fue desarrollado con herramientas de ciencia reproducible.\n\n\n\n\n\nÚltima actualización: 4 de Agosto 2026"
-  },
-  {
     "objectID": "práctica-ejemplo.html",
     "href": "práctica-ejemplo.html",
     "title": "Práctica 1. Creación de sitio web",
@@ -278,6 +124,300 @@
     "title": "Práctica 1. Creación de sitio web",
     "section": "Reflexión final",
     "text": "Reflexión final\nEn esta práctica se aprendió a cómo realizar una personalización de una plantilla de un sitio web, además de cómo mantenerla actualizada y respaldada tanto en línea como en la memoria del la computadora. En ocasiones editar la página puede ser un poco confuso si no se sabe muy bien donde se ubican los códigos o si se olvidad de realizar las actualizaciones periódicamente mientras se trabaja. Esta herramienta resultará muy útil para proyectos los cuales se requiere de exposición en línea, siendo una manera sencilla de divulgar información o darse a conocer."
+  },
+  {
+    "objectID": "nicho.html",
+    "href": "nicho.html",
+    "title": "Nicho bidimensional",
+    "section": "",
+    "text": "Se procesaron y analizaron datos de ocurrencia de especies de anfibios en Costa Rica utilizando capas ráster ambientales (clima, elevación y huella humana) para evaluar su nicho ecológico y distribución espacial."
+  },
+  {
+    "objectID": "nicho.html#introducción",
+    "href": "nicho.html#introducción",
+    "title": "Nicho bidimensional",
+    "section": "",
+    "text": "Se procesaron y analizaron datos de ocurrencia de especies de anfibios en Costa Rica utilizando capas ráster ambientales (clima, elevación y huella humana) para evaluar su nicho ecológico y distribución espacial."
+  },
+  {
+    "objectID": "nicho.html#objetivo",
+    "href": "nicho.html#objetivo",
+    "title": "Nicho bidimensional",
+    "section": "Objetivo",
+    "text": "Objetivo\nCaracterizar el espacio ambiental bidimensional que ocupan las especies en función de gradientes térmicos, de precipitación, altitudinales y de intervención antrópica.\nVisualizar la relación entre los puntos de presencia y la disponibilidad ambiental de referencia (background) del territorio nacional."
+  },
+  {
+    "objectID": "nicho.html#metodología",
+    "href": "nicho.html#metodología",
+    "title": "Nicho bidimensional",
+    "section": "Metodología",
+    "text": "Metodología\nSe cargaron los registros de ocurrencias y capas espaciales. Luego se homologaron las resoluciones, extensiones y proyecciones de los mapas ráster mediante recorte y remuestreo. A estas de les extrajeron los valores de las variables ambientales para cada punto de ocurrencia. Y se generaron gráficos de dispersión bivariados."
+  },
+  {
+    "objectID": "nicho.html#resultados",
+    "href": "nicho.html#resultados",
+    "title": "Nicho bidimensional",
+    "section": "Resultados",
+    "text": "Resultados\nUno de los gráficos generados evidencia de manera directa el impacto severos de procesos históricos de declive (típicamente asociados en la región a factores como el hongo quitridio y cambios ambientales), mostrando cómo la especie desapareció de la mayor parte de su rango altitudinal original. Además, a concentración exclusiva de los registros posteriores al año 2000 en el extremo inferior de elevación y baja perturbación sugiere la existencia de un refugio ambiental o climático donde las poblaciones sobrevivientes han logrado persistir\n\nFig 1.  Distribución altitudinal de Craugastor ranoides con respecto a Índice de impacto Humano."
+  },
+  {
+    "objectID": "nicho.html#interpretación",
+    "href": "nicho.html#interpretación",
+    "title": "Nicho bidimensional",
+    "section": "Interpretación",
+    "text": "Interpretación\nEl gráfico de dispersión bivariados permite contrastar el espacio ambiental disponible frente al espacio efectivamente ocupado en distintos momentos temporales, facilitando la evaluación de la vulnerabilidad de la especie ante la combinación de presiones humanas y factores topográficos."
+  },
+  {
+    "objectID": "nicho.html#conclusiones",
+    "href": "nicho.html#conclusiones",
+    "title": "Nicho bidimensional",
+    "section": "Conclusiones",
+    "text": "Conclusiones\nEs de gran importancia la gestión y depuración de las incompatibilidades geométricas entre las capas ráster (resoluciones y extensiones distintas), ya que se requiere de algunos ajustes precisos para evitar errores en la extracción de datos.\nEsta metodología se puede utilizar para evaluar la vulnerabilidad de especies ante el cambio climático, modelar pérdida de hábitat por presión humana y priorizar áreas para la conservación o restauración de corredores biológicos."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Inicio",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
+  },
+  {
+    "objectID": "index.html#estudiante-de-bachillerato-en-biología-tropical",
+    "href": "index.html#estudiante-de-bachillerato-en-biología-tropical",
+    "title": "Inicio",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
+  },
+  {
+    "objectID": "index.html#bienvenidoa",
+    "href": "index.html#bienvenidoa",
+    "title": "Inicio",
+    "section": "Bienvenido(a)",
+    "text": "Bienvenido(a)\nEste sitio web constituye mi portafolio digital académico, donde documentaré las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nEste portafolio utiliza herramientas de ciencia reproducible como R, Quarto, Git y GitHub, permitiendo organizar y compartir mi trabajo de manera profesional."
+  },
+  {
+    "objectID": "index.html#contenido-del-sitio",
+    "href": "index.html#contenido-del-sitio",
+    "title": "Inicio",
+    "section": "Contenido del sitio",
+    "text": "Contenido del sitio\n\n\nPerfil\nInformación personal, intereses académicos y experiencia.\nIr al perfil →\n\n\nPortafolio\nRegistro de las prácticas, proyectos y productos desarrollados durante el semestre.\nVer el portafolio →\n\n\n\n\nLa ciencia solo adquiere valor cuando puede ser comunicada y reproducida."
+  },
+  {
+    "objectID": "index.html#herramientas-y-afiliación",
+    "href": "index.html#herramientas-y-afiliación",
+    "title": "Inicio",
+    "section": "Herramientas y afiliación",
+    "text": "Herramientas y afiliación\nEste portafolio fue desarrollado con herramientas de ciencia reproducible.\n\n\n\n\n\nÚltima actualización: 4 de Agosto 2026"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Perfil",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
+  },
+  {
+    "objectID": "about.html#estudiante-de-bachillerato-en-biología-tropical",
+    "href": "about.html#estudiante-de-bachillerato-en-biología-tropical",
+    "title": "Perfil",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
+  },
+  {
+    "objectID": "about.html#biografía",
+    "href": "about.html#biografía",
+    "title": "Perfil",
+    "section": "Biografía",
+    "text": "Biografía\nEstudiante avanzada de Biología Tropical con experiencia en trabajo de laboratorio e investigación de campo. Con alta motivación y afinidad por ambientes de aprendizaje prácticos. Tengo especial interés por comprender cómo las actividades antropogénicas impactan la dinámica natural de los ecosistemas, especialmente en entornos urbanos. Mis metas profesionales están vinculadas con la colaboración multidisciplinaria en proyectos que contribuyan al desarrollo de soluciones ambientalmente sostenibles que permitan la restauración de los ecosistemas en entornos altamente urbanizados, especialmente enfocados en la correcta gestión de residuos. Además, presento un gran deseo de trabajar a mano con las comunidades en la educación ambiental y sensibilización al impacto que tienen nuestras actividades cotidianas en el ambiente."
+  },
+  {
+    "objectID": "about.html#áreas-de-interés",
+    "href": "about.html#áreas-de-interés",
+    "title": "Perfil",
+    "section": "Áreas de interés",
+    "text": "Áreas de interés\n\nEcología\nConservación\nEcotoxicología\nMicroalgas\nCalidad de aguas"
+  },
+  {
+    "objectID": "about.html#habilidades",
+    "href": "about.html#habilidades",
+    "title": "Perfil",
+    "section": "Habilidades",
+    "text": "Habilidades\n\nR\nGit y GitHub\nQGIS\nMicrosoft Office"
+  },
+  {
+    "objectID": "about.html#formación-académica",
+    "href": "about.html#formación-académica",
+    "title": "Perfil",
+    "section": "Formación académica",
+    "text": "Formación académica\nUniversidad Nacional (UNA)\nBachillerato en Biología con énfasis en Biología Tropical\n2022 – Presente\nMuseo Nacional de Costa Rica\nEntomología Basica\nJulio 2026\nUniversity of Veterinary Medicine Hannover (TiHo)\nTropical Wildlife Biology Course - Costa Rica\nMarzo-Abril 2026\nUniversidad de Costa Rica\nAspectos Básicos de la Biología y Bioquímica del Cáncer\nEnero-Marzo 2026"
+  },
+  {
+    "objectID": "descarga_ocurrencias.html",
+    "href": "descarga_ocurrencias.html",
+    "title": "Descarga de Ocurrencias",
+    "section": "",
+    "text": "La obtención de ocurrencias de alguna especies de interés se puede realizar a través de la descarga de registros en diferentes bases de datos. Las bases de datos públicas son grandes repositorios de acceso libre en donde se almacenan registros de especies a nivel mundial, algunas como GBIF concentran datos de grado académico los cuales pueden ser utilizados en investigación. Existen otras bases de ciencia ciudadana en donde la población en general puede incluir sus observaciones, sin embargo, puede que presenten errores de identificación por lo que se deben filtrar aquellos datos que sean de grado académico para reducir la probabilidad de errores en los datos."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#introducción",
+    "href": "descarga_ocurrencias.html#introducción",
+    "title": "Descarga de Ocurrencias",
+    "section": "",
+    "text": "La obtención de ocurrencias de alguna especies de interés se puede realizar a través de la descarga de registros en diferentes bases de datos. Las bases de datos públicas son grandes repositorios de acceso libre en donde se almacenan registros de especies a nivel mundial, algunas como GBIF concentran datos de grado académico los cuales pueden ser utilizados en investigación. Existen otras bases de ciencia ciudadana en donde la población en general puede incluir sus observaciones, sin embargo, puede que presenten errores de identificación por lo que se deben filtrar aquellos datos que sean de grado académico para reducir la probabilidad de errores en los datos."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#objetivo",
+    "href": "descarga_ocurrencias.html#objetivo",
+    "title": "Descarga de Ocurrencias",
+    "section": "Objetivo",
+    "text": "Objetivo\nDescargar ocurrencias de una especies de interés de bases de datos de acceso público a través de los paquetes de R “gbif” y “rinat” , para lograr la obtención de una base de datos unificada con los registros de la especie."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#metodología",
+    "href": "descarga_ocurrencias.html#metodología",
+    "title": "Descarga de Ocurrencias",
+    "section": "Metodología",
+    "text": "Metodología\nUtilizando los paquetes de R “gbif” v 3.8.5 [@rgbif] y “rinat” v 0.1.10 [@rinat]se realizó la descarga de todas la ocurrencia disponibles de la especie de interés.\nPosteriormente se procedió a limpiar las bases de datos de cada repositorio. Se eliminaron todas aquellas variables que no se encontraban en el área de estudio y se estandarizaron para poder unificar ambas bases obtenidas. Luego, se eliminaron todos aquellos datos que presentaron coordenadas inválidas, ceros, latitud-longitud iguales, centroides administrativos y coordenadas oscurecidas."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#resultados",
+    "href": "descarga_ocurrencias.html#resultados",
+    "title": "Descarga de Ocurrencias",
+    "section": "Resultados",
+    "text": "Resultados\nSe obtuvo una base de datos unificada conteniendo la ocurrencias obtenidas de ambos repositorios\nFig 1. Base de datos unificada y limpiada con las ocurrencias provenientes de GBIF y iNaturalist."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#interpretación",
+    "href": "descarga_ocurrencias.html#interpretación",
+    "title": "Descarga de Ocurrencias",
+    "section": "Interpretación",
+    "text": "Interpretación\nLa limpieza de las ocurrencias nos permite garantizar una mayor confiabilidad de los datos obtenidos, permitiendo la elaboración de análisis estadísticos más confiables."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#conclusiones",
+    "href": "descarga_ocurrencias.html#conclusiones",
+    "title": "Descarga de Ocurrencias",
+    "section": "Conclusiones",
+    "text": "Conclusiones\nLa influencia del sesgo observacional es difícil de remover, por lo que el análisis de distribución debe de realizarse con mucho cuidado, una mayor concentración de observaciones no necesariamente implica una mayor abundancia o ausencia en regiones en donde no las hay. Para reducir este efecto se han diseñado diferentes metodologías, como es la calibración de los puntos. A pesar de esto, estos datos siguen siendo herramientas de gran utilidad que facilitan la realización de estudios científicos sobre una gran variedad de organismos."
+  },
+  {
+    "objectID": "mapeo_zonas_vida.html",
+    "href": "mapeo_zonas_vida.html",
+    "title": "Mapeo de áreas administrativas y zonas de vida",
+    "section": "",
+    "text": "Se procesaron y analizaron los registros espaciales de ocurrencia de una especie de interés vinculándolos con límites cantonales, provinciales y unidades biogeográficas en Costa Rica mediante el uso de herramientas de sistemas de información geográfica"
+  },
+  {
+    "objectID": "mapeo_zonas_vida.html#introducción",
+    "href": "mapeo_zonas_vida.html#introducción",
+    "title": "Mapeo de áreas administrativas y zonas de vida",
+    "section": "",
+    "text": "Se procesaron y analizaron los registros espaciales de ocurrencia de una especie de interés vinculándolos con límites cantonales, provinciales y unidades biogeográficas en Costa Rica mediante el uso de herramientas de sistemas de información geográfica"
+  },
+  {
+    "objectID": "mapeo_zonas_vida.html#objetivo",
+    "href": "mapeo_zonas_vida.html#objetivo",
+    "title": "Mapeo de áreas administrativas y zonas de vida",
+    "section": "Objetivo",
+    "text": "Objetivo\nEvaluar la distribución espacial y administrativa de las observaciones de la especie a nivel de cantones, provincias y regiones biogeográficas.\nAnalizar los patrones temporales, latitudinales y longitudinales de los registros históricos de la especie."
+  },
+  {
+    "objectID": "mapeo_zonas_vida.html#metodología",
+    "href": "mapeo_zonas_vida.html#metodología",
+    "title": "Mapeo de áreas administrativas y zonas de vida",
+    "section": "Metodología",
+    "text": "Metodología\nSe cargaron diferentes shapefiles de límites políticos y biogeográficos, a estos se le validaron las geometrías, fueron transformados a mismo sistema de coordenadas (WGS84) y se limpiaron los nombres.\nLuego, se integraron los puntos de ocurrencias con la capa administrativas y se corrigieron los registros costeros mediante la función “st_nearest_feature”.\nPor últimos de agruparon los registros por cantón, provincia, anual y elevación."
+  },
+  {
+    "objectID": "mapeo_zonas_vida.html#resultados",
+    "href": "mapeo_zonas_vida.html#resultados",
+    "title": "Mapeo de áreas administrativas y zonas de vida",
+    "section": "Resultados",
+    "text": "Resultados\nSe obtuvo un mapa en donde se evidencia la distribución de la especie de estudio Nasua narica sobre una capa geográfica de los límites cantonales En este se puede evidenciar una fuerte concentración de observaciones en algunos cantones, sin embargo, esto no representa nesariamente una mayor abundancia de la especie, si no una mayor concentración de observaciones registradas.\n\nFig 1. Distribución de Nasua narica a nivel cantonal."
+  },
+  {
+    "objectID": "mapeo_zonas_vida.html#interpretación",
+    "href": "mapeo_zonas_vida.html#interpretación",
+    "title": "Mapeo de áreas administrativas y zonas de vida",
+    "section": "Interpretación",
+    "text": "Interpretación\nLa concentración de observaciones en ciertos cantones puede estar asociada a zonas de mayor tránsito de personas o mayor concentración de estudios, lo cual puede haber aumentado el número de reporte de avistamientos. Este tipo de distribución debe de ser analizada con cautela para evitar una sobreestimación de distribución de la especie en estas zonas y un subestimación en zona con menos observaciones que puede que sean menos concurridas."
+  },
+  {
+    "objectID": "mapeo_zonas_vida.html#conclusiones",
+    "href": "mapeo_zonas_vida.html#conclusiones",
+    "title": "Mapeo de áreas administrativas y zonas de vida",
+    "section": "Conclusiones",
+    "text": "Conclusiones\nProyectar la distribución de especies sobre límites políticos es una herramienta clave para la planificación territorial, el diseño de políticas públicas de conservación y la toma de decisiones administrativas locales. Sin embargo, su interpretación exige cautela: las divisiones políticas no reflejan las barreras ecológicas del hábitat ni los límites naturales de las poblaciones. Asimismo, el sesgo de muestreo concentrado en ciertos cantones puede distorsionar la percepción de la presencia real de la especie, por lo que este tipo de cartografía debe complementarse siempre con variables ambientales y modelos de nicho ecológico."
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portafolio académico",
+    "section": "",
+    "text": "En esta sección se documentan las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nCada práctica constituye una evidencia del aprendizaje adquirido durante el semestre y forma parte de mi portafolio profesional."
+  },
+  {
+    "objectID": "portfolio.html#prácticas-de-laboratorio",
+    "href": "portfolio.html#prácticas-de-laboratorio",
+    "title": "Portafolio académico",
+    "section": "Prácticas de laboratorio",
+    "text": "Prácticas de laboratorio\n\n📄 Práctica de ejemplo\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nVer práctica →\n\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️ Organización de bases de datos\nOrganización y optimización de bases de datos que presenten errores\nVer práctica →\n\n\n\n🔎 Descarga de Ocurrencias\nDescarga de ocurrencias con los paquetes rgbif y rinat\nVer práctica →\n\n\n\n💀 Generación de tablas de vida\nElaboración de tablas de vida a partir de datos de nacimiento y mortalidad\nVer práctica →\n\n\n\n🗾Mapeo de áreas administrativas y zonas de vida\nProyección de ocurrencias en capas geográficas\nVer práctica →\n\n\n\n🏞️Nicho bidimensional\nCaracterizar el espacio ambiental bidimensional que ocupan las especies\nVer práctica →"
+  },
+  {
+    "objectID": "portfolio.html#objetivo-del-portafolio",
+    "href": "portfolio.html#objetivo-del-portafolio",
+    "title": "Portafolio académico",
+    "section": "Objetivo del portafolio",
+    "text": "Objetivo del portafolio\nMás que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.\nAl finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica."
+  },
+  {
+    "objectID": "tablas_vida.html",
+    "href": "tablas_vida.html",
+    "title": "Generación de tablas de vida",
+    "section": "",
+    "text": "En esta práctica se llevó a cabo la elaboración de tablas de vida a partir de datos de mortalidad obtenidos en dos cementerios."
+  },
+  {
+    "objectID": "tablas_vida.html#introducción",
+    "href": "tablas_vida.html#introducción",
+    "title": "Generación de tablas de vida",
+    "section": "",
+    "text": "En esta práctica se llevó a cabo la elaboración de tablas de vida a partir de datos de mortalidad obtenidos en dos cementerios."
+  },
+  {
+    "objectID": "tablas_vida.html#objetivo",
+    "href": "tablas_vida.html#objetivo",
+    "title": "Generación de tablas de vida",
+    "section": "Objetivo",
+    "text": "Objetivo\nConstruir y analizar tablas de vida a partir de registros de mortalidad humana obtenidos en cementerios de Heredia y San José, con el propósito de caracterizar patrones de supervivencia, evaluar su correspondencia con los modelos teóricos de curvas de supervivencia Tipo I, Tipo II y Tipo III, y determinar si existen diferencias en la distribución de las edades de muerte entre ambas localidades."
+  },
+  {
+    "objectID": "tablas_vida.html#metodología",
+    "href": "tablas_vida.html#metodología",
+    "title": "Generación de tablas de vida",
+    "section": "Metodología",
+    "text": "Metodología\nSe combinaron los registros de ambos cementerios y a partir de la edad de muerte, se agruparon los datos en clases de edad para construir tablas de vida de cohortes estáticas por sitio (Heredia y San José). Se calcularon los siguientes parámetros:\ndₓ: número de muertes registradas en cada clase de edad.\nnₓ: número de individuos sobrevivientes al inicio de la clase de edad.\nlₓ: proporción de la cohorte que sobrevive hasta la clase de edad x.\nqₓ: mortalidad durante el intervalo.\nAdicionalmente, se generó un resumen descriptivo de la edad al momento de la muerte por sexo, calculando la mediana y los cuartiles (Q1 y Q3). Para evaluar si existen diferencias estadísticamente significativas en la distribución de la edad de muerte entre sitios y entre sexos, se aplicó la prueba de Kolmogorov-Smirnov. Y se utilizó la prueba de Mann-Whitney para evaluar si existen diferencias en la posición general de las edades de muerte por rangos.\nSe utilizaron los paquetes “tidyverse” v 2.0.0 (Wickham et al. 2019) para la manipulación de datos y “gt” v 1.3.0 (Iannone et al. 2026) para la edición de las tablas demográficas."
+  },
+  {
+    "objectID": "tablas_vida.html#resultados",
+    "href": "tablas_vida.html#resultados",
+    "title": "Generación de tablas de vida",
+    "section": "Resultados",
+    "text": "Resultados\nSe recopilaron datos de 2763 individuos entre ambos cementerios. Se observó que cerca del 80 % de los individuos alcanzó la categoría de 51–55 años en ambas localidades (Heredia: (lx = 0.786), San José: (lx = 0.779). La mayor concentración de fallecimientos ocurrió en edades avanzadas. Se observó el mayor número de muertes se registró en la categoría de 76–80 años en Heredia (dx = 169) y de 86–90 años en San José (dx = 160), las curvas de supervivencia presentaron gran superposición entre ambos sitios (Figura 1B), describiendo el comportamiento de una curva de supervivencia de tipo I (Figura 1A).\n\nFigura 1. A) Curvas de supervivencia teóricas en función de la edad relativa que ilustran los patrones teóricos de Tipo I (mortalidad tardía), Tipo II (mortalidad constante) y Tipo III (mortalidad temprana). B) Curva de supervivencia (lx) por grupos de edad obtenida para las poblaciones de Heredia (línea azul) y San José (línea café)."
+  },
+  {
+    "objectID": "tablas_vida.html#interpretación",
+    "href": "tablas_vida.html#interpretación",
+    "title": "Generación de tablas de vida",
+    "section": "Interpretación",
+    "text": "Interpretación\nEsta tabla de vida permitió identificación de los rango de vida en donde mueren más individuos y la probabilidad de supervivencia en cada uno de estos rangos. Al observar estos patrones se logró identificó que el patrón presentado es de Tipo I, en donde hay una mortalidad tardía de los individuos."
+  },
+  {
+    "objectID": "tablas_vida.html#conclusiones",
+    "href": "tablas_vida.html#conclusiones",
+    "title": "Generación de tablas de vida",
+    "section": "Conclusiones",
+    "text": "Conclusiones\nLa tablas de vida permitieron observar los patrones de mortalidad en las poblaciones. El análisis de estos patrones es que nos ayudan a identificar cuáles son los rangos de vida más vulnerables en una poblaciones y así poder enforcar esfuerzos para resguardar la especie y mejorar estas tasas de supervivencia. Esto es particularmente importante en la conservación de especies en peligro de extinción, ya que permite focalizar los esfuerzos de conservación que aquellos que corren más peligro."
   },
   {
     "objectID": "tidydata.html",

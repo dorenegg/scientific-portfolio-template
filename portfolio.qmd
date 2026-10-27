@@ -39,11 +39,41 @@ Organización y optimización de bases de datos que presenten errores
 ------------------------------------------------------------------------
 
 ::: portfolio-item
-### Descarga de Ocurrencias
+### 🔎 Descarga de Ocurrencias
 
-Descarga de ocurrencias con rgbif 
+Descarga de ocurrencias con los paquetes rgbif y rinat
 
 [Ver práctica →](descarga_ocurrencias.qmd)
+:::
+
+------------------------------------------------------------------------
+
+::: portfolio-item
+### 💀 Generación de tablas de vida
+
+Elaboración de tablas de vida a partir de datos de nacimiento y mortalidad
+
+[Ver práctica →](tablas_vida.qmd)
+:::
+
+------------------------------------------------------------------------
+
+::: portfolio-item
+### 🗾Mapeo de áreas administrativas y zonas de vida
+
+Proyección de ocurrencias en capas geográficas
+
+[Ver práctica →](mapeo_zonas_vida.qmd)
+:::
+
+------------------------------------------------------------------------
+
+::: portfolio-item
+### 🏞️Nicho bidimensional
+
+Caracterizar el espacio ambiental bidimensional que ocupan las especies
+
+[Ver práctica →](nicho.qmd)
 :::
 
 ------------------------------------------------------------------------
