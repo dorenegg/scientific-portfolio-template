@@ -13,7 +13,7 @@ En esta práctica se llevó a cabo la organización de una base de datos la cual
 
 Organizar bases de datos que presenten errores o redundancias que dificulten su análisis a través de la librería "tidydata" en R.
 
-Metodología
+## Metodología
 
 **Procesamiento, Limpieza y Estructuración de Datos (*Tidy Data*)**
 
@@ -54,10 +54,6 @@ Fig 2. Especies de ungulados reportados en Angola.
 Las transformación de la base de datos permitió una mejor organización de la información, facilitando la obtención de los registros y su visualización a través de la creación de figuras y tablas.
 
 ## Conclusiones
-
-Mayores dificultades
-
-Cómo aplicar esto en otros contextos
 
 La mayores dificultades de la organización de los es la determinación de cuales filas o columnas deben ser separadas o unificadas para una mejor visualización de lo datos. Además, es de gran importancia identificar el formato correcto de la información, si son caracteres, valores numéricos, fechas, etc., ya que puede interferir con los análisis, gráficos o tablas que se deseen realizar.
 

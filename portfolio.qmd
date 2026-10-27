@@ -39,9 +39,9 @@ Organización y optimización de bases de datos que presenten errores.
 ------------------------------------------------------------------------
 
 ::: portfolio-item
-### Descarga de Ocurrenciass
+### Descarga de Ocurrencias
 
-Descarga de ocurrencias con rgbif y .
+Descarga de ocurrencias con rgbif 
 
 [Ver práctica →](descarga_ocurrencias.qmd)
 :::

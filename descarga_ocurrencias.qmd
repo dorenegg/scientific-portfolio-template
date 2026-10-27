@@ -2,22 +2,42 @@
 title: "Descarga de Ocurrencias"
 author: "Dorene González"
 editor: visual
+bibliography: references.bib
+format: html
 ---
 
 ## Introducción
 
+La obtención de ocurrencias de alguna especies de interés se puede realizar a través de la descarga de registros en diferentes bases de datos. Las bases de datos públicas son grandes repositorios de acceso libre en donde se almacenan registros de especies a nivel mundial, algunas como GBIF concentran datos de grado académico los cuales pueden ser utilizados en investigación. Existen otras bases de ciencia ciudadana en donde la población en general puede incluir sus observaciones, sin embargo, puede que presenten errores de identificación por lo que se deben filtrar aquellos datos que sean de grado académico para reducir la probabilidad de errores en los datos.
+
 ## Objetivo
+
+Descargar ocurrencias de una especies de interés de bases de datos de acceso público a través de los paquetes de R “gbif” y “rinat” , para lograr la obtención de una base de datos unificada con los registros de la especie.
 
 ## Metodología
 
+Utilizando los paquetes de R “gbif” v 3.8.5 [@rgbif] y “rinat” v 0.1.10 [@rinat]se realizó la descarga de todas la ocurrencia disponibles de la especie de interés.
+
+Posteriormente se procedió a limpiar las bases de datos de cada repositorio. Se eliminaron todas aquellas variables que no se encontraban en el área de estudio y se estandarizaron para poder unificar ambas bases obtenidas. Luego, se eliminaron o corrigieron todos aquellos datos que presentaban errores o ausencia de sus coordenadas geográficas.
+
+Por último, se procedió a proyectar las ocurrencias filtradas sobre capas geográficas integradas con variables ambientales para observar la distribución de nuestra especies de estudio dentro del área de interés.
+
 ## Resultados
 
-![](images/ungulate_observations.jpg){width="372"}
+Se obtuvo un mapa en donde se evidencia la distribución de la especie de estudio *Craugastor fitzingeri* sobre una capa geográfica de las zonas de vida de Savage. En este se puede evidenciar que la especie tiene una fuerte concentración de observaciones en el Atlántico y el Sureste de Costa Rica, evidenciando una mayor observación de la especie en zonas húmedas y de baja altitud.
 
-![](images/temperature.jpg){width="461"}
+![](images/craugastor_fitzingeri_savage.jpg)
+
+Fig 1. Distribución de *Craugastor fitzingeri* en las zonas de vida de Savage.
 
 ## Interpretación
 
+La limpieza de las ocurrencias permite una proyección de las ocurrencias más certera de la distribución de las especies, esto nos permite analizar de forma más confiable patrones en su distribución al proyectar estas ocurrencias sobre distintas capas geográficas que nos provean mayor información sobre la especie.
+
 ## Conclusiones
 
+La influencia del sesgo observacional es difícil de remover, por lo que el análisis de distribución debe de realizarse con mucho cuidado, una mayor concentración de observaciones no necesariamente implica una mayor abundancia o ausencia en regiones en donde no las hay. Para reducir este efecto se han diseñado diferentes metodologías, como es la calibración de los puntos. A pesar de esto, estos datos siguen siendo herramientas de gran utilidad que facilitan la realización de estudios científicos sobre una gran variedad de organismos.
+
 ## Referencias
+
+[@rinat; @rgbif]
