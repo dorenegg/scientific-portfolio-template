@@ -525,44 +525,44 @@
     "text": "Conclusiones\nLa tablas de vida permitieron observar los patrones de mortalidad en las poblaciones. El análisis de estos patrones es que nos ayudan a identificar cuáles son los rangos de vida más vulnerables en una poblaciones y así poder enforcar esfuerzos para resguardar la especie y mejorar estas tasas de supervivencia. Esto es particularmente importante en la conservación de especies en peligro de extinción, ya que permite focalizar los esfuerzos de conservación que aquellos que corren más peligro."
   },
   {
-    "objectID": "tidydata.html",
-    "href": "tidydata.html",
-    "title": "️Manejo de datos con tidyvess",
+    "objectID": "tidyverse.html",
+    "href": "tidyverse.html",
+    "title": "Manejo de datos con Tidyverse",
     "section": "",
     "text": "En esta práctica se utilizó el paquete Tidyverse en R para realizar el proceso de importación de datos, así como la limpieza, manipulación y visualización de datos. El juego de datos del estudio consistió de una serie de observaciones de mamíferos africanos que se encontraba desordenado o carecía de formato"
   },
   {
-    "objectID": "tidydata.html#introducción",
-    "href": "tidydata.html#introducción",
-    "title": "️Manejo de datos con tidyvess",
+    "objectID": "tidyverse.html#introducción",
+    "href": "tidyverse.html#introducción",
+    "title": "Manejo de datos con Tidyverse",
     "section": "",
     "text": "En esta práctica se utilizó el paquete Tidyverse en R para realizar el proceso de importación de datos, así como la limpieza, manipulación y visualización de datos. El juego de datos del estudio consistió de una serie de observaciones de mamíferos africanos que se encontraba desordenado o carecía de formato"
   },
   {
-    "objectID": "tidydata.html#objetivo",
-    "href": "tidydata.html#objetivo",
-    "title": "️Manejo de datos con tidyvess",
+    "objectID": "tidyverse.html#objetivo",
+    "href": "tidyverse.html#objetivo",
+    "title": "Manejo de datos con Tidyverse",
     "section": "Objetivo",
     "text": "Objetivo\nEl objetivo de esta práctica fue importar, ordenar y visualizar un juego de datos de mamíferos africanos utilizando Tidyverse, que es una colección de paquetes de R diseñados Organizar bases de datos que presenten errores o redundancias que dificulten su análisis a través de la librería “tidyverse” en R."
   },
   {
-    "objectID": "tidydata.html#metodología",
-    "href": "tidydata.html#metodología",
-    "title": "️Manejo de datos con tidyvess",
+    "objectID": "tidyverse.html#metodología",
+    "href": "tidyverse.html#metodología",
+    "title": "Manejo de datos con Tidyverse",
     "section": "Metodología",
-    "text": "Metodología\nSe importó un juego de datos y se realizó una manipulación de datos con “tidyverse” v 2.0.0 (Wickham et al. 2019) que incluyó el resumen de datos, cambio de formato de fecha, unión y separación de columnas, y un gráfico para visualizar la abundacia relativa de observaciones."
+    "text": "Metodología\nSe importó un juego de datos y se realizó una manipulación de datos con “tidyverse” v 2.0.0 [@tidyverse] que incluyó el resumen de datos, cambio de formato de fecha, unión y separación de columnas, y un gráfico para visualizar la abundacia relativa de observaciones."
   },
   {
-    "objectID": "tidydata.html#resultados",
-    "href": "tidydata.html#resultados",
-    "title": "️Manejo de datos con tidyvess",
+    "objectID": "tidyverse.html#resultados",
+    "href": "tidyverse.html#resultados",
+    "title": "Manejo de datos con Tidyverse",
     "section": "Resultados",
     "text": "Resultados\nSe encontraron 26 especies distribuidas  en 4 familias del orden Artiodactyla y 1 del orden Perissodactyla, pertenecientes a la clase Mammalia, la familia Bovidae siendo la más abundante con 21 especies de 26 registradas. La especies más abundante fue el hipopótamo, Hipopotamus amphibius con 28 observaciones, seguido de el antílope de Lechwe, Kobus leche, con 13 observaciones (Figura 1)\n\nFig 2. Abundacia relativa de mamíferos africanos en el juego de datos importado y procesado con Tidyverse en el curso de Ecología de Poblaciones y Comunidades, 2026."
   },
   {
-    "objectID": "tidydata.html#conclusiones",
-    "href": "tidydata.html#conclusiones",
-    "title": "️Manejo de datos con tidyvess",
+    "objectID": "tidyverse.html#conclusiones",
+    "href": "tidyverse.html#conclusiones",
+    "title": "Manejo de datos con Tidyverse",
     "section": "Conclusiones",
     "text": "Conclusiones\nEn esta práctica se aprendieron las bases de la importancia y manejo de datos en Tidyverse; sin embargo, se necesita mucha más práctica para dominar la gran cantidad de funciones que se incluyen en este conjunto de paquetes. La versatilidad que ofrece el universo de paquetes de Tidyversepermite utilizar este proceso en cualquier tipo de juego de datos, por lo que es una herramienta muy valiosa para los ecólogos."
   }

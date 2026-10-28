@@ -1,9 +1,8 @@
 ---
-title: "️Manejo de datos con tidyvess"
+title: "Manejo de datos con Tidyverse"
 author: "Dorene González"
-format: html
 editor: visual
-bibliography: references.bib
+format: html
 ---
 
 ## Introducción
@@ -29,3 +28,5 @@ Fig 2. Abundacia relativa de mamíferos africanos en el juego de datos importado
 ## Conclusiones
 
 En esta práctica se aprendieron las bases de la importancia y manejo de datos en Tidyverse; sin embargo, se necesita mucha más práctica para dominar la gran cantidad de funciones que se incluyen en este conjunto de paquetes. La versatilidad que ofrece el universo de paquetes de Tidyversepermite utilizar este proceso en cualquier tipo de juego de datos, por lo que es una herramienta muy valiosa para los ecólogos.
+
+## 

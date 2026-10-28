@@ -25,7 +25,7 @@ En esta práctica se documentará la creación de una biblioteca bibliográfica 
 
 En esta práctica se documentará la importación y el manejo de datos con el paquete Tidyverse en RStudio.
 
-[Ver práctica →](tidydata.qmd)
+[Ver práctica →](tidyverse.qmd)
 :::
 
 ::: portfolio-item
