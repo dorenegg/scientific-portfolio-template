@@ -21,7 +21,7 @@ En esta práctica se documentará la creación de una biblioteca bibliográfica 
 :::
 
 ::: portfolio-item
-### 🗂️Manejo de datos con tidyverss
+### 🗂️Manejo de datos con tidyvers
 
 En esta práctica se documentará la importación y el manejo de datos con el paquete Tidyverse en RStudio.
 
