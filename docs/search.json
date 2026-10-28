@@ -77,228 +77,60 @@
     "text": "Conclusiones"
   },
   {
-    "objectID": "práctica-ejemplo.html",
-    "href": "práctica-ejemplo.html",
-    "title": "Práctica 1. Creación de sitio web",
-    "section": "",
-    "text": "Creación de un sitio web personalizado."
-  },
-  {
-    "objectID": "práctica-ejemplo.html#objetivo",
-    "href": "práctica-ejemplo.html#objetivo",
-    "title": "Práctica 1. Creación de sitio web",
-    "section": "",
-    "text": "Creación de un sitio web personalizado."
-  },
-  {
-    "objectID": "práctica-ejemplo.html#materiales-y-herramientas",
-    "href": "práctica-ejemplo.html#materiales-y-herramientas",
-    "title": "Práctica 1. Creación de sitio web",
-    "section": "Materiales y herramientas",
-    "text": "Materiales y herramientas\n\nRStudio\nQuarto\nGit\nGitHub"
-  },
-  {
-    "objectID": "práctica-ejemplo.html#procedimiento",
-    "href": "práctica-ejemplo.html#procedimiento",
-    "title": "Práctica 1. Creación de sitio web",
-    "section": "Procedimiento",
-    "text": "Procedimiento\nExplique de forma ordenada los pasos realizados durante la práctica.\n\nCreación del repositorio con Template Repository\nIngresar a Scientific Portfolio Template en GitHub\nSeleccionar “Use this template” y seleccionar su cuenta como propietario\nAsignar nombre y crear el repositorio\nClonar repositorio en RStudio\nEn RStudio crear un proyecto tipo Version Control - Git\nPegar URL del repositorio creado en RStudio\nSeleccionar carpeta de destino y crear proyecto\nEstructura del proyecto\nIdentificar los principales componentes del sitio web:\n\n_quarto-yml: formato del texto y composición del la página web\nindex.qmd: información preliminar de los contenidos, introducción a la página y herramientas y afiliación\nabout.qmd: información a cerca del creado de la página web\nportfolio.qdm: sección del protafolio en donde se incorporan las prácticas realizadas\npráctica-ejemplo.qdm: guía sobre el formato a seguir para el reporte de lo realizado durante las prácticas\nstyles.css: estilo de las letras utilizadas\ncarpeta images: imágenes utilizadas en la página\ncarpeta docs: archivos salida de las secciones de la página web\n\nRenderizar\nEn la terminal del RStudio ejecutar “quarto render”\nExplorar el sitio web\nNavegar por las pestañas:\nInicio, Perfil, Portafolio, Práctica de ejemplo\nObservar estructura\nPersonalizar imágenes\nRemplazar imágenes en la respectiva carpeta\nVerificar que el formato del archivo coincida con el establecido en el “.qmd”\nEjecutar “quarto render”\nVerificar las imágenes en el sitio web\nPersonalizar perfil profesional\nEditar archivo about.qmd:\nnombre, correo electrónico, GitHub, ORCID, LinkedIn, biografía, áreas de interés, habilidades y formación académica\nRenderizar y revisar que se haya actualizado en “Perfil”\nPersonalizar portada\nEditar archivo index.qmd:\nnombre, carrera, última actualización\nExplorar portafolio\nIdentificar en el archivo portfolio.qdm:\npráctica ejemplo, prácticas futuras, organización general de portafolio\nAbrir práctica-ejemplo.qdm y observar el formato\nConfigurar GitHub Pages\nLa primera publicación del portafolio se realiza en GitHub\n\nEjecute “quarto render” para actualizar “docs”\nSeleccionar en el repositorio Settings - Code and automation-Pages-Build and deployment-Source-Deploy from branch-main\nEn el menu de carpeta seleccionar “/docs” - Save\n\nGuardar y enviar cambios desde la pestaña Git de RStudio\nEjecutar “quarto render”\nAbrir pestaña Git\nRevisar lista de archivo modificados\nMarcar “Staged” de todos los archivos\nIncluir según los cambios\nClic en Commit, en el mensaje escribir algo representativo del cambio\nNuevamente Commit, cerrar cuando indique que fue creado correctamente\nEn la misma ventana selccionar Push, esperar a ser enviados\nVerificar sitio\nEn el repositorio GitHub\nSettings-Pages-Visit site\nComprobar secciones\n\nCrear y clonar repositorio\nPersonalizar portada y perfil\nSustituir imágenes\nRenderizar sin errores\nConfigurar GitHub Pages\nRealizar Commit y Push\nPublicación del sitio web"
-  },
-  {
-    "objectID": "práctica-ejemplo.html#resultados",
-    "href": "práctica-ejemplo.html#resultados",
-    "title": "Práctica 1. Creación de sitio web",
-    "section": "Resultados",
-    "text": "Resultados\nCreación y perzonalización exitosa de un sitio web"
-  },
-  {
-    "objectID": "práctica-ejemplo.html#figuras-y-tablas",
-    "href": "práctica-ejemplo.html#figuras-y-tablas",
-    "title": "Práctica 1. Creación de sitio web",
-    "section": "Figuras y tablas",
-    "text": "Figuras y tablas\n\n\n\nFigura 1. Imagen del sitio web personalizado."
-  },
-  {
-    "objectID": "práctica-ejemplo.html#reflexión-final",
-    "href": "práctica-ejemplo.html#reflexión-final",
-    "title": "Práctica 1. Creación de sitio web",
-    "section": "Reflexión final",
-    "text": "Reflexión final\nEn esta práctica se aprendió a cómo realizar una personalización de una plantilla de un sitio web, además de cómo mantenerla actualizada y respaldada tanto en línea como en la memoria del la computadora. En ocasiones editar la página puede ser un poco confuso si no se sabe muy bien donde se ubican los códigos o si se olvidad de realizar las actualizaciones periódicamente mientras se trabaja. Esta herramienta resultará muy útil para proyectos los cuales se requiere de exposición en línea, siendo una manera sencilla de divulgar información o darse a conocer."
-  },
-  {
-    "objectID": "nicho.html",
-    "href": "nicho.html",
-    "title": "Nicho bidimensional",
-    "section": "",
-    "text": "Se procesaron y analizaron datos de ocurrencia de especies de anfibios en Costa Rica utilizando capas ráster ambientales (clima, elevación y huella humana) para evaluar su nicho ecológico y distribución espacial."
-  },
-  {
-    "objectID": "nicho.html#introducción",
-    "href": "nicho.html#introducción",
-    "title": "Nicho bidimensional",
-    "section": "",
-    "text": "Se procesaron y analizaron datos de ocurrencia de especies de anfibios en Costa Rica utilizando capas ráster ambientales (clima, elevación y huella humana) para evaluar su nicho ecológico y distribución espacial."
-  },
-  {
-    "objectID": "nicho.html#objetivo",
-    "href": "nicho.html#objetivo",
-    "title": "Nicho bidimensional",
+    "objectID": "spatial_distribution.html#objetivo",
+    "href": "spatial_distribution.html#objetivo",
+    "title": "Distribución espacial",
     "section": "Objetivo",
-    "text": "Objetivo\nCaracterizar el espacio ambiental bidimensional que ocupan las especies en función de gradientes térmicos, de precipitación, altitudinales y de intervención antrópica.\nVisualizar la relación entre los puntos de presencia y la disponibilidad ambiental de referencia (background) del territorio nacional."
+    "text": "Objetivo"
   },
   {
-    "objectID": "nicho.html#metodología",
-    "href": "nicho.html#metodología",
-    "title": "Nicho bidimensional",
+    "objectID": "spatial_distribution.html#metodología",
+    "href": "spatial_distribution.html#metodología",
+    "title": "Distribución espacial",
     "section": "Metodología",
-    "text": "Metodología\nSe cargaron los registros de ocurrencias y capas espaciales. Luego se homologaron las resoluciones, extensiones y proyecciones de los mapas ráster mediante recorte y remuestreo. A estas de les extrajeron los valores de las variables ambientales para cada punto de ocurrencia. Y se generaron gráficos de dispersión bivariados."
+    "text": "Metodología"
   },
   {
-    "objectID": "nicho.html#resultados",
-    "href": "nicho.html#resultados",
-    "title": "Nicho bidimensional",
+    "objectID": "spatial_distribution.html#resultados",
+    "href": "spatial_distribution.html#resultados",
+    "title": "Distribución espacial",
     "section": "Resultados",
-    "text": "Resultados\nUno de los gráficos generados evidencia de manera directa el impacto severos de procesos históricos de declive (típicamente asociados en la región a factores como el hongo quitridio y cambios ambientales), mostrando cómo la especie desapareció de la mayor parte de su rango altitudinal original. Además, a concentración exclusiva de los registros posteriores al año 2000 en el extremo inferior de elevación y baja perturbación sugiere la existencia de un refugio ambiental o climático donde las poblaciones sobrevivientes han logrado persistir\n\nFig 1.  Distribución altitudinal de Craugastor ranoides con respecto a Índice de impacto Humano."
+    "text": "Resultados"
   },
   {
-    "objectID": "nicho.html#interpretación",
-    "href": "nicho.html#interpretación",
-    "title": "Nicho bidimensional",
+    "objectID": "spatial_distribution.html#interpretación",
+    "href": "spatial_distribution.html#interpretación",
+    "title": "Distribución espacial",
     "section": "Interpretación",
-    "text": "Interpretación\nEl gráfico de dispersión bivariados permite contrastar el espacio ambiental disponible frente al espacio efectivamente ocupado en distintos momentos temporales, facilitando la evaluación de la vulnerabilidad de la especie ante la combinación de presiones humanas y factores topográficos."
+    "text": "Interpretación"
   },
   {
-    "objectID": "nicho.html#conclusiones",
-    "href": "nicho.html#conclusiones",
-    "title": "Nicho bidimensional",
+    "objectID": "spatial_distribution.html#conclusiones",
+    "href": "spatial_distribution.html#conclusiones",
+    "title": "Distribución espacial",
     "section": "Conclusiones",
-    "text": "Conclusiones\nEs de gran importancia la gestión y depuración de las incompatibilidades geométricas entre las capas ráster (resoluciones y extensiones distintas), ya que se requiere de algunos ajustes precisos para evitar errores en la extracción de datos.\nEsta metodología se puede utilizar para evaluar la vulnerabilidad de especies ante el cambio climático, modelar pérdida de hábitat por presión humana y priorizar áreas para la conservación o restauración de corredores biológicos."
+    "text": "Conclusiones"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Inicio",
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portafolio académico",
     "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
+    "text": "En esta sección se documentan las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nCada práctica constituye una evidencia del aprendizaje adquirido durante el semestre y forma parte de mi portafolio profesional."
   },
   {
-    "objectID": "index.html#estudiante-de-bachillerato-en-biología-tropical",
-    "href": "index.html#estudiante-de-bachillerato-en-biología-tropical",
-    "title": "Inicio",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
+    "objectID": "portfolio.html#prácticas-de-laboratorio",
+    "href": "portfolio.html#prácticas-de-laboratorio",
+    "title": "Portafolio académico",
+    "section": "Prácticas de laboratorio",
+    "text": "Prácticas de laboratorio\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️Manejo de datos con tidyverss\nEn esta práctica se documentará la importación y el manejo de datos con el paquete Tidyverse en RStudio.\nVer práctica →\n\n\n🔎 Descarga de Ocurrencias\nDescarga de ocurrencias de iNaturalist y GBIF en RStudio\nVer práctica →\n\n\n💀 Generación de tablas de vida\nElaboración de tablas de vida a partir de datos de nacimiento y mortalidad\nVer práctica →\n\n\n🗾Mapeo de áreas administrativas y zonas de vida\nProyección de ocurrencias en capas geográficas\nVer práctica →\n\n\n🏞️Nicho bidimensional\nCaracterizar el espacio ambiental bidimensional que ocupan las especies de estudio\nVer práctica →\n\n\n📍Distribución espacial\nDESCRIPCION\nVer práctica →\n\n\n🧮 Estimación de densidad por Kernel (KDE)\nDESCRIPCION\nVer práctica →\n\n\n🏳️‍🌈 Diversidad\nDESCRIPCION\nVer práctica →"
   },
   {
-    "objectID": "index.html#bienvenidoa",
-    "href": "index.html#bienvenidoa",
-    "title": "Inicio",
-    "section": "Bienvenido(a)",
-    "text": "Bienvenido(a)\nEste sitio web constituye mi portafolio digital académico, donde documentaré las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nEste portafolio utiliza herramientas de ciencia reproducible como R, Quarto, Git y GitHub, permitiendo organizar y compartir mi trabajo de manera profesional."
-  },
-  {
-    "objectID": "index.html#contenido-del-sitio",
-    "href": "index.html#contenido-del-sitio",
-    "title": "Inicio",
-    "section": "Contenido del sitio",
-    "text": "Contenido del sitio\n\n\nPerfil\nInformación personal, intereses académicos y experiencia.\nIr al perfil →\n\n\nPortafolio\nRegistro de las prácticas, proyectos y productos desarrollados durante el semestre.\nVer el portafolio →\n\n\n\n\nLa ciencia solo adquiere valor cuando puede ser comunicada y reproducida."
-  },
-  {
-    "objectID": "index.html#herramientas-y-afiliación",
-    "href": "index.html#herramientas-y-afiliación",
-    "title": "Inicio",
-    "section": "Herramientas y afiliación",
-    "text": "Herramientas y afiliación\nEste portafolio fue desarrollado con herramientas de ciencia reproducible.\n\n\n\n\n\nÚltima actualización: 28 de Octubre 2026"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Perfil",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
-  },
-  {
-    "objectID": "about.html#estudiante-de-bachillerato-en-biología-tropical",
-    "href": "about.html#estudiante-de-bachillerato-en-biología-tropical",
-    "title": "Perfil",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
-  },
-  {
-    "objectID": "about.html#biografía",
-    "href": "about.html#biografía",
-    "title": "Perfil",
-    "section": "Biografía",
-    "text": "Biografía\nEstudiante avanzada de Biología Tropical con experiencia en trabajo de laboratorio e investigación de campo. Con alta motivación y afinidad por ambientes de aprendizaje prácticos. Tengo especial interés por comprender cómo las actividades antropogénicas impactan la dinámica natural de los ecosistemas, especialmente en entornos urbanos. Mis metas profesionales están vinculadas con la colaboración multidisciplinaria en proyectos que contribuyan al desarrollo de soluciones ambientalmente sostenibles que permitan la restauración de los ecosistemas en entornos altamente urbanizados, especialmente enfocados en la correcta gestión de residuos. Además, presento un gran deseo de trabajar a mano con las comunidades en la educación ambiental y sensibilización al impacto que tienen nuestras actividades cotidianas en el ambiente."
-  },
-  {
-    "objectID": "about.html#áreas-de-interés",
-    "href": "about.html#áreas-de-interés",
-    "title": "Perfil",
-    "section": "Áreas de interés",
-    "text": "Áreas de interés\n\nEcología\nConservación\nEcotoxicología\nMicroalgas\nCalidad de aguas"
-  },
-  {
-    "objectID": "about.html#habilidades",
-    "href": "about.html#habilidades",
-    "title": "Perfil",
-    "section": "Habilidades",
-    "text": "Habilidades\n\nR\nGit y GitHub\nQGIS\nMicrosoft Office"
-  },
-  {
-    "objectID": "about.html#formación-académica",
-    "href": "about.html#formación-académica",
-    "title": "Perfil",
-    "section": "Formación académica",
-    "text": "Formación académica\nUniversidad Nacional (UNA)\nBachillerato en Biología con énfasis en Biología Tropical\n2022 – Presente\nMuseo Nacional de Costa Rica\nEntomología Basica\nJulio 2026\nUniversity of Veterinary Medicine Hannover (TiHo)\nTropical Wildlife Biology Course - Costa Rica\nMarzo-Abril 2026\nUniversidad de Costa Rica\nAspectos Básicos de la Biología y Bioquímica del Cáncer\nEnero-Marzo 2026"
-  },
-  {
-    "objectID": "descarga_ocurrencias.html",
-    "href": "descarga_ocurrencias.html",
-    "title": "Descarga de Ocurrencias",
-    "section": "",
-    "text": "Se realizará la obtención de ocurrencias de alguna especies de interés a través de la descarga de registros en diferentes bases de datos de acceso libre en donde se almacenan registros de especies a nivel mundial, como GBIF y iNaturalist."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#introducción",
-    "href": "descarga_ocurrencias.html#introducción",
-    "title": "Descarga de Ocurrencias",
-    "section": "",
-    "text": "Se realizará la obtención de ocurrencias de alguna especies de interés a través de la descarga de registros en diferentes bases de datos de acceso libre en donde se almacenan registros de especies a nivel mundial, como GBIF y iNaturalist."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#objetivo",
-    "href": "descarga_ocurrencias.html#objetivo",
-    "title": "Descarga de Ocurrencias",
-    "section": "Objetivo",
-    "text": "Objetivo\nDescargar ocurrencias de una especies de interés de bases de datos de acceso público a través de los paquetes de R “gbif” y “rinat” , para lograr la obtención de una base de datos unificada con los registros de la especie."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#metodología",
-    "href": "descarga_ocurrencias.html#metodología",
-    "title": "Descarga de Ocurrencias",
-    "section": "Metodología",
-    "text": "Metodología\nUtilizando los paquetes de R “gbif” v 3.8.5 [@rgbif] y “rinat” v 0.1.10 [@rinat]se realizó la descarga de todas la ocurrencia disponibles de la especie de interés.\nPosteriormente se procedió a limpiar las bases de datos de cada repositorio. Se eliminaron todas aquellas variables que no se encontraban en el área de estudio y se estandarizaron para poder unificar ambas bases obtenidas. Luego, se eliminaron todos aquellos datos que presentaron coordenadas inválidas, ceros, latitud-longitud iguales, centroides administrativos y coordenadas oscurecidas."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#resultados",
-    "href": "descarga_ocurrencias.html#resultados",
-    "title": "Descarga de Ocurrencias",
-    "section": "Resultados",
-    "text": "Resultados\nSe obtuvo una base de datos unificada conteniendo la ocurrencias obtenidas de ambos repositorios\nFig 1. Base de datos unificada y limpiada con las ocurrencias provenientes de GBIF y iNaturalist."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#interpretación",
-    "href": "descarga_ocurrencias.html#interpretación",
-    "title": "Descarga de Ocurrencias",
-    "section": "Interpretación",
-    "text": "Interpretación\nLa limpieza de las ocurrencias nos permite garantizar una mayor confiabilidad de los datos obtenidos, permitiendo la elaboración de análisis estadísticos más confiables."
-  },
-  {
-    "objectID": "descarga_ocurrencias.html#conclusiones",
-    "href": "descarga_ocurrencias.html#conclusiones",
-    "title": "Descarga de Ocurrencias",
-    "section": "Conclusiones",
-    "text": "Conclusiones\nLa influencia del sesgo observacional es difícil de remover, por lo que el análisis de distribución debe de realizarse con mucho cuidado, una mayor concentración de observaciones no necesariamente implica una mayor abundancia o ausencia en regiones en donde no las hay. Para reducir este efecto se han diseñado diferentes metodologías, como es la calibración de los puntos. A pesar de esto, estos datos siguen siendo herramientas de gran utilidad que facilitan la realización de estudios científicos sobre una gran variedad de organismos."
+    "objectID": "portfolio.html#objetivo-del-portafolio",
+    "href": "portfolio.html#objetivo-del-portafolio",
+    "title": "Portafolio académico",
+    "section": "Objetivo del portafolio",
+    "text": "Objetivo del portafolio\nMás que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.\nAl finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica."
   },
   {
     "objectID": "mapeo_zonas_vida.html",
@@ -350,25 +182,298 @@
     "text": "Conclusiones\nProyectar la distribución de especies sobre límites políticos es una herramienta clave para la planificación territorial, el diseño de políticas públicas de conservación y la toma de decisiones administrativas locales. Sin embargo, su interpretación exige cautela: las divisiones políticas no reflejan las barreras ecológicas del hábitat ni los límites naturales de las poblaciones. Asimismo, el sesgo de muestreo concentrado en ciertos cantones puede distorsionar la percepción de la presencia real de la especie, por lo que este tipo de cartografía debe complementarse siempre con variables ambientales y modelos de nicho ecológico."
   },
   {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portafolio académico",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Inicio",
     "section": "",
-    "text": "En esta sección se documentan las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nCada práctica constituye una evidencia del aprendizaje adquirido durante el semestre y forma parte de mi portafolio profesional."
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
   },
   {
-    "objectID": "portfolio.html#prácticas-de-laboratorio",
-    "href": "portfolio.html#prácticas-de-laboratorio",
-    "title": "Portafolio académico",
-    "section": "Prácticas de laboratorio",
-    "text": "Prácticas de laboratorio\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️Manejo de datos con tidyverss\nEn esta práctica se documentará la importación y el manejo de datos con el paquete Tidyverse en RStudio.\nVer práctica →\n\n\n🔎 Descarga de Ocurrencias\nDescarga de ocurrencias con los paquetes rgbif y rinat\nVer práctica →\n\n\n\n💀 Generación de tablas de vida\nElaboración de tablas de vida a partir de datos de nacimiento y mortalidad\nVer práctica →\n\n\n\n🗾Mapeo de áreas administrativas y zonas de vida\nProyección de ocurrencias en capas geográficas\nVer práctica →\n\n\n\n🏞️Nicho bidimensional\nCaracterizar el espacio ambiental bidimensional que ocupan las especies\nVer práctica →\n\n\n\nDistribución espacial\nProyección de ocurrencias en capas geográficas\nVer práctica →"
+    "objectID": "index.html#estudiante-de-bachillerato-en-biología-tropical",
+    "href": "index.html#estudiante-de-bachillerato-en-biología-tropical",
+    "title": "Inicio",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
   },
   {
-    "objectID": "portfolio.html#objetivo-del-portafolio",
-    "href": "portfolio.html#objetivo-del-portafolio",
-    "title": "Portafolio académico",
-    "section": "Objetivo del portafolio",
-    "text": "Objetivo del portafolio\nMás que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.\nAl finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica."
+    "objectID": "index.html#bienvenidoa",
+    "href": "index.html#bienvenidoa",
+    "title": "Inicio",
+    "section": "Bienvenido(a)",
+    "text": "Bienvenido(a)\nEste sitio web constituye mi portafolio digital académico, donde documentaré las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nEste portafolio utiliza herramientas de ciencia reproducible como R, Quarto, Git y GitHub, permitiendo organizar y compartir mi trabajo de manera profesional."
+  },
+  {
+    "objectID": "index.html#contenido-del-sitio",
+    "href": "index.html#contenido-del-sitio",
+    "title": "Inicio",
+    "section": "Contenido del sitio",
+    "text": "Contenido del sitio\n\n\nPerfil\nInformación personal, intereses académicos y experiencia.\nIr al perfil →\n\n\nPortafolio\nRegistro de las prácticas, proyectos y productos desarrollados durante el semestre.\nVer el portafolio →\n\n\n\n\nLa ciencia solo adquiere valor cuando puede ser comunicada y reproducida."
+  },
+  {
+    "objectID": "index.html#herramientas-y-afiliación",
+    "href": "index.html#herramientas-y-afiliación",
+    "title": "Inicio",
+    "section": "Herramientas y afiliación",
+    "text": "Herramientas y afiliación\nEste portafolio fue desarrollado con herramientas de ciencia reproducible.\n\n\n\n\n\nÚltima actualización: 28 de Octubre 2026"
+  },
+  {
+    "objectID": "descarga_ocurrencias.html",
+    "href": "descarga_ocurrencias.html",
+    "title": "Descarga de Ocurrencias",
+    "section": "",
+    "text": "Se realizó la obtención de ocurrencias de una especie de interés a través de la descarga de registros en diferentes bases de datos de acceso libre en donde se almacenan registros de especies a nivel mundial, como GBIF y iNaturalist."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#introducción",
+    "href": "descarga_ocurrencias.html#introducción",
+    "title": "Descarga de Ocurrencias",
+    "section": "",
+    "text": "Se realizó la obtención de ocurrencias de una especie de interés a través de la descarga de registros en diferentes bases de datos de acceso libre en donde se almacenan registros de especies a nivel mundial, como GBIF y iNaturalist."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#objetivo",
+    "href": "descarga_ocurrencias.html#objetivo",
+    "title": "Descarga de Ocurrencias",
+    "section": "Objetivo",
+    "text": "Objetivo\nEl objetivo de la práctiva fue aprender el proceso de descarga de ocurrencias desde una API y su posterior limpieza para la obtención de una base datos unificada con los registros una especie de interés de GBIF y iNaturalist utilizando los paquetes de R “gbif” y “rinat” ."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#metodología",
+    "href": "descarga_ocurrencias.html#metodología",
+    "title": "Descarga de Ocurrencias",
+    "section": "Metodología",
+    "text": "Metodología\nUtilizando los paquetes de R “gbif” v 3.8.5 [@rgbif] y “rinat” v 0.1.10 [@rinat]se realizó la descarga de todas la ocurrencia disponibles de la especie de interés.\nPosteriormente se procedió a limpiar las bases de datos de cada repositorio. Se eliminaron todas aquellas variables que no se encontraban en el área de estudio y se estandarizaron para poder unificar ambas bases obtenidas. Luego, se eliminaron todos aquellos datos que presentaron coordenadas inválidas, ceros, latitud-longitud iguales, centroides administrativos y coordenadas oscurecidas."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#resultados",
+    "href": "descarga_ocurrencias.html#resultados",
+    "title": "Descarga de Ocurrencias",
+    "section": "Resultados",
+    "text": "Resultados\n\nFig 1. Mapa de Costa Rica mostrando las ocurrencias de la especie Craugastor fitzingeri a partir de los datos descargados desde las API de GBIF y iNaturalist en el curso de Ecología de Poblaciones y Comunidades, 2026"
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#interpretación",
+    "href": "descarga_ocurrencias.html#interpretación",
+    "title": "Descarga de Ocurrencias",
+    "section": "Interpretación",
+    "text": "Interpretación\nLa limpieza de las ocurrencias nos permite garantizar una mayor confiabilidad de los datos obtenidos, permitiendo la elaboración de análisis estadísticos más confiables."
+  },
+  {
+    "objectID": "descarga_ocurrencias.html#conclusiones",
+    "href": "descarga_ocurrencias.html#conclusiones",
+    "title": "Descarga de Ocurrencias",
+    "section": "Conclusiones",
+    "text": "Conclusiones\nLa influencia del sesgo observacional es difícil de remover, por lo que el análisis de distribución debe de realizarse con mucho cuidado, una mayor concentración de observaciones no necesariamente implica una mayor abundancia o ausencia en regiones en donde no las hay. Para reducir este efecto se han diseñado diferentes metodologías, como es la calibración de los puntos. A pesar de esto, estos datos siguen siendo herramientas de gran utilidad que facilitan la realización de estudios científicos sobre una gran variedad de organismos."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Perfil",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
+  },
+  {
+    "objectID": "about.html#estudiante-de-bachillerato-en-biología-tropical",
+    "href": "about.html#estudiante-de-bachillerato-en-biología-tropical",
+    "title": "Perfil",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
+  },
+  {
+    "objectID": "about.html#biografía",
+    "href": "about.html#biografía",
+    "title": "Perfil",
+    "section": "Biografía",
+    "text": "Biografía\nEstudiante avanzada de Biología Tropical con experiencia en trabajo de laboratorio e investigación de campo. Con alta motivación y afinidad por ambientes de aprendizaje prácticos. Tengo especial interés por comprender cómo las actividades antropogénicas impactan la dinámica natural de los ecosistemas, especialmente en entornos urbanos. Mis metas profesionales están vinculadas con la colaboración multidisciplinaria en proyectos que contribuyan al desarrollo de soluciones ambientalmente sostenibles que permitan la restauración de los ecosistemas en entornos altamente urbanizados, especialmente enfocados en la correcta gestión de residuos. Además, presento un gran deseo de trabajar a mano con las comunidades en la educación ambiental y sensibilización al impacto que tienen nuestras actividades cotidianas en el ambiente."
+  },
+  {
+    "objectID": "about.html#áreas-de-interés",
+    "href": "about.html#áreas-de-interés",
+    "title": "Perfil",
+    "section": "Áreas de interés",
+    "text": "Áreas de interés\n\nEcología\nConservación\nEcotoxicología\nMicroalgas\nCalidad de aguas"
+  },
+  {
+    "objectID": "about.html#habilidades",
+    "href": "about.html#habilidades",
+    "title": "Perfil",
+    "section": "Habilidades",
+    "text": "Habilidades\n\nR\nGit y GitHub\nQGIS\nMicrosoft Office"
+  },
+  {
+    "objectID": "about.html#formación-académica",
+    "href": "about.html#formación-académica",
+    "title": "Perfil",
+    "section": "Formación académica",
+    "text": "Formación académica\nUniversidad Nacional (UNA)\nBachillerato en Biología con énfasis en Biología Tropical\n2022 – Presente\nMuseo Nacional de Costa Rica\nEntomología Basica\nJulio 2026\nUniversity of Veterinary Medicine Hannover (TiHo)\nTropical Wildlife Biology Course - Costa Rica\nMarzo-Abril 2026\nUniversidad de Costa Rica\nAspectos Básicos de la Biología y Bioquímica del Cáncer\nEnero-Marzo 2026"
+  },
+  {
+    "objectID": "diversidad.html#objetivo",
+    "href": "diversidad.html#objetivo",
+    "title": "Diversidad",
+    "section": "Objetivo",
+    "text": "Objetivo"
+  },
+  {
+    "objectID": "diversidad.html#metodología",
+    "href": "diversidad.html#metodología",
+    "title": "Diversidad",
+    "section": "Metodología",
+    "text": "Metodología"
+  },
+  {
+    "objectID": "diversidad.html#resultados",
+    "href": "diversidad.html#resultados",
+    "title": "Diversidad",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "diversidad.html#interpretación",
+    "href": "diversidad.html#interpretación",
+    "title": "Diversidad",
+    "section": "Interpretación",
+    "text": "Interpretación"
+  },
+  {
+    "objectID": "diversidad.html#conclusiones",
+    "href": "diversidad.html#conclusiones",
+    "title": "Diversidad",
+    "section": "Conclusiones",
+    "text": "Conclusiones"
+  },
+  {
+    "objectID": "kde.html#objetivo",
+    "href": "kde.html#objetivo",
+    "title": "template",
+    "section": "Objetivo",
+    "text": "Objetivo"
+  },
+  {
+    "objectID": "kde.html#metodología",
+    "href": "kde.html#metodología",
+    "title": "template",
+    "section": "Metodología",
+    "text": "Metodología"
+  },
+  {
+    "objectID": "kde.html#resultados",
+    "href": "kde.html#resultados",
+    "title": "template",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "kde.html#interpretación",
+    "href": "kde.html#interpretación",
+    "title": "template",
+    "section": "Interpretación",
+    "text": "Interpretación"
+  },
+  {
+    "objectID": "kde.html#conclusiones",
+    "href": "kde.html#conclusiones",
+    "title": "template",
+    "section": "Conclusiones",
+    "text": "Conclusiones"
+  },
+  {
+    "objectID": "nicho.html",
+    "href": "nicho.html",
+    "title": "Nicho bidimensional",
+    "section": "",
+    "text": "Se procesaron y analizaron datos de ocurrencia de especies de anfibios en Costa Rica utilizando capas ráster ambientales (clima, elevación y huella humana) para evaluar su nicho ecológico y distribución espacial."
+  },
+  {
+    "objectID": "nicho.html#introducción",
+    "href": "nicho.html#introducción",
+    "title": "Nicho bidimensional",
+    "section": "",
+    "text": "Se procesaron y analizaron datos de ocurrencia de especies de anfibios en Costa Rica utilizando capas ráster ambientales (clima, elevación y huella humana) para evaluar su nicho ecológico y distribución espacial."
+  },
+  {
+    "objectID": "nicho.html#objetivo",
+    "href": "nicho.html#objetivo",
+    "title": "Nicho bidimensional",
+    "section": "Objetivo",
+    "text": "Objetivo\nCaracterizar el espacio ambiental bidimensional que ocupan las especies en función de gradientes térmicos, de precipitación, altitudinales y de intervención antrópica.\nVisualizar la relación entre los puntos de presencia y la disponibilidad ambiental de referencia (background) del territorio nacional."
+  },
+  {
+    "objectID": "nicho.html#metodología",
+    "href": "nicho.html#metodología",
+    "title": "Nicho bidimensional",
+    "section": "Metodología",
+    "text": "Metodología\nSe cargaron los registros de ocurrencias y capas espaciales. Luego se homologaron las resoluciones, extensiones y proyecciones de los mapas ráster mediante recorte y remuestreo. A estas de les extrajeron los valores de las variables ambientales para cada punto de ocurrencia. Y se generaron gráficos de dispersión bivariados."
+  },
+  {
+    "objectID": "nicho.html#resultados",
+    "href": "nicho.html#resultados",
+    "title": "Nicho bidimensional",
+    "section": "Resultados",
+    "text": "Resultados\nUno de los gráficos generados evidencia de manera directa el impacto severos de procesos históricos de declive (típicamente asociados en la región a factores como el hongo quitridio y cambios ambientales), mostrando cómo la especie desapareció de la mayor parte de su rango altitudinal original. Además, a concentración exclusiva de los registros posteriores al año 2000 en el extremo inferior de elevación y baja perturbación sugiere la existencia de un refugio ambiental o climático donde las poblaciones sobrevivientes han logrado persistir\n\nFig 1.  Distribución altitudinal de Craugastor ranoides con respecto a Índice de impacto Humano."
+  },
+  {
+    "objectID": "nicho.html#interpretación",
+    "href": "nicho.html#interpretación",
+    "title": "Nicho bidimensional",
+    "section": "Interpretación",
+    "text": "Interpretación\nEl gráfico de dispersión bivariados permite contrastar el espacio ambiental disponible frente al espacio efectivamente ocupado en distintos momentos temporales, facilitando la evaluación de la vulnerabilidad de la especie ante la combinación de presiones humanas y factores topográficos."
+  },
+  {
+    "objectID": "nicho.html#conclusiones",
+    "href": "nicho.html#conclusiones",
+    "title": "Nicho bidimensional",
+    "section": "Conclusiones",
+    "text": "Conclusiones\nEs de gran importancia la gestión y depuración de las incompatibilidades geométricas entre las capas ráster (resoluciones y extensiones distintas), ya que se requiere de algunos ajustes precisos para evitar errores en la extracción de datos.\nEsta metodología se puede utilizar para evaluar la vulnerabilidad de especies ante el cambio climático, modelar pérdida de hábitat por presión humana y priorizar áreas para la conservación o restauración de corredores biológicos."
+  },
+  {
+    "objectID": "práctica-ejemplo.html",
+    "href": "práctica-ejemplo.html",
+    "title": "Práctica 1. Creación de sitio web",
+    "section": "",
+    "text": "Creación de un sitio web personalizado."
+  },
+  {
+    "objectID": "práctica-ejemplo.html#objetivo",
+    "href": "práctica-ejemplo.html#objetivo",
+    "title": "Práctica 1. Creación de sitio web",
+    "section": "",
+    "text": "Creación de un sitio web personalizado."
+  },
+  {
+    "objectID": "práctica-ejemplo.html#materiales-y-herramientas",
+    "href": "práctica-ejemplo.html#materiales-y-herramientas",
+    "title": "Práctica 1. Creación de sitio web",
+    "section": "Materiales y herramientas",
+    "text": "Materiales y herramientas\n\nRStudio\nQuarto\nGit\nGitHub"
+  },
+  {
+    "objectID": "práctica-ejemplo.html#procedimiento",
+    "href": "práctica-ejemplo.html#procedimiento",
+    "title": "Práctica 1. Creación de sitio web",
+    "section": "Procedimiento",
+    "text": "Procedimiento\nExplique de forma ordenada los pasos realizados durante la práctica.\n\nCreación del repositorio con Template Repository\nIngresar a Scientific Portfolio Template en GitHub\nSeleccionar “Use this template” y seleccionar su cuenta como propietario\nAsignar nombre y crear el repositorio\nClonar repositorio en RStudio\nEn RStudio crear un proyecto tipo Version Control - Git\nPegar URL del repositorio creado en RStudio\nSeleccionar carpeta de destino y crear proyecto\nEstructura del proyecto\nIdentificar los principales componentes del sitio web:\n\n_quarto-yml: formato del texto y composición del la página web\nindex.qmd: información preliminar de los contenidos, introducción a la página y herramientas y afiliación\nabout.qmd: información a cerca del creado de la página web\nportfolio.qdm: sección del protafolio en donde se incorporan las prácticas realizadas\npráctica-ejemplo.qdm: guía sobre el formato a seguir para el reporte de lo realizado durante las prácticas\nstyles.css: estilo de las letras utilizadas\ncarpeta images: imágenes utilizadas en la página\ncarpeta docs: archivos salida de las secciones de la página web\n\nRenderizar\nEn la terminal del RStudio ejecutar “quarto render”\nExplorar el sitio web\nNavegar por las pestañas:\nInicio, Perfil, Portafolio, Práctica de ejemplo\nObservar estructura\nPersonalizar imágenes\nRemplazar imágenes en la respectiva carpeta\nVerificar que el formato del archivo coincida con el establecido en el “.qmd”\nEjecutar “quarto render”\nVerificar las imágenes en el sitio web\nPersonalizar perfil profesional\nEditar archivo about.qmd:\nnombre, correo electrónico, GitHub, ORCID, LinkedIn, biografía, áreas de interés, habilidades y formación académica\nRenderizar y revisar que se haya actualizado en “Perfil”\nPersonalizar portada\nEditar archivo index.qmd:\nnombre, carrera, última actualización\nExplorar portafolio\nIdentificar en el archivo portfolio.qdm:\npráctica ejemplo, prácticas futuras, organización general de portafolio\nAbrir práctica-ejemplo.qdm y observar el formato\nConfigurar GitHub Pages\nLa primera publicación del portafolio se realiza en GitHub\n\nEjecute “quarto render” para actualizar “docs”\nSeleccionar en el repositorio Settings - Code and automation-Pages-Build and deployment-Source-Deploy from branch-main\nEn el menu de carpeta seleccionar “/docs” - Save\n\nGuardar y enviar cambios desde la pestaña Git de RStudio\nEjecutar “quarto render”\nAbrir pestaña Git\nRevisar lista de archivo modificados\nMarcar “Staged” de todos los archivos\nIncluir según los cambios\nClic en Commit, en el mensaje escribir algo representativo del cambio\nNuevamente Commit, cerrar cuando indique que fue creado correctamente\nEn la misma ventana selccionar Push, esperar a ser enviados\nVerificar sitio\nEn el repositorio GitHub\nSettings-Pages-Visit site\nComprobar secciones\n\nCrear y clonar repositorio\nPersonalizar portada y perfil\nSustituir imágenes\nRenderizar sin errores\nConfigurar GitHub Pages\nRealizar Commit y Push\nPublicación del sitio web"
+  },
+  {
+    "objectID": "práctica-ejemplo.html#resultados",
+    "href": "práctica-ejemplo.html#resultados",
+    "title": "Práctica 1. Creación de sitio web",
+    "section": "Resultados",
+    "text": "Resultados\nCreación y perzonalización exitosa de un sitio web"
+  },
+  {
+    "objectID": "práctica-ejemplo.html#figuras-y-tablas",
+    "href": "práctica-ejemplo.html#figuras-y-tablas",
+    "title": "Práctica 1. Creación de sitio web",
+    "section": "Figuras y tablas",
+    "text": "Figuras y tablas\n\n\n\nFigura 1. Imagen del sitio web personalizado."
+  },
+  {
+    "objectID": "práctica-ejemplo.html#reflexión-final",
+    "href": "práctica-ejemplo.html#reflexión-final",
+    "title": "Práctica 1. Creación de sitio web",
+    "section": "Reflexión final",
+    "text": "Reflexión final\nEn esta práctica se aprendió a cómo realizar una personalización de una plantilla de un sitio web, además de cómo mantenerla actualizada y respaldada tanto en línea como en la memoria del la computadora. En ocasiones editar la página puede ser un poco confuso si no se sabe muy bien donde se ubican los códigos o si se olvidad de realizar las actualizaciones periódicamente mientras se trabaja. Esta herramienta resultará muy útil para proyectos los cuales se requiere de exposición en línea, siendo una manera sencilla de divulgar información o darse a conocer."
   },
   {
     "objectID": "tablas_vida.html",
@@ -455,129 +560,10 @@
     "text": "Resultados\nEl valor mínimo de temperatura se reportó para la estación meteorológica de Ithaca Cornell University con -5.2 °C, ubicada a una altitud de 292.6 m.s.n.m. Y el valor máximo de temperatura fue reportado en la estación de Berkeley de 18.2°C, ubicada a 94.5 m.s.n.m (Figura 1).\nSe encontraron 26 especies distribuidas  en 4 familias del orden Artiodactyla y 1 del orden Perissodactyla, pertenecientes a la clase Mammalia, la familia Bovidae siendo la más abundante con 21 especies de 26 registradas. La especies más abundante fue el hipopótamo, Hipopotamus amphibius con 28 observaciones, seguido de el antílope de Lechwe, Kobus leche, con 14 observaciones (Figura 1)\n\nFig 2. Abundacia relativa de mamíferos africanos en el juego de datos importado y procesado con Tidyverse en el curso de Ecología de Poblaciones y Comunidades, 2026."
   },
   {
-    "objectID": "tidydata.html#interpretación",
-    "href": "tidydata.html#interpretación",
-    "title": "Organización de bases de datos",
-    "section": "Interpretación",
-    "text": "Interpretación\nLas transformación de la base de datos permitió una mejor organización de la información, facilitando la obtención de los registros y su visualización a través de la creación de figuras y tablas."
-  },
-  {
     "objectID": "tidydata.html#conclusiones",
     "href": "tidydata.html#conclusiones",
     "title": "️Manejo de datos con tidyverss",
     "section": "Conclusiones",
     "text": "Conclusiones\nEn esta práctica se aprendieron las bases de la importancia y manejo de datos en Tidyverse; sin embargo, se necesita mucha más práctica para dominar la gran cantidad de funciones que se incluyen en este conjunto de paquetes. La versatilidad que ofrece el universo de paquetes de Tidyversepermite utilizar este proceso en cualquier tipo de juego de datos, por lo que es una herramienta muy valiosa para los ecólogos."
-  },
-  {
-    "objectID": "portfolio.html#section",
-    "href": "portfolio.html#section",
-    "title": "Portafolio académico",
-    "section": "————————————————————————",
-    "text": "————————————————————————\n\nEstimación de densidad por kernel (KDE)\nDescripción\nVer práctica →\n\n———————————————————————— |"
-  },
-  {
-    "objectID": "kde.html#objetivo",
-    "href": "kde.html#objetivo",
-    "title": "template",
-    "section": "Objetivo",
-    "text": "Objetivo"
-  },
-  {
-    "objectID": "kde.html#metodología",
-    "href": "kde.html#metodología",
-    "title": "template",
-    "section": "Metodología",
-    "text": "Metodología"
-  },
-  {
-    "objectID": "kde.html#resultados",
-    "href": "kde.html#resultados",
-    "title": "template",
-    "section": "Resultados",
-    "text": "Resultados"
-  },
-  {
-    "objectID": "kde.html#interpretación",
-    "href": "kde.html#interpretación",
-    "title": "template",
-    "section": "Interpretación",
-    "text": "Interpretación"
-  },
-  {
-    "objectID": "kde.html#conclusiones",
-    "href": "kde.html#conclusiones",
-    "title": "template",
-    "section": "Conclusiones",
-    "text": "Conclusiones"
-  },
-  {
-    "objectID": "diversidad.html#objetivo",
-    "href": "diversidad.html#objetivo",
-    "title": "Diversidad",
-    "section": "Objetivo",
-    "text": "Objetivo"
-  },
-  {
-    "objectID": "diversidad.html#metodología",
-    "href": "diversidad.html#metodología",
-    "title": "Diversidad",
-    "section": "Metodología",
-    "text": "Metodología"
-  },
-  {
-    "objectID": "diversidad.html#resultados",
-    "href": "diversidad.html#resultados",
-    "title": "Diversidad",
-    "section": "Resultados",
-    "text": "Resultados"
-  },
-  {
-    "objectID": "diversidad.html#interpretación",
-    "href": "diversidad.html#interpretación",
-    "title": "Diversidad",
-    "section": "Interpretación",
-    "text": "Interpretación"
-  },
-  {
-    "objectID": "diversidad.html#conclusiones",
-    "href": "diversidad.html#conclusiones",
-    "title": "Diversidad",
-    "section": "Conclusiones",
-    "text": "Conclusiones"
-  },
-  {
-    "objectID": "spatial_distribution.html#objetivo",
-    "href": "spatial_distribution.html#objetivo",
-    "title": "Distribución espacial",
-    "section": "Objetivo",
-    "text": "Objetivo"
-  },
-  {
-    "objectID": "spatial_distribution.html#metodología",
-    "href": "spatial_distribution.html#metodología",
-    "title": "Distribución espacial",
-    "section": "Metodología",
-    "text": "Metodología"
-  },
-  {
-    "objectID": "spatial_distribution.html#resultados",
-    "href": "spatial_distribution.html#resultados",
-    "title": "Distribución espacial",
-    "section": "Resultados",
-    "text": "Resultados"
-  },
-  {
-    "objectID": "spatial_distribution.html#interpretación",
-    "href": "spatial_distribution.html#interpretación",
-    "title": "Distribución espacial",
-    "section": "Interpretación",
-    "text": "Interpretación"
-  },
-  {
-    "objectID": "spatial_distribution.html#conclusiones",
-    "href": "spatial_distribution.html#conclusiones",
-    "title": "Distribución espacial",
-    "section": "Conclusiones",
-    "text": "Conclusiones"
   }
 ]
