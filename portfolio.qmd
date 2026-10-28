@@ -13,14 +13,6 @@ Cada práctica constituye una evidencia del aprendizaje adquirido durante el sem
 ## Prácticas de laboratorio
 
 ::: portfolio-item
-### 📄 Práctica de ejemplo
-
-Introducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.
-
-[Ver práctica →](práctica-ejemplo.qmd)
-:::
-
-::: portfolio-item
 ### 📚 Gestión de referencias bibliográficas con Zotero
 
 En esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.
@@ -29,24 +21,20 @@ En esta práctica se documentará la creación de una biblioteca bibliográfica 
 :::
 
 ::: portfolio-item
-### 🗂️ Organización de bases de datos
+### 🗂️Manejo de datos con tidyverss
 
-Organización y optimización de bases de datos que presenten errores
+En esta práctica se documentará la importación y el manejo de datos con el paquete Tidyverse en RStudio.
 
 [Ver práctica →](tidydata.qmd)
 :::
 
-------------------------------------------------------------------------
-
 ::: portfolio-item
 ### 🔎 Descarga de Ocurrencias
 
-Descarga de ocurrencias con los paquetes rgbif y rinat
+Descarga de ocurrencias de iNaturalist y GBIF en RStudio
 
 [Ver práctica →](descarga_ocurrencias.qmd)
 :::
-
-------------------------------------------------------------------------
 
 ::: portfolio-item
 ### 💀 Generación de tablas de vida
@@ -56,8 +44,6 @@ Elaboración de tablas de vida a partir de datos de nacimiento y mortalidad
 [Ver práctica →](tablas_vida.qmd)
 :::
 
-------------------------------------------------------------------------
-
 ::: portfolio-item
 ### 🗾Mapeo de áreas administrativas y zonas de vida
 
@@ -66,14 +52,36 @@ Proyección de ocurrencias en capas geográficas
 [Ver práctica →](mapeo_zonas_vida.qmd)
 :::
 
-------------------------------------------------------------------------
-
 ::: portfolio-item
 ### 🏞️Nicho bidimensional
 
-Caracterizar el espacio ambiental bidimensional que ocupan las especies
+Caracterizar el espacio ambiental bidimensional que ocupan las especies de estudio
 
 [Ver práctica →](nicho.qmd)
+:::
+
+::: portfolio-item
+### 📍Distribución espacial
+
+DESCRIPCION
+
+[Ver práctica →](spatial_distribution.qmd)
+:::
+
+::: portfolio-item
+### 🧮 Estimación de densidad por Kernel (KDE)
+
+DESCRIPCION
+
+[Ver práctica →](kde.qmd)
+:::
+
+::: portfolio-item
+### 🏳️‍🌈 Diversidad
+
+DESCRIPCION
+
+[Ver práctica →](diversidad.qmd)
 :::
 
 ------------------------------------------------------------------------

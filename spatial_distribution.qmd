@@ -1,0 +1,20 @@
+---
+title: "Distribución espacial"
+author: "Dorene González"
+editor: visual
+format: html
+---
+
+## Introducción
+
+## Objetivo
+
+## Metodología
+
+## Resultados
+
+## Interpretación
+
+## Conclusiones
+
+## 

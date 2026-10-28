@@ -1,5 +1,5 @@
 ---
-title: "Descarga de Ocurrencias"
+title: "Descarga de Ocurrencias "
 author: "Dorene González"
 editor: visual
 format: html
@@ -7,11 +7,11 @@ format: html
 
 ## Introducción
 
-La obtención de ocurrencias de alguna especies de interés se puede realizar a través de la descarga de registros en diferentes bases de datos. Las bases de datos públicas son grandes repositorios de acceso libre en donde se almacenan registros de especies a nivel mundial, algunas como GBIF concentran datos de grado académico los cuales pueden ser utilizados en investigación. Existen otras bases de ciencia ciudadana en donde la población en general puede incluir sus observaciones, sin embargo, puede que presenten errores de identificación por lo que se deben filtrar aquellos datos que sean de grado académico para reducir la probabilidad de errores en los datos.
+Se realizó la obtención de ocurrencias de una especie de interés a través de la descarga de registros en diferentes bases de datos de acceso libre en donde se almacenan registros de especies a nivel mundial, como GBIF y iNaturalist.
 
 ## Objetivo
 
-Descargar ocurrencias de una especies de interés de bases de datos de acceso público a través de los paquetes de R “gbif” y “rinat” , para lograr la obtención de una base de datos unificada con los registros de la especie.
+El objetivo de la práctiva fue aprender el proceso de descarga de ocurrencias desde una API y su posterior limpieza para la obtención de una base datos unificada con los registros una especie de interés de GBIF y iNaturalist utilizando los paquetes de R “gbif” y “rinat” .
 
 ## Metodología
 
@@ -21,9 +21,9 @@ Posteriormente se procedió a limpiar las bases de datos de cada repositorio. Se
 
 ## Resultados
 
-Se obtuvo una base de datos unificada conteniendo la ocurrencias obtenidas de ambos repositorios
+![](images/craugastor_fitzingeri_occurrences.jpg){width="493"}
 
-![](images/base_datos_unificada_occs_n_narica.jpg)Fig 1. Base de datos unificada y limpiada con las ocurrencias provenientes de GBIF y iNaturalist.
+Fig 1. Mapa de Costa Rica mostrando las ocurrencias de la especie *Craugastor fitzingeri* a partir de los datos descargados desde las API de GBIF y iNaturalist en el curso de Ecología de Poblaciones y Comunidades, 2026
 
 ## Interpretación
 

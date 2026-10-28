@@ -207,7 +207,7 @@
     "href": "index.html#herramientas-y-afiliación",
     "title": "Inicio",
     "section": "Herramientas y afiliación",
-    "text": "Herramientas y afiliación\nEste portafolio fue desarrollado con herramientas de ciencia reproducible.\n\n\n\n\n\nÚltima actualización: 4 de Agosto 2026"
+    "text": "Herramientas y afiliación\nEste portafolio fue desarrollado con herramientas de ciencia reproducible.\n\n\n\n\n\nÚltima actualización: 28 de Octubre 2026"
   },
   {
     "objectID": "about.html",
@@ -256,14 +256,14 @@
     "href": "descarga_ocurrencias.html",
     "title": "Descarga de Ocurrencias",
     "section": "",
-    "text": "La obtención de ocurrencias de alguna especies de interés se puede realizar a través de la descarga de registros en diferentes bases de datos. Las bases de datos públicas son grandes repositorios de acceso libre en donde se almacenan registros de especies a nivel mundial, algunas como GBIF concentran datos de grado académico los cuales pueden ser utilizados en investigación. Existen otras bases de ciencia ciudadana en donde la población en general puede incluir sus observaciones, sin embargo, puede que presenten errores de identificación por lo que se deben filtrar aquellos datos que sean de grado académico para reducir la probabilidad de errores en los datos."
+    "text": "Se realizará la obtención de ocurrencias de alguna especies de interés a través de la descarga de registros en diferentes bases de datos de acceso libre en donde se almacenan registros de especies a nivel mundial, como GBIF y iNaturalist."
   },
   {
     "objectID": "descarga_ocurrencias.html#introducción",
     "href": "descarga_ocurrencias.html#introducción",
     "title": "Descarga de Ocurrencias",
     "section": "",
-    "text": "La obtención de ocurrencias de alguna especies de interés se puede realizar a través de la descarga de registros en diferentes bases de datos. Las bases de datos públicas son grandes repositorios de acceso libre en donde se almacenan registros de especies a nivel mundial, algunas como GBIF concentran datos de grado académico los cuales pueden ser utilizados en investigación. Existen otras bases de ciencia ciudadana en donde la población en general puede incluir sus observaciones, sin embargo, puede que presenten errores de identificación por lo que se deben filtrar aquellos datos que sean de grado académico para reducir la probabilidad de errores en los datos."
+    "text": "Se realizará la obtención de ocurrencias de alguna especies de interés a través de la descarga de registros en diferentes bases de datos de acceso libre en donde se almacenan registros de especies a nivel mundial, como GBIF y iNaturalist."
   },
   {
     "objectID": "descarga_ocurrencias.html#objetivo",
@@ -361,7 +361,7 @@
     "href": "portfolio.html#prácticas-de-laboratorio",
     "title": "Portafolio académico",
     "section": "Prácticas de laboratorio",
-    "text": "Prácticas de laboratorio\n\n📄 Práctica de ejemplo\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nVer práctica →\n\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️ Organización de bases de datos\nOrganización y optimización de bases de datos que presenten errores\nVer práctica →\n\n\n\n🔎 Descarga de Ocurrencias\nDescarga de ocurrencias con los paquetes rgbif y rinat\nVer práctica →\n\n\n\n💀 Generación de tablas de vida\nElaboración de tablas de vida a partir de datos de nacimiento y mortalidad\nVer práctica →\n\n\n\n🗾Mapeo de áreas administrativas y zonas de vida\nProyección de ocurrencias en capas geográficas\nVer práctica →\n\n\n\n🏞️Nicho bidimensional\nCaracterizar el espacio ambiental bidimensional que ocupan las especies\nVer práctica →"
+    "text": "Prácticas de laboratorio\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️Manejo de datos con tidyverss\nEn esta práctica se documentará la importación y el manejo de datos con el paquete Tidyverse en RStudio.\nVer práctica →\n\n\n🔎 Descarga de Ocurrencias\nDescarga de ocurrencias con los paquetes rgbif y rinat\nVer práctica →\n\n\n\n💀 Generación de tablas de vida\nElaboración de tablas de vida a partir de datos de nacimiento y mortalidad\nVer práctica →\n\n\n\n🗾Mapeo de áreas administrativas y zonas de vida\nProyección de ocurrencias en capas geográficas\nVer práctica →\n\n\n\n🏞️Nicho bidimensional\nCaracterizar el espacio ambiental bidimensional que ocupan las especies\nVer práctica →\n\n\n\nDistribución espacial\nProyección de ocurrencias en capas geográficas\nVer práctica →"
   },
   {
     "objectID": "portfolio.html#objetivo-del-portafolio",
@@ -422,37 +422,37 @@
   {
     "objectID": "tidydata.html",
     "href": "tidydata.html",
-    "title": "Organización de bases de datos",
+    "title": "️Manejo de datos con tidyverss",
     "section": "",
-    "text": "En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería “tidyverse” la cual permite analizar datos y conflictos y reorganizarlos."
+    "text": "En esta práctica se utilizó el paquete Tidyverse en R para realizar el proceso de importación de datos, así como la limpieza, manipulación y visualización de datos. El juego de datos del estudio consistió de una serie de observaciones de mamíferos africanos que se encontraba desordenado o carecía de formato"
   },
   {
     "objectID": "tidydata.html#introducción",
     "href": "tidydata.html#introducción",
-    "title": "Organización de bases de datos",
+    "title": "️Manejo de datos con tidyverss",
     "section": "",
-    "text": "En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería “tidyverse” la cual permite analizar datos y conflictos y reorganizarlos."
+    "text": "En esta práctica se utilizó el paquete Tidyverse en R para realizar el proceso de importación de datos, así como la limpieza, manipulación y visualización de datos. El juego de datos del estudio consistió de una serie de observaciones de mamíferos africanos que se encontraba desordenado o carecía de formato"
   },
   {
     "objectID": "tidydata.html#objetivo",
     "href": "tidydata.html#objetivo",
-    "title": "Organización de bases de datos",
+    "title": "️Manejo de datos con tidyverss",
     "section": "Objetivo",
-    "text": "Objetivo\nOrganizar bases de datos que presenten errores o redundancias que dificulten su análisis a través de la librería “tidyverse” en R."
+    "text": "Objetivo\nEl objetivo de esta práctica fue importar, ordenar y visualizar un juego de datos de mamíferos africanos utilizando Tidyverse, que es una colección de paquetes de R diseñados Organizar bases de datos que presenten errores o redundancias que dificulten su análisis a través de la librería “tidyverse” en R."
   },
   {
     "objectID": "tidydata.html#metodología",
     "href": "tidydata.html#metodología",
-    "title": "Organización de bases de datos",
+    "title": "️Manejo de datos con tidyverss",
     "section": "Metodología",
-    "text": "Metodología\nProcesamiento, Limpieza y Estructuración de Datos (Tidy Data)\nEl procesamiento y depuración de los datos se realizó en el entorno R utilizando principalmente el paquete “tidyverse” v 2.0.0 (Wickham et al. 2019)\n\nReestructuración y Estandarización de Variables: Se transformaron tablas anchasa formato largo para unificar variables temporales (días) en una sola columna. Posteriormente, se reestructuraron las variables climáticas en columnas independientes. Se corrigieron los nombres de los campos e información taxonómica utilizando la función separate(). Asimismo, se unificaron el género y la especie (unite()) para conformar el nombre científico binomial.\nAjuste de Fechas y Tipos de Datos: Las fechas se unificaron y transformaron a un formato estandarizado de fecha (YYYY-MM-DD) empleando as_date(). Las variables numéricas se tranformaron a caracteres a tipo numérico con mutate() y across().\nPara eliminar la redundancia de datos, la información depurada se dividió en dos entidades o tablas independientes:\n\nTablas de metadatos (información geográfica de las estaciones climáticas o taxonomía de ungulados).\nTablas de registros u observaciones temporales/de campo.\n\n\nAnálisis Descriptivo y Visualización de Resultados\n\nGráficos: Se calcularon promedios de temperatura mínima y máxima por estación, generando un gráfico de rangos mediante ggplot2 ordenado jerárquicamente. Para los datos taxonómicos, se contabilizó la frecuencia de observaciones por especie y se representó en un gráfico de barras horizontales.  \nTablas de Resumen: Se construyeron cuadros descriptivos resumidos por estación climática o clasificación taxonómica mediante la librería gt."
+    "text": "Metodología\nSe importó un juego de datos y se realizó una manipulación de datos con “tidyverse” v 2.0.0 (Wickham et al. 2019)que incluyó el resumen de datos, cambio de formato de fecha, unión y separación de columnas, y un gráfico para visualizar la abundacia relativa de observaciones."
   },
   {
     "objectID": "tidydata.html#resultados",
     "href": "tidydata.html#resultados",
-    "title": "Organización de bases de datos",
+    "title": "️Manejo de datos con tidyverss",
     "section": "Resultados",
-    "text": "Resultados\nEl valor mínimo de temperatura se reportó para la estación meteorológica de Ithaca Cornell University con -5.2 °C, ubicada a una altitud de 292.6 m.s.n.m. Y el valor máximo de temperatura fue reportado en la estación de Berkeley de 18.2°C, ubicada a 94.5 m.s.n.m\n\nFig 1. Promedio de temperatura reportado en cinco estaciones meteorológicas durante Marzo (2010-2020).\nSe encontraron 26 especies distribuidas  en 4 familias del orden Artiodactyla y 1 del orden Perissodactyla, pertenecientes a la clase Mammalia, la familia Bovidae siendo la más abundante con 21 especies de 26 registradas.\n\nFig 2. Especies de ungulados reportados en Angola."
+    "text": "Resultados\nEl valor mínimo de temperatura se reportó para la estación meteorológica de Ithaca Cornell University con -5.2 °C, ubicada a una altitud de 292.6 m.s.n.m. Y el valor máximo de temperatura fue reportado en la estación de Berkeley de 18.2°C, ubicada a 94.5 m.s.n.m (Figura 1).\nSe encontraron 26 especies distribuidas  en 4 familias del orden Artiodactyla y 1 del orden Perissodactyla, pertenecientes a la clase Mammalia, la familia Bovidae siendo la más abundante con 21 especies de 26 registradas. La especies más abundante fue el hipopótamo, Hipopotamus amphibius con 28 observaciones, seguido de el antílope de Lechwe, Kobus leche, con 14 observaciones (Figura 1)\n\nFig 2. Abundacia relativa de mamíferos africanos en el juego de datos importado y procesado con Tidyverse en el curso de Ecología de Poblaciones y Comunidades, 2026."
   },
   {
     "objectID": "tidydata.html#interpretación",
@@ -464,8 +464,120 @@
   {
     "objectID": "tidydata.html#conclusiones",
     "href": "tidydata.html#conclusiones",
-    "title": "Organización de bases de datos",
+    "title": "️Manejo de datos con tidyverss",
     "section": "Conclusiones",
-    "text": "Conclusiones\nLa mayores dificultades de la organización de los es la determinación de cuales filas o columnas deben ser separadas o unificadas para una mejor visualización de lo datos. Además, es de gran importancia identificar el formato correcto de la información, si son caracteres, valores numéricos, fechas, etc., ya que puede interferir con los análisis, gráficos o tablas que se deseen realizar.\nEn los trabajos en donde se debe de recolectar muchos datos de campo o laboratorio en un inicio la organización con la que se insertan los datos no es la mejor ya que no se tiene en mente qué análisis estadísticos o gráficos se crearán. Por lo que poder reorganizarlos de una forma tan práctica, que logre identificar errores de escritura o formato y ajustar la información a los análisis que deseamos realizar resulta sumamente eficiente en vez de organizar los datos a mano desde un excel."
+    "text": "Conclusiones\nEn esta práctica se aprendieron las bases de la importancia y manejo de datos en Tidyverse; sin embargo, se necesita mucha más práctica para dominar la gran cantidad de funciones que se incluyen en este conjunto de paquetes. La versatilidad que ofrece el universo de paquetes de Tidyversepermite utilizar este proceso en cualquier tipo de juego de datos, por lo que es una herramienta muy valiosa para los ecólogos."
+  },
+  {
+    "objectID": "portfolio.html#section",
+    "href": "portfolio.html#section",
+    "title": "Portafolio académico",
+    "section": "————————————————————————",
+    "text": "————————————————————————\n\nEstimación de densidad por kernel (KDE)\nDescripción\nVer práctica →\n\n———————————————————————— |"
+  },
+  {
+    "objectID": "kde.html#objetivo",
+    "href": "kde.html#objetivo",
+    "title": "template",
+    "section": "Objetivo",
+    "text": "Objetivo"
+  },
+  {
+    "objectID": "kde.html#metodología",
+    "href": "kde.html#metodología",
+    "title": "template",
+    "section": "Metodología",
+    "text": "Metodología"
+  },
+  {
+    "objectID": "kde.html#resultados",
+    "href": "kde.html#resultados",
+    "title": "template",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "kde.html#interpretación",
+    "href": "kde.html#interpretación",
+    "title": "template",
+    "section": "Interpretación",
+    "text": "Interpretación"
+  },
+  {
+    "objectID": "kde.html#conclusiones",
+    "href": "kde.html#conclusiones",
+    "title": "template",
+    "section": "Conclusiones",
+    "text": "Conclusiones"
+  },
+  {
+    "objectID": "diversidad.html#objetivo",
+    "href": "diversidad.html#objetivo",
+    "title": "Diversidad",
+    "section": "Objetivo",
+    "text": "Objetivo"
+  },
+  {
+    "objectID": "diversidad.html#metodología",
+    "href": "diversidad.html#metodología",
+    "title": "Diversidad",
+    "section": "Metodología",
+    "text": "Metodología"
+  },
+  {
+    "objectID": "diversidad.html#resultados",
+    "href": "diversidad.html#resultados",
+    "title": "Diversidad",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "diversidad.html#interpretación",
+    "href": "diversidad.html#interpretación",
+    "title": "Diversidad",
+    "section": "Interpretación",
+    "text": "Interpretación"
+  },
+  {
+    "objectID": "diversidad.html#conclusiones",
+    "href": "diversidad.html#conclusiones",
+    "title": "Diversidad",
+    "section": "Conclusiones",
+    "text": "Conclusiones"
+  },
+  {
+    "objectID": "spatial_distribution.html#objetivo",
+    "href": "spatial_distribution.html#objetivo",
+    "title": "Distribución espacial",
+    "section": "Objetivo",
+    "text": "Objetivo"
+  },
+  {
+    "objectID": "spatial_distribution.html#metodología",
+    "href": "spatial_distribution.html#metodología",
+    "title": "Distribución espacial",
+    "section": "Metodología",
+    "text": "Metodología"
+  },
+  {
+    "objectID": "spatial_distribution.html#resultados",
+    "href": "spatial_distribution.html#resultados",
+    "title": "Distribución espacial",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "spatial_distribution.html#interpretación",
+    "href": "spatial_distribution.html#interpretación",
+    "title": "Distribución espacial",
+    "section": "Interpretación",
+    "text": "Interpretación"
+  },
+  {
+    "objectID": "spatial_distribution.html#conclusiones",
+    "href": "spatial_distribution.html#conclusiones",
+    "title": "Distribución espacial",
+    "section": "Conclusiones",
+    "text": "Conclusiones"
   }
 ]

@@ -8,7 +8,7 @@
 
 <meta name="author" content="Dorene González">
 
-<title>Organización de bases de datos – Portafolio Científico</title>
+<title>️Manejo de datos con tidyverss – Portafolio Científico</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -145,7 +145,6 @@ div.csl-indent {
   <li><a href="#objetivo" id="toc-objetivo" class="nav-link" data-scroll-target="#objetivo">Objetivo</a></li>
   <li><a href="#metodología" id="toc-metodología" class="nav-link" data-scroll-target="#metodología">Metodología</a></li>
   <li><a href="#resultados" id="toc-resultados" class="nav-link" data-scroll-target="#resultados">Resultados</a></li>
-  <li><a href="#interpretación" id="toc-interpretación" class="nav-link" data-scroll-target="#interpretación">Interpretación</a></li>
   <li><a href="#conclusiones" id="toc-conclusiones" class="nav-link" data-scroll-target="#conclusiones">Conclusiones</a></li>
   </ul>
 </nav>
@@ -155,7 +154,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Organización de bases de datos</h1>
+<h1 class="title">️Manejo de datos con tidyverss</h1>
 </div>
 
 
@@ -180,48 +179,26 @@ div.csl-indent {
 
 <section id="introducción" class="level2">
 <h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
-<p>En esta práctica se llevó a cabo la organización de una base de datos la cual contaba con diferentes errores que dificultan su procesamiento y análisis estadístico, a través de la librería “tidyverse” la cual permite analizar datos y conflictos y reorganizarlos.</p>
+<p>En esta práctica se utilizó el paquete Tidyverse en R para realizar el proceso de importación de datos, así como la limpieza, manipulación y visualización de datos. El juego de datos del estudio consistió de una serie de observaciones de mamíferos africanos que se encontraba desordenado o carecía de formato</p>
 </section>
 <section id="objetivo" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo">Objetivo</h2>
-<p>Organizar bases de datos que presenten errores o redundancias que dificulten su análisis a través de la librería “tidyverse” en R.</p>
+<p>El objetivo de esta práctica fue importar, ordenar y visualizar un juego de datos de mamíferos africanos utilizando Tidyverse, que es una colección de paquetes de R diseñados Organizar bases de datos que presenten errores o redundancias que dificulten su análisis a través de la librería “tidyverse” en R.</p>
 </section>
 <section id="metodología" class="level2">
 <h2 class="anchored" data-anchor-id="metodología">Metodología</h2>
-<p><strong>Procesamiento, Limpieza y Estructuración de Datos (<em>Tidy Data</em>)</strong></p>
-<p>El procesamiento y depuración de los datos se realizó en el entorno R utilizando principalmente el paquete “tidyverse” v 2.0.0 <span class="citation" data-cites="tidyverse">(<a href="#ref-tidyverse" role="doc-biblioref">Wickham et&nbsp;al. 2019</a>)</span></p>
-<ol type="1">
-<li><p><strong>Reestructuración y Estandarización de Variables:</strong> Se transformaron tablas anchasa formato largo para unificar variables temporales (días) en una sola columna. Posteriormente, se reestructuraron las variables climáticas en columnas independientes. Se corrigieron los nombres de los campos e información taxonómica utilizando la función separate(). Asimismo, se unificaron el género y la especie (unite()) para conformar el nombre científico binomial.</p></li>
-<li><p><strong>Ajuste de Fechas y Tipos de Datos:</strong> Las fechas se unificaron y transformaron a un formato estandarizado de fecha (YYYY-MM-DD) empleando as_date(). Las variables numéricas se tranformaron a caracteres a tipo numérico con mutate() y across().</p></li>
-<li><p><strong>Para eliminar la redundancia de datos, la información depurada se dividió en dos entidades o tablas independientes:</strong></p>
-<ul>
-<li><p>Tablas de metadatos (información geográfica de las estaciones climáticas o taxonomía de ungulados).</p></li>
-<li><p>Tablas de registros u observaciones temporales/de campo.</p></li>
-</ul></li>
-</ol>
-<p><strong>Análisis Descriptivo y Visualización de Resultados</strong></p>
-<ul>
-<li><p><strong>Gráficos:</strong> Se calcularon promedios de temperatura mínima y máxima por estación, generando un gráfico de rangos mediante ggplot2 ordenado jerárquicamente. Para los datos taxonómicos, se contabilizó la frecuencia de observaciones por especie y se representó en un gráfico de barras horizontales. &nbsp;</p></li>
-<li><p><strong>Tablas de Resumen:</strong> Se construyeron cuadros descriptivos resumidos por estación climática o clasificación taxonómica mediante la librería gt.</p></li>
-</ul>
+<p>Se importó un juego de datos y se realizó una manipulación de datos con “tidyverse” v 2.0.0 <span class="citation" data-cites="tidyverse">(<a href="#ref-tidyverse" role="doc-biblioref">Wickham et&nbsp;al. 2019</a>)</span>que incluyó el resumen de datos, cambio de formato de fecha, unión y separación de columnas, y un gráfico para visualizar la abundacia relativa de observaciones.</p>
 </section>
 <section id="resultados" class="level2">
 <h2 class="anchored" data-anchor-id="resultados">Resultados</h2>
-<p>El valor mínimo de temperatura se reportó para la estación meteorológica de Ithaca Cornell University con -5.2 °C, ubicada a una altitud de 292.6 m.s.n.m. Y el valor máximo de temperatura fue reportado en la estación de Berkeley de 18.2°C, ubicada a 94.5 m.s.n.m</p>
-<p><img src="images/temperature.jpg" class="img-fluid"></p>
-<p>Fig 1. Promedio de temperatura reportado en cinco estaciones meteorológicas durante Marzo (2010-2020).</p>
-<p>Se encontraron 26 especies distribuidas &nbsp;en 4 familias del orden Artiodactyla y 1 del orden Perissodactyla, pertenecientes a la clase Mammalia, la familia Bovidae siendo la más abundante con 21 especies de 26 registradas.</p>
+<p>El valor mínimo de temperatura se reportó para la estación meteorológica de Ithaca Cornell University con -5.2 °C, ubicada a una altitud de 292.6 m.s.n.m. Y el valor máximo de temperatura fue reportado en la estación de Berkeley de 18.2°C, ubicada a 94.5 m.s.n.m (Figura 1).</p>
+<p>Se encontraron 26 especies distribuidas &nbsp;en 4 familias del orden Artiodactyla y 1 del orden Perissodactyla, pertenecientes a la clase Mammalia, la familia Bovidae siendo la más abundante con 21 especies de 26 registradas. La especies más abundante fue el hipopótamo, <em>Hipopotamus amphibius</em> con 28 observaciones, seguido de el antílope de Lechwe, <em>Kobus leche</em>, con 14 observaciones (Figura 1)</p>
 <p><img src="images/ungulate_observations.jpg" class="img-fluid"></p>
-<p>Fig 2. Especies de ungulados reportados en Angola.</p>
-</section>
-<section id="interpretación" class="level2">
-<h2 class="anchored" data-anchor-id="interpretación">Interpretación</h2>
-<p>Las transformación de la base de datos permitió una mejor organización de la información, facilitando la obtención de los registros y su visualización a través de la creación de figuras y tablas.</p>
+<p>Fig 2. Abundacia relativa de mamíferos africanos en el juego de datos importado y procesado con Tidyverse en el curso de Ecología de Poblaciones y Comunidades, 2026.</p>
 </section>
 <section id="conclusiones" class="level2">
 <h2 class="anchored" data-anchor-id="conclusiones">Conclusiones</h2>
-<p>La mayores dificultades de la organización de los es la determinación de cuales filas o columnas deben ser separadas o unificadas para una mejor visualización de lo datos. Además, es de gran importancia identificar el formato correcto de la información, si son caracteres, valores numéricos, fechas, etc., ya que puede interferir con los análisis, gráficos o tablas que se deseen realizar.</p>
-<p>En los trabajos en donde se debe de recolectar muchos datos de campo o laboratorio en un inicio la organización con la que se insertan los datos no es la mejor ya que no se tiene en mente qué análisis estadísticos o gráficos se crearán. Por lo que poder reorganizarlos de una forma tan práctica, que logre identificar errores de escritura o formato y ajustar la información a los análisis que deseamos realizar resulta sumamente eficiente en vez de organizar los datos a mano desde un excel.</p>
+<p>En esta práctica se aprendieron las bases de la importancia y manejo de datos en Tidyverse; sin embargo, se necesita mucha más práctica para dominar la gran cantidad de funciones que se incluyen en este conjunto de paquetes. La versatilidad que ofrece el universo de paquetes de Tidyversepermite utilizar este proceso en cualquier tipo de juego de datos, por lo que es una herramienta muy valiosa para los ecólogos.</p>
 
 
 
