@@ -41,7 +41,7 @@ Por otra parte, las diferencias observadas entre los mapas evidencian la influen
 
 En consecuencia, las concentraciones identificadas mediante KDE deben interpretarse como áreas con una mayor densidad de registros y no necesariamente como regiones con una mayor abundancia de individuos o condiciones ambientales óptimas. Para establecer estas relaciones sería necesario complementar el análisis con muestreos de campo estandarizados y variables ambientales que permitan evaluar la distribución de la especie y los posibles sesgos de observación.
 
-## Conclusiones}
+## Conclusiones
 
 El parámetro sigma influye considerablemente en la representación de las concentraciones espaciales obtenidas mediante KDE, por lo que su selección debe considerar la escala de análisis, los objetivos del estudio y las características de los registros disponibles. Los valores menores permiten identificar agrupaciones más localizadas, mientras que los mayores generan superficies más suavizadas y continuas.
 

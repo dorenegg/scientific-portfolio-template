@@ -133,18 +133,18 @@
     "text": "En esta sección se documentan las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nCada práctica constituye una evidencia del aprendizaje adquirido durante el semestre y forma parte de mi portafolio profesional."
   },
   {
-    "objectID": "portfolio.html#prácticas-de-laboratorio",
-    "href": "portfolio.html#prácticas-de-laboratorio",
-    "title": "Portafolio académico",
-    "section": "Prácticas de laboratorio",
-    "text": "Prácticas de laboratorio\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️Manejo de datos con Tidyverse\nEn esta práctica se documentará la importación y el manejo de datos con el paquete Tidyverse en RStudio.\nVer práctica →\n\n\n🔎 Descarga de Ocurrencias\nDescarga de ocurrencias de iNaturalist y GBIF en RStudio\nVer práctica →\n\n\n💀 Generación de tablas de vida\nElaboración de tablas de vida a partir de datos de nacimiento y mortalidad\nVer práctica →\n\n\n🗾Mapeo de áreas administrativas y zonas de vida\nProyección de ocurrencias en capas geográficas\nVer práctica →\n\n\n🏞️Nicho bidimensional\nCaracterizar el espacio ambiental bidimensional que ocupan las especies de estudio\nVer práctica →\n\n\n🧭Distribución espacial\nDeterminación del patrón de distribución espacial de dos especies herbáceas\nVer práctica →\n\n\n🧮 Estimación de densidad por Kernel (KDE)\nEstimar la KDE a partir de registros de ocurrencia de una especie\nVer práctica →\n\n\n🏳️‍🌈 Índices de Diversidad\nCaracterización de la diversidad de especies mediante métricas e índices ecológicos.\nVer práctica →"
-  },
-  {
     "objectID": "portfolio.html#objetivo-del-portafolio",
     "href": "portfolio.html#objetivo-del-portafolio",
     "title": "Portafolio académico",
     "section": "Objetivo del portafolio",
     "text": "Objetivo del portafolio\nMás que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.\nAl finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica."
+  },
+  {
+    "objectID": "portfolio.html#prácticas-de-laboratorio",
+    "href": "portfolio.html#prácticas-de-laboratorio",
+    "title": "Portafolio académico",
+    "section": "Prácticas de laboratorio",
+    "text": "Prácticas de laboratorio\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️Manejo de datos con Tidyverse\nEn esta práctica se documentará la importación y el manejo de datos con el paquete Tidyverse en RStudio.\nVer práctica →\n\n\n🔎 Descarga de Ocurrencias\nDescarga de ocurrencias de iNaturalist y GBIF en RStudio\nVer práctica →\n\n\n💀 Generación de tablas de vida\nElaboración de tablas de vida a partir de datos de nacimiento y mortalidad\nVer práctica →\n\n\n🗾Mapeo de áreas administrativas y zonas de vida\nProyección de ocurrencias en capas geográficas\nVer práctica →\n\n\n🏞️Nicho bidimensional\nCaracterizar el espacio ambiental bidimensional que ocupan las especies de estudio\nVer práctica →\n\n\n🧭Distribución espacial\nDeterminación del patrón de distribución espacial de dos especies herbáceas\nVer práctica →\n\n\n🧮 Estimación de densidad por Kernel (KDE)\nEstimar la KDE a partir de registros de ocurrencia de una especie\nVer práctica →\n\n\n🏳️‍🌈 Índices de Diversidad\nCaracterización de la diversidad de especies mediante métricas e índices ecológicos.\nVer práctica →"
   },
   {
     "objectID": "mapeo_zonas_vida.html",
@@ -371,6 +371,20 @@
     "text": "Conclusiones\nLa caracterización de la diversidad de especies requiere integrar diferentes métricas e índices ecológicos que permitan describir la riqueza, abundancia, equitatividad y composición de las comunidades biológicas. La utilización conjunta de estos indicadores facilita la comparación entre sitios y permite identificar diferencias en la estructura de las comunidades que podrían estar relacionadas con las condiciones ambientales de cada ecosistema.\nAsimismo, los resultados evidencian la importancia de considerar diferentes componentes de la diversidad, ya que una mayor riqueza o abundancia de individuos no necesariamente implica una mayor equitatividad en la distribución de las especies."
   },
   {
+    "objectID": "kde.html",
+    "href": "kde.html",
+    "title": "template",
+    "section": "",
+    "text": "En esta práctica se estimó la densidad de kernel (KDE) a partir de registros de ocurrencia de Craugastor fitzingeri en Costa Rica, con el propósito de identificar las principales concentraciones espaciales de observaciones de la especie."
+  },
+  {
+    "objectID": "kde.html#introducción",
+    "href": "kde.html#introducción",
+    "title": "template",
+    "section": "",
+    "text": "En esta práctica se estimó la densidad de kernel (KDE) a partir de registros de ocurrencia de Craugastor fitzingeri en Costa Rica, con el propósito de identificar las principales concentraciones espaciales de observaciones de la especie."
+  },
+  {
     "objectID": "kde.html#objetivo",
     "href": "kde.html#objetivo",
     "title": "template",
@@ -402,8 +416,8 @@
     "objectID": "kde.html#conclusiones",
     "href": "kde.html#conclusiones",
     "title": "template",
-    "section": "Conclusiones}",
-    "text": "Conclusiones}\nEl parámetro sigma influye considerablemente en la representación de las concentraciones espaciales obtenidas mediante KDE, por lo que su selección debe considerar la escala de análisis, los objetivos del estudio y las características de los registros disponibles. Los valores menores permiten identificar agrupaciones más localizadas, mientras que los mayores generan superficies más suavizadas y continuas.\nLa estimación de densidad de kernel constituye una herramienta útil para identificar patrones espaciales en los registros de ocurrencia. Sin embargo, las concentraciones obtenidas no representan directamente la abundancia de organismos ni la idoneidad del hábitat, especialmente cuando existen diferencias en el esfuerzo de muestreo.\nAsimismo, las superficies generadas mediante KDE no deben interpretarse como límites comprobados de distribución de la especie, sino como representaciones de la concentración espacial de los registros disponibles."
+    "section": "Conclusiones",
+    "text": "Conclusiones\nEl parámetro sigma influye considerablemente en la representación de las concentraciones espaciales obtenidas mediante KDE, por lo que su selección debe considerar la escala de análisis, los objetivos del estudio y las características de los registros disponibles. Los valores menores permiten identificar agrupaciones más localizadas, mientras que los mayores generan superficies más suavizadas y continuas.\nLa estimación de densidad de kernel constituye una herramienta útil para identificar patrones espaciales en los registros de ocurrencia. Sin embargo, las concentraciones obtenidas no representan directamente la abundancia de organismos ni la idoneidad del hábitat, especialmente cuando existen diferencias en el esfuerzo de muestreo.\nAsimismo, las superficies generadas mediante KDE no deben interpretarse como límites comprobados de distribución de la especie, sino como representaciones de la concentración espacial de los registros disponibles."
   },
   {
     "objectID": "nicho.html",
@@ -593,19 +607,5 @@
     "title": "Manejo de datos con Tidyverse",
     "section": "Conclusiones",
     "text": "Conclusiones\nEn esta práctica se aprendieron las bases de la importancia y manejo de datos en Tidyverse; sin embargo, se necesita mucha más práctica para dominar la gran cantidad de funciones que se incluyen en este conjunto de paquetes. La versatilidad que ofrece el universo de paquetes de Tidyversepermite utilizar este proceso en cualquier tipo de juego de datos, por lo que es una herramienta muy valiosa para los ecólogos."
-  },
-  {
-    "objectID": "kde.html",
-    "href": "kde.html",
-    "title": "template",
-    "section": "",
-    "text": "En esta práctica se estimó la densidad de kernel (KDE) a partir de registros de ocurrencia de Craugastor fitzingeri en Costa Rica, con el propósito de identificar las principales concentraciones espaciales de observaciones de la especie."
-  },
-  {
-    "objectID": "kde.html#introducción",
-    "href": "kde.html#introducción",
-    "title": "template",
-    "section": "",
-    "text": "En esta práctica se estimó la densidad de kernel (KDE) a partir de registros de ocurrencia de Craugastor fitzingeri en Costa Rica, con el propósito de identificar las principales concentraciones espaciales de observaciones de la especie."
   }
 ]
