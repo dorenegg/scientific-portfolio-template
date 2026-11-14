@@ -127,8 +127,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#metodología" id="toc-metodología" class="nav-link" data-scroll-target="#metodología">Metodología</a></li>
   <li><a href="#resultados" id="toc-resultados" class="nav-link" data-scroll-target="#resultados">Resultados</a></li>
   <li><a href="#interpretación" id="toc-interpretación" class="nav-link" data-scroll-target="#interpretación">Interpretación</a></li>
-  <li><a href="#conclusiones" id="toc-conclusiones" class="nav-link" data-scroll-target="#conclusiones">Conclusiones</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#conclusiones" id="toc-conclusiones" class="nav-link" data-scroll-target="#conclusiones">Conclusiones}</a></li>
   </ul>
 </nav>
     </div>
@@ -162,24 +161,37 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introducción" class="level2">
 <h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
+<p>En esta práctica se estimó la densidad de kernel (KDE) a partir de registros de ocurrencia de <em>Craugastor fitzingeri</em> en Costa Rica, con el propósito de identificar las principales concentraciones espaciales de observaciones de la especie.</p>
 </section>
 <section id="objetivo" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo">Objetivo</h2>
+<p>Estimar la densidad de kernel (KDE) a partir de registros de ocurrencia de <em>C. fitzingeri</em> y evaluar el efecto de diferentes valores del parámetro de suavizado (sigma) sobre la representación espacial de las concentraciones de registros, con el fin de identificar el valor más apropiado para su visualización.</p>
 </section>
 <section id="metodología" class="level2">
 <h2 class="anchored" data-anchor-id="metodología">Metodología</h2>
+<p>En primer lugar, se transformó el sistema de coordenadas de las capas geográficas del área de estudio, correspondiente a Costa Rica, del sistema WGS84 al sistema proyectado CRTM05. Asimismo, las coordenadas de los registros de ocurrencia se transformaron al mismo sistema, con el propósito de trabajar con unidades métricas y garantizar la compatibilidad espacial entre las capas.</p>
+<p>Posteriormente, se establecieron los parámetros necesarios para calcular la densidad de kernel, específicamente el ancho de banda (sigma), que determina el grado de suavizado de las concentraciones espaciales, y la resolución del ráster, que define el tamaño de las celdas utilizadas para representar los resultados.</p>
+<p>Inicialmente, se utilizó un valor de sigma de 5000 m y una resolución espacial de 500 m. Seguidamente, se modificó sigma a 1000, 2000 y 10 000 m, manteniendo la misma resolución, con el propósito de comparar el efecto de estos valores sobre la representación de las concentraciones de registros. Finalmente, los resultados se visualizaron mediante mapas ráster para identificar las principales áreas de concentración espacial.</p>
 </section>
 <section id="resultados" class="level2">
 <h2 class="anchored" data-anchor-id="resultados">Resultados</h2>
+<p>Los mapas de densidad de kernel permitieron identificar las principales concentraciones espaciales de registros de <em>Craugastor fitzingeri</em> en Costa Rica. A pesar de las modificaciones realizadas en el parámetro sigma, se mantuvieron cinco concentraciones relevantes: dos en la región norte del país, correspondientes a las zonas de Sarapiquí y San Carlos; una en el Pacífico Central; y dos en el Pacífico Sur.</p>
+<p>Los mapas generados con valores de sigma de 1000 y 2000 m presentaron concentraciones más localizadas y una menor continuidad espacial. En contraste, el valor de sigma de 10 000 m produjo una superficie considerablemente más suavizada, con una mayor conexión entre las concentraciones de registros y una representación espacial más continua.</p>
+<p>Las principales concentraciones identificadas coincidieron con regiones que presentan actividad turística, lo cual podría estar relacionado con diferencias en el esfuerzo de muestreo y la accesibilidad de los sitios. Por tanto, los valores elevados de KDE no permiten afirmar que estas regiones presenten una mayor abundancia de la especie.</p>
+<p><img src="images/craugastor_fitzingeri_kde_sigma_10000.png" class="img-fluid"></p>
+<p><strong>Figura 1.</strong> Mapa de densidad de kernel (KDE) con un valor de sigma de 10km,elaborado a partir de registros de ocurrencia de <em>Craugastor fitzingeri</em> en Costa Rica, durante el curso de Ecología de Poblaciones y Comunidades, 2026.</p>
 </section>
 <section id="interpretación" class="level2">
 <h2 class="anchored" data-anchor-id="interpretación">Interpretación</h2>
+<p>Las principales concentraciones de registros de <em>Craugastor fitzingeri</em> se localizaron en regiones que presentan condiciones ambientales potencialmente favorables para la especie, como ambientes húmedos de baja elevación. Sin embargo, estas áreas también pueden presentar una mayor accesibilidad y actividad turística, factores que podrían favorecer una mayor frecuencia de observaciones y generar sesgos asociados con el esfuerzo de muestreo.</p>
+<p>Por otra parte, las diferencias observadas entre los mapas evidencian la influencia del parámetro sigma sobre la representación espacial de los registros. Los valores menores permitieron identificar concentraciones más localizadas, mientras que los valores mayores produjeron superficies más continuas, aunque con una menor diferenciación espacial entre las agrupaciones.</p>
+<p>En consecuencia, las concentraciones identificadas mediante KDE deben interpretarse como áreas con una mayor densidad de registros y no necesariamente como regiones con una mayor abundancia de individuos o condiciones ambientales óptimas. Para establecer estas relaciones sería necesario complementar el análisis con muestreos de campo estandarizados y variables ambientales que permitan evaluar la distribución de la especie y los posibles sesgos de observación.</p>
 </section>
 <section id="conclusiones" class="level2">
-<h2 class="anchored" data-anchor-id="conclusiones">Conclusiones</h2>
-</section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<h2 class="anchored" data-anchor-id="conclusiones">Conclusiones}</h2>
+<p>El parámetro sigma influye considerablemente en la representación de las concentraciones espaciales obtenidas mediante KDE, por lo que su selección debe considerar la escala de análisis, los objetivos del estudio y las características de los registros disponibles. Los valores menores permiten identificar agrupaciones más localizadas, mientras que los mayores generan superficies más suavizadas y continuas.</p>
+<p>La estimación de densidad de kernel constituye una herramienta útil para identificar patrones espaciales en los registros de ocurrencia. Sin embargo, las concentraciones obtenidas no representan directamente la abundancia de organismos ni la idoneidad del hábitat, especialmente cuando existen diferencias en el esfuerzo de muestreo.</p>
+<p>Asimismo, las superficies generadas mediante KDE no deben interpretarse como límites comprobados de distribución de la especie, sino como representaciones de la concentración espacial de los registros disponibles.</p>
 
 
 </section>

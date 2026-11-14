@@ -8,6 +8,12 @@ En esta sección se documentan las prácticas de laboratorio, proyectos, anális
 
 Cada práctica constituye una evidencia del aprendizaje adquirido durante el semestre y forma parte de mi portafolio profesional.
 
+## Objetivo del portafolio
+
+Más que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.
+
+Al finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica.
+
 ------------------------------------------------------------------------
 
 ## Prácticas de laboratorio
@@ -71,7 +77,7 @@ Determinación del patrón de distribución espacial de dos especies herbáceas
 ::: portfolio-item
 ### 🧮 Estimación de densidad por Kernel (KDE)
 
-DESCRIPCION
+Estimar la KDE a partir de registros de ocurrencia de una especie
 
 [Ver práctica →](kde.qmd)
 :::
@@ -86,8 +92,4 @@ Caracterización de la diversidad de especies mediante métricas e índices ecol
 
 ------------------------------------------------------------------------
 
-## Objetivo del portafolio
-
-Más que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.
-
-Al finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica.
+## 
