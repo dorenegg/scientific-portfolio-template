@@ -61,9 +61,9 @@ Caracterizar el espacio ambiental bidimensional que ocupan las especies de estud
 :::
 
 ::: portfolio-item
-### 📍Distribución espacial
+### 🧭Distribución espacial
 
-DESCRIPCION
+Determinación del patrón de distribución espacial de dos especies herbáceas
 
 [Ver práctica →](spatial_distribution.qmd)
 :::

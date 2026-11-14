@@ -77,39 +77,53 @@
     "text": "Conclusiones"
   },
   {
+    "objectID": "spatial_distribution.html",
+    "href": "spatial_distribution.html",
+    "title": "Distribución espacial",
+    "section": "",
+    "text": "En esta práctica se determinó el patrón de distribución espacial de dos especies herbáceas en un área de estudio de 1 ha, establecida en el Parque Recreativo de la Universidad para la Paz. Se esperaba que Elephantopus mollis presentara una distribución agregada debido a sus hábitos de crecimiento, mientras que para Rhynchospora nervosa se planteó una distribución compatible con un patrón aleatorio."
+  },
+  {
+    "objectID": "spatial_distribution.html#introducción",
+    "href": "spatial_distribution.html#introducción",
+    "title": "Distribución espacial",
+    "section": "",
+    "text": "En esta práctica se determinó el patrón de distribución espacial de dos especies herbáceas en un área de estudio de 1 ha, establecida en el Parque Recreativo de la Universidad para la Paz. Se esperaba que Elephantopus mollis presentara una distribución agregada debido a sus hábitos de crecimiento, mientras que para Rhynchospora nervosa se planteó una distribución compatible con un patrón aleatorio."
+  },
+  {
     "objectID": "spatial_distribution.html#objetivo",
     "href": "spatial_distribution.html#objetivo",
     "title": "Distribución espacial",
     "section": "Objetivo",
-    "text": "Objetivo"
+    "text": "Objetivo\nEvaluar y comparar los patrones de distribución espacial de dos especies vegetales a partir de datos de abundancia obtenidos mediante un muestreo por cuadrículas."
   },
   {
     "objectID": "spatial_distribution.html#metodología",
     "href": "spatial_distribution.html#metodología",
     "title": "Distribución espacial",
     "section": "Metodología",
-    "text": "Metodología"
+    "text": "Metodología\nSe delimitó un área de estudio de 100 × 100 m (1 ha), la cual se dividió en 50 sectores de 10 × 20 m. Dentro de cada sector se estableció aleatoriamente una cuadrícula de 1 × 1 m como unidad de muestreo, para un total de 50 cuadrículas. Se definió un punto de referencia (0, 0) para determinar las coordenadas espaciales (X y Y, en metros) de cada cuadrícula dentro del área de estudio. En cada cuadrícula se registró el número de individuos de E. mollis y R. nervosa, sin considerar las variables ambientales.\nPosteriormente, se calculó el índice de dispersión (ID = varianza/media), cuyos valores permiten identificar patrones de distribución uniforme (ID menor que 1), aleatoria (ID cercano a 1) o agregada (ID mayor que 1). Seguidamente, se aplicó una prueba de chi-cuadrado (χ²) para evaluar si los patrones de dispersión observados diferían significativamente de los esperados bajo una distribución aleatoria.\nFinalmente, se evaluó el ajuste de las frecuencias de abundancia observadas a modelos probabilísticos teóricos: la distribución binomial negativa para E. mollis y la distribución de Poisson para R. nervosa."
   },
   {
     "objectID": "spatial_distribution.html#resultados",
     "href": "spatial_distribution.html#resultados",
     "title": "Distribución espacial",
     "section": "Resultados",
-    "text": "Resultados"
+    "text": "Resultados\nElephantopus mollis presentó un índice de dispersión de 3.91, superior a 1, compatible con un patrón de distribución agregada. La prueba de chi-cuadrado evidenció una diferencia estadísticamente significativa respecto al patrón aleatorio (χ² = 191,8; gl = 49; p menor que 0,001), lo cual concuerda con una varianza considerablemente mayor que la media. Asimismo, no se encontraron diferencias estadísticamente significativas entre las frecuencias observadas y las esperadas bajo el modelo de distribución binomial negativa.\nPor su parte, Rhynchospora nervosa presentó un índice de dispersión de 0.98, cercano a 1, compatible con un patrón de distribución aleatoria. La prueba de chi-cuadrado no evidenció diferencias estadísticamente significativas respecto a este patrón (χ² = 48,0; gl = 49; p = 0,512). Además, se observó un ajuste compatible con la distribución de Poisson (χ² = 2,8; gl = 2; p = 0,249).\n\nFigura 1. Distribución espacial de las especies estudiadas en un área de muestreo de 1 ha, establecida en el Parque Recreativo de la Universidad para la Paz. El tamaño de los círculos representa la abundancia registrada en cada cuadrícula de 1 m². El panel A muestra la distribución espacial de Elephantopus mollis, mientras que el panel B corresponde a Rhynchospora nervosa."
   },
   {
     "objectID": "spatial_distribution.html#interpretación",
     "href": "spatial_distribution.html#interpretación",
     "title": "Distribución espacial",
     "section": "Interpretación",
-    "text": "Interpretación"
+    "text": "Interpretación\nAmbas especies presentaron patrones de distribución espacial compatibles con las hipótesis planteadas a partir de sus hábitos de crecimiento. Elephantopus mollis presentó una distribución agregada, posiblemente relacionada con su crecimiento mediante la formación de rosetas y la concentración de individuos en determinadas áreas. Este patrón también podría estar influenciado por interacciones competitivas y condiciones ambientales locales que favorezcan el establecimiento de individuos en sitios específicos.\nPor otro lado, Rhynchospora nervosa presentó un patrón de distribución compatible con la aleatoriedad, compatible con su crecimiento por medio de rizomas lo cual le permite dispersarse con mayor facilidad en un área."
   },
   {
     "objectID": "spatial_distribution.html#conclusiones",
     "href": "spatial_distribution.html#conclusiones",
     "title": "Distribución espacial",
     "section": "Conclusiones",
-    "text": "Conclusiones"
+    "text": "Conclusiones\nLos hábitos de crecimiento de las especies vegetales pueden proporcionar información relevante para formular hipótesis sobre sus patrones de distribución espacial. Sin embargo, es necesario complementar estas predicciones mediante muestreos y análisis estadísticos, debido a que la distribución de las especies también puede estar influenciada por factores como la disponibilidad de recursos, las interacciones con competidores, herbívoros y patógenos, así como las condiciones ambientales del sitio.\nEl muestreo por cuadrículas constituye una metodología útil para caracterizar los patrones de distribución espacial de las especies, especialmente en áreas pequeñas y ambientes de baja complejidad estructural. No obstante, su implementación en áreas extensas o ecosistemas heterogéneos puede requerir una mayor inversión de tiempo y recursos. Por tanto, la selección del tamaño y la distribución de las unidades de muestreo debe considerar las características de las especies y la escala espacial del estudio."
   },
   {
     "objectID": "portfolio.html",
@@ -123,7 +137,7 @@
     "href": "portfolio.html#prácticas-de-laboratorio",
     "title": "Portafolio académico",
     "section": "Prácticas de laboratorio",
-    "text": "Prácticas de laboratorio\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️Manejo de datos con Tidyverse\nEn esta práctica se documentará la importación y el manejo de datos con el paquete Tidyverse en RStudio.\nVer práctica →\n\n\n🔎 Descarga de Ocurrencias\nDescarga de ocurrencias de iNaturalist y GBIF en RStudio\nVer práctica →\n\n\n💀 Generación de tablas de vida\nElaboración de tablas de vida a partir de datos de nacimiento y mortalidad\nVer práctica →\n\n\n🗾Mapeo de áreas administrativas y zonas de vida\nProyección de ocurrencias en capas geográficas\nVer práctica →\n\n\n🏞️Nicho bidimensional\nCaracterizar el espacio ambiental bidimensional que ocupan las especies de estudio\nVer práctica →\n\n\n📍Distribución espacial\nDESCRIPCION\nVer práctica →\n\n\n🧮 Estimación de densidad por Kernel (KDE)\nDESCRIPCION\nVer práctica →\n\n\n🏳️‍🌈 Índices de Diversidad\nCaracterización de la diversidad de especies mediante métricas e índices ecológicos.\nVer práctica →"
+    "text": "Prácticas de laboratorio\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n🗂️Manejo de datos con Tidyverse\nEn esta práctica se documentará la importación y el manejo de datos con el paquete Tidyverse en RStudio.\nVer práctica →\n\n\n🔎 Descarga de Ocurrencias\nDescarga de ocurrencias de iNaturalist y GBIF en RStudio\nVer práctica →\n\n\n💀 Generación de tablas de vida\nElaboración de tablas de vida a partir de datos de nacimiento y mortalidad\nVer práctica →\n\n\n🗾Mapeo de áreas administrativas y zonas de vida\nProyección de ocurrencias en capas geográficas\nVer práctica →\n\n\n🏞️Nicho bidimensional\nCaracterizar el espacio ambiental bidimensional que ocupan las especies de estudio\nVer práctica →\n\n\n🧭Distribución espacial\nDeterminación del patrón de distribución espacial de dos especies herbáceas\nVer práctica →\n\n\n🧮 Estimación de densidad por Kernel (KDE)\nDESCRIPCION\nVer práctica →\n\n\n🏳️‍🌈 Índices de Diversidad\nCaracterización de la diversidad de especies mediante métricas e índices ecológicos.\nVer práctica →"
   },
   {
     "objectID": "portfolio.html#objetivo-del-portafolio",
