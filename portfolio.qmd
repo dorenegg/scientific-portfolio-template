@@ -21,7 +21,7 @@ En esta práctica se documentará la creación de una biblioteca bibliográfica 
 :::
 
 ::: portfolio-item
-### 🗂️Manejo de datos con tidyvers
+### 🗂️Manejo de datos con Tidyverse
 
 En esta práctica se documentará la importación y el manejo de datos con el paquete Tidyverse en RStudio.
 
@@ -77,9 +77,9 @@ DESCRIPCION
 :::
 
 ::: portfolio-item
-### 🏳️‍🌈 Diversidad
+### 🏳️‍🌈 Índices de Diversidad
 
-DESCRIPCION
+Caracterización de la diversidad de especies mediante métricas e índices ecológicos.
 
 [Ver práctica →](diversidad.qmd)
 :::

@@ -24,7 +24,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -162,29 +181,47 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introducción" class="level2">
 <h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
+<p>En esta práctica se abordó el cálculo de diversas métricas e índices ecológicos relevantes para el estudio de la diversidad de especies y la composición de las comunidades biológicas, mediante el uso del paquete Vegan en R.</p>
 </section>
 <section id="objetivo" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo">Objetivo</h2>
+<p>Calcular, a partir de una base de datos de registros de especies vegetales en diferentes sitios de muestreo, la abundancia, riqueza y los índices de diversidad, dominancia, equitatividad y similitud mediante el paquete Vegan, con el propósito de caracterizar y comparar la composición de las comunidades estudiadas.</p>
 </section>
 <section id="metodología" class="level2">
 <h2 class="anchored" data-anchor-id="metodología">Metodología</h2>
+<p>En primer lugar, se proyectaron espacialmente las observaciones sobre una capa cartográfica del área de estudio, con el propósito de visualizar la distribución de las especies en los diferentes sitios de muestreo. Seguidamente, se calculó la abundancia de cada especie y, mediante la función <em>pivot_wider</em>, se reorganizaron los datos en una tabla que permitió visualizar la abundancia de las especies en cada sitio.</p>
+<p>Posteriormente, se ajustó la disposición de los datos al formato requerido por el paquete Vegan v 2.7-6 <span class="citation" data-cites="vegan">(<a href="#ref-vegan" role="doc-biblioref">Oksanen et&nbsp;al. 2026</a>)</span>&nbsp;para calcular la abundancia total (N), la riqueza de especies (S), los índices de diversidad de Shannon y Simpson, el índice de dominancia, el valor máximo de Shannon y el índice de equitatividad de Pielou. Estos cálculos se realizaron para cada sitio de muestreo (diversidad alfa) y para el conjunto del área de estudio (diversidad gamma).</p>
+<p>Finalmente, se calcularon los índices de Jaccard y Sørensen para evaluar la similitud en la composición de especies entre los sitios de estudio.</p>
 </section>
 <section id="resultados" class="level2">
 <h2 class="anchored" data-anchor-id="resultados">Resultados</h2>
+<p>El sitio 1 presentó la mayor abundancia total, con 4196 individuos, así como la mayor riqueza, con 28 especies. Por el contrario, el sitio 3 registró la menor abundancia, con 222 individuos, y la menor riqueza, con 12 especies.</p>
+<p>De acuerdo con los índices de Shannon (2,85) y Simpson (0,92), el sitio 1 presentó la mayor diversidad. Por su parte, el sitio 3 registró la mayor equitatividad (0,946) y un valor de dominancia de 0,104 (Figura 1). Asimismo, el sitio 3 presentó la mayor disimilitud en la composición de especies respecto a los demás sitios de estudio.</p>
+<p><img src="images/alpha_diversity.jpg" class="img-fluid"></p>
+<p>Figura 1.Diversidad alfa de los sitios de estudio: 1) Colorado Desert, 2) Mojave Desert y 3) SoCal Mountains.</p>
 </section>
 <section id="interpretación" class="level2">
 <h2 class="anchored" data-anchor-id="interpretación">Interpretación</h2>
+<p>Los sitios 1 y 2 presentaron una composición de especies más similar entre sí, posiblemente debido a que ambos corresponden a ecosistemas desérticos que comparten determinadas condiciones ambientales. En contraste, el sitio 3 corresponde a un ecosistema montañoso con características ambientales diferentes, lo cual podría explicar su mayor disimilitud respecto a los otros sitios, según los valores obtenidos mediante el índice de Jaccard.</p>
+<p>Asimismo, se observaron diferencias en la riqueza de especies, particularmente en el sitio 3, que presentó el menor valor. Estas diferencias podrían estar relacionadas con las condiciones ambientales propias de los ecosistemas montañosos, como la variación altitudinal y los cambios asociados en temperatura, humedad y disponibilidad de hábitats, los cuales pueden influir en la distribución y composición de las comunidades vegetales. Sin embargo, sería necesario evaluar estas variables para determinar su contribución a los patrones observados.</p>
 </section>
 <section id="conclusiones" class="level2">
 <h2 class="anchored" data-anchor-id="conclusiones">Conclusiones</h2>
+<p>La caracterización de la diversidad de especies requiere integrar diferentes métricas e índices ecológicos que permitan describir la riqueza, abundancia, equitatividad y composición de las comunidades biológicas. La utilización conjunta de estos indicadores facilita la comparación entre sitios y permite identificar diferencias en la estructura de las comunidades que podrían estar relacionadas con las condiciones ambientales de cada ecosistema.</p>
+<p>Asimismo, los resultados evidencian la importancia de considerar diferentes componentes de la diversidad, ya que una mayor riqueza o abundancia de individuos no necesariamente implica una mayor equitatividad en la distribución de las especies.</p>
 </section>
 <section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referencias</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-vegan" class="csl-entry" role="listitem">
+Oksanen, Jari, Gavin L. Simpson, F. Guillaume Blanchet, et&nbsp;al. 2026. <em>vegan: Community Ecology Package</em>. <a href="https://doi.org/10.32614/CRAN.package.vegan">https://doi.org/10.32614/CRAN.package.vegan</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
